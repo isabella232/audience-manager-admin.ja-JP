@@ -3,7 +3,7 @@ description: Servers ページを使用して、Audience Manager 構成内のサ
 seo-description: Servers ページを使用して、Audience Manager 構成内のサーバーのリストを表示します。適切な役割が割り当てられているユーザーは、既存のサーバーの編集や削除、新しいサーバーの作成ができます。
 seo-title: サーバーの概要
 title: サーバーの概要
-uuid: 49488bd7-1bea-4863- ba98-73087a2bb6b2
+uuid: 49488bd7-1bea-4863-ba98-73087a2bb6b2
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
