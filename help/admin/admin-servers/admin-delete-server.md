@@ -3,7 +3,7 @@ description: Audience Manager の Admin ツールの Servers ページを使用�
 seo-description: Audience Manager の Admin ツールの Servers ページを使用して、既存のサーバーを削除します。
 seo-title: サーバーの削除
 title: サーバーの削除
-uuid: 21d8feepe- a205-43bb-9bc1-9048c918a80a
+uuid: 21d8feeb-a205-43bb-9bc1-9048c918a80a
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
 
