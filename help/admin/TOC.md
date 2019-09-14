@@ -30,13 +30,13 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
    + [FTP サーバーの作成または編集](admin-servers/create-ftp-server.md)
    + [HTTP サーバーの作成または編集](admin-servers/create-http-server.md)
    + [S3 サーバーの作成または編集](admin-servers/create-s3-server.md)
-   + [クロスアカウントAmazon S3バケットアクセスの許可](admin-servers/admin-authorize-s3-cross-bucket.md)
+   + [アカウント間のAmazon S3バケットアクセスの承認](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [サーバーの削除](admin-servers/admin-delete-server.md)
 + レポート{#reporting}
    + [レポート](admin-reporting/admin-reporting-overview.md)
    + [ポータルユーザーを Tableau ユーザーに割り当てる](admin-reporting/admin-assign-tableau-user.md)
 + 形式{#formats}
-   + [フォーマットの概要](formats/formats.md)
+   + [形式の概要](formats/formats.md)
    + [送信用の Hadoop シーケンスファイル転送](formats/enable-outbound-seq.md)
    + [ファイル形式マクロ](formats/file-formats.md)
    + [ファイル形式マクロの例](formats/file-format-examples.md)
