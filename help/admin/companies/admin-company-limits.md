@@ -1,9 +1,9 @@
 ---
-description: 会社のアルゴリズムモデル、セグメント、宛先および特徴の制限を管理します。
-seo-description: 会社のアルゴリズムモデル、セグメント、宛先および特徴の制限を管理します。
+description: 会社のアルゴリズムモデル、セグメント、宛先および特性に関する次の制限を管理します。
+seo-description: 会社のアルゴリズムモデル、セグメント、宛先および特性に関する次の制限を管理します。
 seo-title: 会社制限の管理
 title: 会社制限の管理
-uuid: 67a19fb2-8322-47ce- afa4- f6b78c52f814
+uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
 
@@ -22,23 +22,23 @@ source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
 
    >[!NOTE]
    >
-   >いずれかのフィールドが空の場合、デフォルトは無制限です。すべてのフィールドは独立しています。[!UICONTROL Trait Limits] 例えば、セクションでは、他の特性タイプの100と [!UICONTROL Total Traits] 100を指定できます。と等しくない [!UICONTROL Max Number of Algorithmic Traits]、および [!UICONTROL Max Number or Rule Based Traits][!UICONTROL Max Number of Onboarded Traits] 等しく [!UICONTROL Total Number]ない。
+   >すべてのフィールドは独立しています。For example, in the [!UICONTROL Trait Limits] section, you can specify 100 for [!UICONTROL Total Traits] and 100 for the other trait types. 、およびの [!UICONTROL Max Number of Algorithmic Traits]合計が [!UICONTROL Max Number or Rule Based Traits]、 [!UICONTROL Max Number of Onboarded Traits] と等しくありません [!UICONTROL Total Number]。
 
-   * **[!UICONTROL Trait Folder Limits]**:この会社の [!UICONTROL Trait Folder] 制限を指定してください。
-      * **[!UICONTROL Max number of Trait Folders]**:この会社の最大数を指定 [!UICONTROL Trait Folders] してください。
-      * **[!UICONTROL Max depth of Trait Folders]**:会社 [!UICONTROL Trait Folder] の構造に持つ最大の深さを指定します。
-   * **[!UICONTROL AlgoModel Limits]**:この会社のアルゴリズムの制限を指定します。
+   * **[!UICONTROL Trait Folder Limits]**: Specify the [!UICONTROL Trait Folder] limits for this company:
+      * **[!UICONTROL Max number of Trait Folders]**:この会社の最大数 [!UICONTROL Trait Folders] を指定します。
+      * **[!UICONTROL Max depth of Trait Folders]**:会社の構造の最大の深さを指 [!UICONTROL Trait Folder] 定します。
+   * **[!UICONTROL AlgoModel Limits]**: Specify the algorithmic limits for this company:
       * **[!UICONTROL Total Number]**：この会社が保有できるアルゴリズム特性の合計数を指定します。
-   * **[!UICONTROL Segment Limits]**:この会社のセグメント制限を指定します。
+   * **[!UICONTROL Segment Limits]**: Specify the segment limits for this company:
       * **[!UICONTROL Total Number]**：この会社が保有できるセグメントの合計数を指定します。
-   * **[!UICONTROL Destinations Limits]**:この会社の宛先制限を指定します。
+   * **[!UICONTROL Destinations Limits]**: Specify the destination limits for this company:
       * **[!UICONTROL Total Number]**：この会社が保有できる宛先の合計数を指定します。
-      * **[!UICONTROL Max Number of URL Destinations]**:この会社が持つことのできるURLの最大送信先数を指定します。
-      * **[!UICONTROL Max Number of AdServer Destinations]**:この会社が持つことのできる [!UICONTROL AdServer] 最大送信先数を指定します。
-      * **[!UICONTROL Max Number of S2S Destinations]**:この会社が持つことのできるS2Sの最大送信先数を指定します。
-   * **[!UICONTROL Trait Limits]**:この会社の特性制限を指定してください。
+      * **[!UICONTROL Max Number of URL Destinations]**: Specify the maximum number of URL destinations this company can have.
+      * **[!UICONTROL Max Number of AdServer Destinations]**: Specify the maximum number of [!UICONTROL AdServer] destinations this company can have.
+      * **[!UICONTROL Max Number of S2S Destinations]**: Specify the maximum number of S2S destinations this company can have.
+   * **[!UICONTROL Trait Limits]**: Specify the trait limits for this company:
       * **[!UICONTROL Total Number]**：この会社が保有できる特性の合計数を指定します。
-      * **[!UICONTROL Max Number of Algorithmic Traits]**:この会社が持つことのできるアルゴリズムの特徴の最大数を指定します。
-      * **[!UICONTROL Max Number of Rule Based Traits]**:この会社が持つことのできるルールベースの特徴の最大数を指定します。
-      * **[!UICONTROL Max Number of Onboarded Traits]**:この会社が持つことのできるオンボーブの最大数を指定します。
+      * **[!UICONTROL Max Number of Algorithmic Traits]**: Specify the maximum number of algorithmic traits this company can have.
+      * **[!UICONTROL Max Number of Rule Based Traits]**: Specify the maximum number of rule-based traits this company can have.
+      * **[!UICONTROL Max Number of Onboarded Traits]**: Specify the maximum number of onboarded traits this company can have.
 1. 「**[!UICONTROL Save]**」をクリックします。
