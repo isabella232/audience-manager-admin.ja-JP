@@ -30,22 +30,22 @@ Audience Manager の ツールの [!UICONTROL Integration Users][!UICONTROL Admi
 
 1. To create a new user, click **[!UICONTROL Integration Users]** &gt; **[!UICONTROL Create a New User]**. 既存のユーザーを編集するには、「**[!UICONTROL Username]」列で目的のユーザーをクリックします。**
 2. 以下のフィールドを設定します。
-   * **[!UICONTROL First Name]**:（必須）ユーザーの名を指定します。
-   * **[!UICONTROL Last Name]**:（必須）ユーザーの姓を指定します。
-   * **[!UICONTROL Username]**:（必須）ユーザーのユーザー名を指定します。
-   * **[!UICONTROL Email Address]**:（必須）ユーザーの電子メールアドレスを指定します。
-   * **[!UICONTROL Phone Number]**:ユーザーの電話番号を指定します。
-   * **[!UICONTROL IMS ID]**:ユーザーのユーザーを指定 [!UICONTROL Internet Messaging Service ID]します。
-   * **[!UICONTROL User Roles]**:目的のユーザーの役割を選択します。
-      * **[!UICONTROL DEXADMIN]**:Audience Manager [!UICONTROL Admin] ツールでタスクを実行するための管理者アクセスを提供します。このオプションを選択しない場合、個別の役割を選択できます。These roles let users perform tasks using [!DNL API] calls, but not in the Admin tool.
-      * **[!UICONTROL CREATE_USERS]**:ユーザーは [!DNL API] 、呼び出しを使用して新しいユーザーを作成できます。
-      * **[!UICONTROL DELETE_USERS]**:ユーザーは [!DNL API] 、呼び出しを使用して既存のユーザーを削除できます。
-      * **[!UICONTROL EDIT_USERS]**:ユーザーは [!DNL API] 呼び出しを使用して既存のユーザーを編集できます。
-      * **[!UICONTROL VIEW_USERS]**:ユーザーは [!DNL API] 、呼び出しを使用してAudience Manager設定内の他のユーザーを表示できます。
-      * **[!UICONTROL CREATE_PARTNERS]**:ユーザーは [!DNL API] 、呼び出しを使用してAudience Managerパートナーを作成できます。
-      * **[!UICONTROL DELETE_PARTNERS]**:ユーザーは [!DNL API] 、呼び出しを使用してAudience Managerパートナーを削除できます。
-      * **[!UICONTROL EDIT_PARTNERS]**:ユーザーは [!DNL API] 、呼び出しを使用してAudience Managerパートナーを編集できます。
-      * **[!UICONTROL VIEW_PARNTERS]**:ユーザーは [!DNL API] 、呼び出しを使用してAudience Managerパートナーを表示できます。
+   * **[!UICONTROL First Name]**: (Required) Specify the user's first name.
+   * **[!UICONTROL Last Name]**: (Required) Specify the user's last name.
+   * **[!UICONTROL Username]**: (Required) Specify the user's username.
+   * **[!UICONTROL Email Address]**: (Required) Specify the user's email address.
+   * **[!UICONTROL Phone Number]**: Specify the user's phone number.
+   * **[!UICONTROL IMS ID]**:ユーザーのを指定しま [!UICONTROL Internet Messaging Service ID]す。
+   * **[!UICONTROL User Roles]**: Select the desired user roles:
+      * **[!UICONTROL DEXADMIN]**: Provides administrator access to perform tasks in the Audience Manager [!UICONTROL Admin] tool. このオプションを選択しない場合、個別の役割を選択できます。These roles let users perform tasks using [!DNL API] calls, but not in the Admin tool.
+      * **[!UICONTROL CREATE_USERS]**: Lets users create new users using an [!DNL API] call.
+      * **[!UICONTROL DELETE_USERS]**: Lets users delete existing users using an [!DNL API] call.
+      * **[!UICONTROL EDIT_USERS]**: Lets users edit existing users using an [!DNL API] call.
+      * **[!UICONTROL VIEW_USERS]**: Lets users view other users in your Audience Manager configuration using an [!DNL API] call.
+      * **[!UICONTROL CREATE_PARTNERS]**: Lets users create Audience Manager partners using an [!DNL API] call.
+      * **[!UICONTROL DELETE_PARTNERS]**: Lets users delete Audience Manager partners using an [!DNL API] call.
+      * **[!UICONTROL EDIT_PARTNERS]**: Lets users edit Audience Manager partners using an [!DNL API] call.
+      * **[!UICONTROL VIEW_PARNTERS]**: Lets users view Audience Manager partners using an [!DNL API] call.
    * **ステータス：**「**[!UICONTROL Active]**」を選択すると、このユーザーは Audience Manager のアクティブなユーザーとなります。
 3. 「**[!UICONTROL Submit]**」をクリックします。
 
