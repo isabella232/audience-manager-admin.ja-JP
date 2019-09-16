@@ -16,7 +16,7 @@ translation-type: tm+mt
 ## ユーザーガイド
 
 + ユーザーガイドの導入部分は、`overview.md` という名前です。
-+ ユーザーガイドの各トピックには、独自のディレクトリがあります。
++ Each topic in the user guide has it's own distinct directory.
    + 例えば、ガイドの&#x200B;*導入*&#x200B;というトピックの場合、対応するディレクトリとして `/implementation` があります。
 + 画像アセットはすべて、ユーザーガイドのルートの `/assets` に格納されます。
    + `/assets` ディレクトリ内の画像はすべて、ローカライズされます。
