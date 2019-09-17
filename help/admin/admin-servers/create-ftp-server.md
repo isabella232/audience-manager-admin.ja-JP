@@ -3,8 +3,8 @@ description: Audience Manager の Admin ツールの Servers ページを使用�
 seo-description: Audience Manager の Admin ツールの Servers ページを使用して、新しい FTP サーバーを作成するか、既存のサーバーを編集します。
 seo-title: FTP サーバーの作成または編集
 title: FTP サーバーの作成または編集
-uuid: 9273abb2-963d-4d83- bf5a- b5a- b3817f0b90e6
-translation-type: tm+mt
+uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
+translation-type: ht
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
 
 ---
@@ -16,32 +16,32 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
 
 >[!NOTE]
 >
->You must have the [!UICONTROL DEXADMIN] role in order to create new servers or edit existing servers.
+>新しいサーバーの作成や既存のサーバーの編集をおこなうには、[!UICONTROL DEXADMIN] の役割が必要です。
 
-1. To create a new server, click **[!UICONTROL Servers]** &gt; **[!UICONTROL Create Server]**. 既存のサーバーを編集するには、「**[!UICONTROL Label]」列で目的のサーバーをクリックします。**
+1. 新しいサーバーを作成するには、**[!UICONTROL Servers]**／**[!UICONTROL Create Server]** をクリックします。既存のサーバーを編集するには、「**[!UICONTROL Label]**」列で目的のサーバーをクリックします。
 1. このサーバーで使用するラベルを指定します。
-1. **[!UICONTROL Protocol]** ドロップダウンリストから、目的のプロトコルを選択します。 **FTP**.
+1. 「**[!UICONTROL Protocol]**」ドロップダウンリストで、目的のプロトコル **FTP** を選択します。
 
    >[!NOTE]
    >
-   >As best practice, we recommend using [!DNL Amazon S3] as a method for getting files from and delivering files to partners. [!DNL Amazon S3] が提供するシンプルな Web サービスのインターフェイスを使用することで、あらゆるサイズのデータの保存および取得が Web 上でいつ、どこでも可能になります。For more information, see [About Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) in the *Audience Manager User Guide*.
+   >ベストプラクティスとして、パートナー間でのファイルのやり取りには、[!DNL Amazon S3] を推奨します。[!DNL Amazon S3] が提供するシンプルな Web サービスのインターフェイスを使用することで、あらゆるサイズのデータの保存および取得が Web 上でいつ、どこでも可能になります。詳しくは、*Audience Manager ユーザーガイド*&#x200B;の「[Amazon S3 について](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/amazon-s3.html)」を参照してください。
 
 1. 以下のフィールドを設定します。
 
-   * **[!UICONTROL Type]:** 目的の暗号化タイプを選択します。 **[!UICONTROL SFTP]****[!UICONTROL FTPs/TLS]**&#x200B;または
-   * **[!UICONTROL Domain]:** このサーバーの目的のドメイン（ホスト）を指定します。
-   * **[!UICONTROL Port]:** このサーバーのポートを指定します。デフォルトのポートは、暗号化タイプごとに表示されます。必要があればデフォルトのポートを変更できます。
-   * **[!UICONTROL Remote Path]:** このサーバのリモートパスを指定します。このフィールドを空白にすると、Audience Manager はファイルをデフォルトのディレクトリに配置します。
-   * **[!UICONTROL .tmp File Rename on Completion]:** このオプションを有効にすると、ファイルの `.tmp` 名前が変更されます。
-   * **[!UICONTROL Filename Suffix]:** ファイルの転送に追加するテキストを指定します。
-   * **[!UICONTROL Moved to When Finished]:** 転送ファイルを移動する場所のパスを指定します。
-   * **[!UICONTROL Authentication]:** 目的のサーバー認証方法を指定します。 **[!UICONTROL Username/Password]****[!UICONTROL SSH Key]**&#x200B;または
+   * **[!UICONTROL Type]：**：目的の暗号化タイプ（**[!UICONTROL SFTP]** または **[!UICONTROL FTPs/TLS]**）を選択します。
+   * **[!UICONTROL Domain]：**&#x200B;このサーバーで使用するドメイン（ホスト）を指定します。
+   * **[!UICONTROL Port]：**&#x200B;このサーバーで使用するポートを指定します。デフォルトのポートは、暗号化タイプごとに表示されます。必要があればデフォルトのポートを変更できます。
+   * **[!UICONTROL Remote Path]：**&#x200B;このサーバーで使用するリモートパスを指定します。このフィールドを空白にすると、Audience Manager はファイルをデフォルトのディレクトリに配置します。
+   * **[!UICONTROL .tmp File Rename on Completion]：**&#x200B;このオプションを有効にすると、完了時に `.tmp` ファイルの名前を変更できます。
+   * **[!UICONTROL Filename Suffix]：**&#x200B;転送ファイルに追加するテキストを指定します。
+   * **[!UICONTROL Moved to When Finished]：**&#x200B;完了時に転送ファイルを移動する場所のパスを指定します。
+   * **[!UICONTROL Authentication]：**&#x200B;目的のサーバー認証方式（**[!UICONTROL Username/Password]** または **[!UICONTROL SSH Key]**）を選択します。
    >[!NOTE]
    >
-   >次 [!DNL FTP][!DNL IP]のホワイトリストに登録してください。 **52.44.29.204**.
+   >アドビのエグレス [!DNL FTP] [!DNL IP]: **52.44.29.204** をホワイトリストに登録するようにしてください。
 
-1. **[!UICONTROL SSH Key]** 認証の場合:
-   1. Generate the public / private key pair from any [!DNL Linux] or [!DNL Mac] machine.
-   1. **公開鍵**[!DNL SFTP]を、 サーバーで更新するクライアントに渡します。これらのテキストを、サーバー上の公開鍵の `-----BEGIN RSA PRIVATE KEY-----` すべてのテキストに含めておく必要 `-----END RSA PRIVATE KEY-----` があります。一方、クライアントは鍵のインストールに使用するユーザー名を指定する必要があります。
+1. **[!UICONTROL SSH Key]** 認証の場合：
+   1. 任意の [!DNL Linux]または [!DNL Mac] マシンから、公開鍵／秘密鍵のペアを生成します。
+   1. **公開鍵**&#x200B;をクライアントに渡して、[!DNL SFTP] サーバーで更新します。これには、サーバー上にある公開鍵 （`-----BEGIN RSA PRIVATE KEY-----` や `-----END RSA PRIVATE KEY-----` を含む）のすべてのテキストを含める必要があります。一方、クライアントは鍵のインストールに使用するユーザー名を指定する必要があります。
    1. ユーザー名フィールドにクライアントが指定したユーザー名を入力し、鍵フィールドには&#x200B;**秘密鍵**&#x200B;を入力します。
-1. 新しいサーバーを作成する **[!UICONTROL Create]** 場合はクリックし、既存のサーバーを編集する場合はクリック **[!UICONTROL Update]** します。
+1. 新しいサーバーを作成する場合は「**[!UICONTROL Create]**」をクリックし、既存のサーバーを編集する場合は「**[!UICONTROL Update]**」をクリックします。
