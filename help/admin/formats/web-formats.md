@@ -4,7 +4,7 @@ seo-description: HTTP データファイルの作成に使用できるマクロ�
 seo-title: HTTP 形式マクロ
 title: HTTP 形式マクロ
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
 
 # HTTP 形式マクロ {#http-format-macros}
 
-Lists the macros you can use to create [!DNL HTTP] data files. [!DNL HTTP] データを [!DNL JSON] 形式で送信します。
+[!DNL HTTP] データファイルの作成に使用できるマクロのリストを表示します。[!DNL HTTP] はデータを [!DNL JSON] 形式で送信します。
 
-See the [HTTP Format Macro Examples](../formats/web-format-examples.md) for a list and examples of some commonly used macro combinations.
+[HTTP 形式マクロの例](../formats/web-format-examples.md)で、一般的に使用されるマクロの組み合わせのリストと例を参照してください。
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -48,7 +48,7 @@ See the [HTTP Format Macro Examples](../formats/web-format-examples.md) for a li
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET、POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix UTC タイムスタンプ。An internal timestamp, represents the time AAM was notified to publish the <span class="wintitle"> S2S </span> destination to our partners. </p> </td> 
+   <td colname="col3"> <p>Unix UTC タイムスタンプ。<span class="wintitle">S2S </span>宛先をパートナーに公開するよう AAM が通知を受けた時間を表す内部タイムスタンプ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -58,7 +58,7 @@ See the [HTTP Format Macro Examples](../formats/web-format-examples.md) for a li
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Experience Cloud ID. （MCIDは、Experience Cloudのレガシー名であるMarketing Cloudのものです）。 </p> </td> 
+   <td colname="col3"> <p>Experience Cloud ID.（MCID は、Experience Cloud のレガシー名である Marketing Cloud を表します） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -86,9 +86,9 @@ See the [HTTP Format Macro Examples](../formats/web-format-examples.md) for a li
    <td colname="col3"> <p>乱数を生成します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>REGITION_ ID_ LIST</code> </p> </td> 
+   <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>アクティビティが開始される <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager DCS領域 </a> 。</p> </td> 
+   <td colname="col3"> <p>アクティビティが開始される <a href="https://docs.adobe.com/help/ja-JP/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html">Audience Manager DCS 領域</a>。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -168,12 +168,12 @@ See the [HTTP Format Macro Examples](../formats/web-format-examples.md) for a li
      <li id="li_678076A31A7743C480F718C9E7A07E99"> <code>user.dpuuids</code> </li> 
      <li id="li_B598A5AED28C4304972E51DBD4E480D8"> <code>user.timestamp</code> </li> 
      <li id="li_8424D540282F449CA5AF6B3CC343DDCB"> <code>user.random</code> </li>
-     <li><code>user. regionIds</code></li> 
+     <li><code>user.regionIds</code></li> 
     </ul> <p>これらのフィールドは以下の例のように指定します。 </p> <p> 
      <codeblock>
-       "AAM_ UUID":"&lt; user. AAMUuid&gt;""DataCarner_ 
-UUID":"&lt; user. Dpuuid&gt;" 
-     </codeblock> </p> <p>See also <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP Format Macro Examples </a> for a full example. </p> </td> 
+       "AAM_UUID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
+     </codeblock> </p> <p>完全な例については、<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31">HTTP 形式マクロの例</a>を参照してください。 </p> </td> 
   </tr>
  </tbody>
 </table>
