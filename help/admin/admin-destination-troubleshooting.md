@@ -4,7 +4,7 @@ seo-description: Audience Manager での宛先の設定と一般的な問題の�
 seo-title: 宛先の設定に関するトラブルシューティング
 title: 宛先の設定に関するトラブルシューティング
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
 
 ---
@@ -22,49 +22,49 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
 
 ### 宛先の設定が誤っている
 
-* **不適切[!UICONTROL UserID]なキー:**[!UICONTROL UserID] キーは、この宛先 [!UICONTROL MasterDPID] のものであり、より外側にあるID値のベースです。[!UICONTROL UserID] ドロップダウンリストからキーが選択可能であっても、この値にマッピングされているID/特性/セグメントがあるというわけではありません。If the [!UICONTROL Outbound] process (which runs after destinations are created) does not find any users mapped to this [!UICONTROL UserID] key, no data will be outbounded.
-* **No In File Data Sources Selected:** 以外 [!UICONTROL S2S]のタイプのリンク先を選択すると、画面の下部にセクションが表示 [!UICONTROL Configure Data Sources]されます。このセクションが最初に表示される際には、値が選択されていません。[!UICONTROL All First Party] チェックボックスをクリックするか、または [!UICONTROL Available Data Sources] ウィンドウから個別にデータソースを選択し忘れた場合、データは除外されません。
+* **[!UICONTROL UserID]キーが誤っている：**[!UICONTROL UserID] キーは、この宛先の [!UICONTROL MasterDPID] で、送信される ID 値の基礎となります。[!UICONTROL UserID] キーはドロップダウンリストから選択できますが、この値にマッピングされている ID、特徴、セグメントがあるとは限りません。[!UICONTROL Outbound] プロセス（宛先の作成後に実行）でこの [!UICONTROL UserID] キーにマッピングされているユーザーが見つからない場合、データは送信されません。
+* **ファイル内データソースが選択されていない：**[!UICONTROL S2S] 以外の宛先タイプを選択すると、画面の最下部に「[!UICONTROL Configure Data Sources]」というラベルのセクションが表示されます。このセクションが最初に表示される際には、値が選択されていません。「[!UICONTROL All First Party]」チェックボックスをクリックせず、[!UICONTROL Available Data Sources] ウィンドウでデータソースを個別に選択していない場合、データは送信されません。
 
 ### 形式の設定が誤っている
 
 送信データの形式を選択する場合は、できれば既存の形式を再利用するのが最善です。実績のある形式を使用すると、発信データを正常に生成できます。既存の形式がどのようにフォーマットされているかを正確に確認するには、メニューバーの「[!UICONTROL Formats]」オプションをクリックして、名前または ID 番号を使用して形式を検索します。形式、または形式で使用されているマクロが正しく設定されていない場合、出力が正しくフォーマットされなくなるか、情報が完全には出力されなくなります。
 
-形式の設定とマクロの使用の詳細については、[ファイル形式マクロ](formats/file-formats.md#) および [HTTP形式マクロ](formats/web-formats.md)
+形式の設定とマクロの使用の詳細については、「[ファイル形式マクロ](formats/file-formats.md#)」および「[HTTP 形式マクロ](formats/web-formats.md)」を参照してください
 
 ### サーバーの設定が誤っている
 
 * **[!DNL FTP]**
    * **[!UICONTROL Domain]**
-      * ホスト名のプレフィックスは入力しません。If you're given an account [!DNL ftp://hello.com], simply enter [!DNL hello.com] in this field.
+      * ホスト名のプレフィックスは入力しません。アカウントが [!DNL ftp://hello.com] の場合、このフィールドには [!DNL hello.com] とだけ入力します。
    * **[!UICONTROL Port/Type Combination]**
-      * [!DNL FTP] 転送の場合、推奨される転送タイプ [!DNL SFTP]です。
-      * When selecting the [!DNL SFTP] type, the port is almost always 22.
-      * When selecting the [!DNL FTPs/TLS] type, the port is almost always 21.
-      * [!DNL FTPs/TLS] タイプは通常 [!DNL FTP] の転送と同じではありません。We do not support regular (unsecured) [!DNL FTP] transfers.
+      * [!DNL FTP] 転送の場合、推奨される転送タイプは [!DNL SFTP] です。
+      * [!DNL SFTP] タイプを選択すると、ポートはほぼすべての場合で 22 となります。
+      * [!DNL FTPs/TLS] タイプを選択すると、ポートはほぼすべての場合で 21 となります。
+      * [!DNL FTPs/TLS] タイプは通常の [!DNL FTP] 転送とは異なります。通常の（セキュリティで保護されていない）[!DNL FTP] 転送はサポートされていません。
    * **[!UICONTROL Remote Path]**
       * リモートサブパスを選択する場合、先頭にスラッシュを入力しないようにする必要があります。
-      * If your transferred file is supposed to be placed in the [!DNL (root)/inbound] subfolder, simply add [!DNL inbound] for the remote path, not [!DNL /inbound].
-      * パス上で複数階層下のディレクトリにあるファイルを送信する場合、各ディレクトリの間にスラッシュを入力します。場所を指定する場合は、 [!DNL /inbound/subdirectory1/subdirectory2]このフィールドに入力 [!DNL inbound/subdirectory1/subdirectory2] してください。
+      * 転送したファイルを [!DNL (root)/inbound] サブフォルダーに配置する場合、リモートパスには [!DNL /inbound] ではなく [!DNL inbound] を追加します。
+      * パス上で複数階層下のディレクトリにあるファイルを送信する場合、各ディレクトリの間にスラッシュを入力します。[!DNL /inbound/subdirectory1/subdirectory2] の場所を指定する場合は、 このフィールドに「[!DNL inbound/subdirectory1/subdirectory2]」と入力してください。
       * このファイルを配置する場所が、外部サーバーにより自動的にルーティングされるディレクトリである場合は、このフィールドを空白にします。ピリオド（.）やスラッシュ（/）も含め、何も入力しないでください。
 
 * **[!DNL S3]**
-   * [!DNL S3] が推奨される転送プロトコル（over [!DNL FTP] また [!DNL HTTP]は）です。
+   * [!DNL S3] は（[!DNL FTP] や [!DNL HTTP] より）推奨される転送プロトコルです。
       * **[!UICONTROL Bucket]**
-         * グループ名にはスラッシュ、プレフィックス、サフィックスなどを付けません。If you're given the address [!DNL s3://your-bucket] you should simply add [!DNL your-bucket] to this field.
+         * グループ名にはスラッシュ、プレフィックス、サフィックスなどを付けません。アドレスが [!DNL s3://your-bucket] の場合、このフィールドには [!DNL your-bucket] と入力します。
       * **[!UICONTROL Directory]**
-         * データを配置するサブディレクトリが指定されていない場合は、このフィールドを空白にします。If you're given the address [!DNL s3://your-bucket/your-subdirectory], enter [!DNL your-bucket] in the [!UICONTROL Bucket] field and [!DNL your-subdirectory] should be added into the [!UICONTROL Directory] field. 先頭にはスラッシュを追加しないでください。
-         * パス上で複数階層下のディレクトリを参照する場合のみ、スラッシュを区切り記号として使用します。So a location of [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] would have [!DNL your-bucket] in the [!UICONTROL Bucket] field and [!DNL your-subdirectory1/your-subdirectory2] entered into the [!UICONTROL Directory] field.
+         * データを配置するサブディレクトリが指定されていない場合は、このフィールドを空白にします。アドレスが [!DNL s3://your-bucket/your-subdirectory] の場合、「[!DNL your-bucket]」フィールドには [!UICONTROL Bucket] と入力し、「[!DNL your-subdirectory]」フィールドには [!UICONTROL Directory] と入力します。先頭にはスラッシュを追加しないでください。
+         * パス上で複数階層下のディレクトリを参照する場合のみ、スラッシュを区切り記号として使用します。場所が [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] の場合、「[!DNL your-bucket]」フィールドには [!UICONTROL Bucket]、「[!DNL your-subdirectory1/your-subdirectory2]」フィールドには [!UICONTROL Directory] と入力します。
       * **[!UICONTROL Access / Secret Keys]**
-         * When [!DNL TechOps] creates a bucket and provides access/secret keys to a consultant, those credentials are usually `READ-ONLY` credentials that are meant to be handed off to the client. これらの資格情報は「[!UICONTROL Access / Secret Key]」フィールドには入力しないでください。入力すると転送が失敗します（これらの資格情報は読み取り専用で、書き込み可能ではないため）。In the case where [!DNL TechOps] creates a bucket and provides credentials, the consultant should also request an Adobe key pair - NOT TO BE GIVEN TO THE CLIENT - that will allow for writing files to this bucket. このキーはこれらのフィールドに入力する必要があります。
+         * [!DNL TechOps] がグループを作成し、コンサルタントに対してアクセス権／秘密鍵を設定すると、これらの資格情報は通常 `READ-ONLY` で、クライアントに渡されます。これらの資格情報は「[!UICONTROL Access / Secret Key]」フィールドには入力しないでください。入力すると転送が失敗します（これらの資格情報は読み取り専用で、書き込み可能ではないため）。[!DNL TechOps] がグループを作成し資格情報を設定する場合、コンサルタントはこのグループにファイルを書き込むための Adobe キーペア（クライアントには渡しません）も要求する必要があります。このキーはこれらのフィールドに入力する必要があります。
 
 * **[!DNL HTTP]**
    * **[!UICONTROL Domain]**
-      * Do enter prefix information for [!DNL HTTP] entries. If you're given an account [!DNL https://superduper.com], enter [!DNL https://superduper.com] in this field.
+      * [!DNL HTTP] エントリにはプレフィックス情報を入力しないでください。アカウントが [!DNL https://superduper.com] の場合、このフィールドには [!DNL https://superduper.com] と入力します。
       * **[!UICONTROL URL Prefix]**
-         * [!DNL URL] プレフィックスを追加する場合は、前のスラッシュをオフにします。住所は [!DNL https://hello.com/r/x/y/z] フィールドに [!DNL https://hello.com] 入力し、 [!UICONTROL Domain] フィールドに [!DNL r/x/y/z] 入力 [!UICONTROL URL Prefix] してください。
-         * If a [!UICONTROL URL Prefix] is not needed, leave this value blank.
+         * [!DNL URL] プレフィックスを追加する場合、先頭のスラッシュは付けません。[!DNL https://hello.com/r/x/y/z] の住所には、[!UICONTROL Domain] フィールドで入力した [!DNL https://hello.com] と、[!UICONTROL URL Prefix] フィールドでここに入力した [!DNL r/x/y/z] があります。
+         * [!UICONTROL URL Prefix] が必要でない場合、この値は空白にします。
       * **[!UICONTROL Authentication - SSH Key]**
-         * Enter the full `SSH PRIVATE` key value in this box, including headers, footers, and line breaks to ensure accurate encryption/key storage.
+         * 完全な `SSH PRIVATE` キーの値（ヘッダー、フッター、改行を含む）をこのボックスに入力し、暗号化やキーストレージが正確になるようにします。
 
 ### 送信生成の時間が足りない
 
@@ -72,34 +72,34 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
 
 ### ファイルの分割サイズが大きすぎます
 
-ファイルを出力先に出力する場合、大きいアウトバウンドファイルをファイルチャンクで分割できます。個々のファイルチャンクが10GBを超えないようにしてください。[送信データファイル名も参照してください。構文と例](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html)」を参照してください。
+ファイルを宛先に出力する場合、大きい送信ファイルをファイルチャンクに分割できます。個々のファイルチャンクが 10GB を超えないようにしてください。「[送信データファイル名：構文と例](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html)」も参照してください。
 
 
 ## Experience Cloud ID、顧客 ID、Audience Manager ID を送信データファイルにエクスポートするための宛先を設定する方法 {#set-up-destinations-export}
 
-This page shows you how to set up destinations to export data keyed off the ID type you want in [!UICONTROL Outbound Data Files].
+このページでは、[!UICONTROL Outbound Data Files] で必要な ID タイプをキーとするデータを書き出すための宛先を設定する方法を説明します。
 
 <!-- set-up-destinations-mcid-aamid.xml -->
 
-ユーザーは宛先の設定により、自分のデータを任意の数のデジタルチャネルにわたって有効にすることができます。For example, they can export audience data to other [!DNL Adobe Experience Cloud] solutions ([!DNL Target], [!DNL Campaign], etc.). Or, they could send data to [!UICONTROL DSP]s, [!UICONTROL SSP]s, or any platform that is integrated with Audience Manager. 提携パートナーのリストは [Integrations Wiki ページ](https://wiki.corp.adobe.com/display/MCPI)にあります。
+ユーザーは宛先の設定により、自分のデータを任意の数のデジタルチャネルにわたって有効にすることができます。例えば、オーディエンスデータを別の ソリューション（[!DNL Adobe Experience Cloud]、[!DNL Target]、[!DNL Campaign] など）にエクスポートできます。または、[!UICONTROL DSP]、[!UICONTROL SSP]、および Audience Manager と統合されている任意のプラットフォームにデータを送信できます。提携パートナーのリストは [統合 Wiki ページ](https://wiki.corp.adobe.com/display/MCPI)にあります。
 
 >[!NOTE]
 >
->管理UIでの宛先の作成に関する詳細なチュートリアルについては、「会社の宛先 [を作成または編集](companies/admin-manage-company-destinations.md#create-edit-company-destinations) 」の記事を参照してください。
+>Admin UI での宛先の作成に関する詳細なチュートリアルについては、「[会社の宛先を作成または編集](companies/admin-manage-company-destinations.md#create-edit-company-destinations)」の記事を参照してください。
 
-ユーザーは宛先ごとに別の ID タイプをエクスポートします。以下の図は、各 ID タイプに関連するプロファイル情報をエクスポートするために選択するオプションを示しています。さらに、[Audience Manager の ID のインデックス](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html)も参照することをお勧めします。There are three important settings to consider, the [!UICONTROL User ID Key], the [!UICONTROL Data Source Type] and the [!UICONTROL Format]. 以下に詳細を示します。
+ユーザーは宛先ごとに別の ID タイプをエクスポートします。以下の図は、各 ID タイプに関連するプロファイル情報をエクスポートするために選択するオプションを示しています。また、「[Audience Manager の ID のインデックス](https://marketing.adobe.com/resources/help/ja_JP/aam/ids-in-aam.html)」も参照することをお勧めします。ここで重要な設定として「[!UICONTROL User ID Key]」、「[!UICONTROL Data Source Type]」、「[!UICONTROL Format]」の 3 つがあります。以下に詳細を示します。
 
-* [!UICONTROL User ID Key]をインストールします。で [!UICONTROL Admin UI]**[!UICONTROL Companies]**&#x200B;は、先に進みます。顧客の会社を検索してクリックします。Look for the **[!UICONTROL Destinations]** tab and press **[!UICONTROL Add Destination]**. **[!UICONTROL Add Destination]** ワークフローで、を選択 [!UICONTROL User ID Key]します。The [!UICONTROL User ID Key] will filter the incoming IDs from the target data source and only allow the IDs to pass.
+* [!UICONTROL User ID Key]をインストールします。[!UICONTROL Admin UI] で、**[!UICONTROL Companies]** に進みます。顧客の会社を検索し、クリックします。「**[!UICONTROL Destinations]**」タブを探して「**[!UICONTROL Add Destination]**」を押します。**[!UICONTROL Add Destination]** ワークフローで、[!UICONTROL User ID Key] を選択します。この [!UICONTROL User ID Key] キーにより、ターゲットデータソースからの受信 ID がフィルタリングされ、渡す ID のみが許可されます。
 
    ![](assets/user_id_key.PNG)
 
-* [!UICONTROL Data Source Type]をインストールします。Audience Manager UI で宛先を作成する場合に選択します。First of all, select [!UICONTROL Inbound], then select the ID type you want. オプションは以下のとおりです。
+* [!UICONTROL Data Source Type]をインストールします。Audience Manager UI で宛先を作成する場合に選択します。まず、「[!UICONTROL Inbound]」を選択し、その後、目的の ID を選択します。オプションは以下のとおりです。
 
    ![](assets/data_source_settings.PNG)
 
-* [!UICONTROL Format]をインストールします。このオプションでは、エクスポートする形式を決定します。**[!UICONTROL Add Destination]** ワークフローで、形式 **[!UICONTROL Batch Data]**&#x200B;を選択します。
+* [!UICONTROL Format]をインストールします。このオプションでは、エクスポートする形式を決定します。「**[!UICONTROL Add Destination]**」ワークフローの「**[!UICONTROL Batch Data]**」で、形式を選択します。
 
-形式を検査するには、要素を探し **[!UICONTROL Admin UI > Formats]** て探し [!UICONTROL Data Row] ます。この要素には、ファイル形式（以下の例では &lt;MCID&gt;）のマクロがあります。
+形式を調べるには、**[!UICONTROL Admin UI > Formats]** に移動して、[!UICONTROL Data Row] 要素を探します。この要素には、ファイル形式（以下の例では &lt;MCID&gt;）のマクロがあります。
 
 ![](assets/data_row.PNG)
 
@@ -203,4 +203,4 @@ This page shows you how to set up destinations to export data keyed off the ID t
 
 ## ユースケース
 
-Let's say you use Audience Manager and [!DNL Campaign]. In order to make the customer data actionable in [!DNL Campaign], you want to export [!UICONTROL Experience Cloud IDs]. ここでは、設定番号 3 を使用します。
+Audience Manager と [!DNL Campaign] を使用しているとします。顧客データを [!DNL Campaign] で処理できるようにするには、[!UICONTROL Experience Cloud IDs] をエクスポートする必要があります。ここでは、設定番号 3 を使用します。
