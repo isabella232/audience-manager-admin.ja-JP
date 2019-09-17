@@ -3,8 +3,8 @@ description: マクロを使用して送信 FTP ファイルテンプレート�
 seo-description: マクロを使用して送信 FTP ファイルテンプレートを作成する例。
 seo-title: ファイル形式マクロの例
 title: ファイル形式マクロの例
-uuid: f00d431d-7e43-457a- b633- c79cbc4c8f10
-translation-type: tm+mt
+uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
+translation-type: ht
 source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
 
 ---
@@ -12,15 +12,15 @@ source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
 
 # ファイル形式マクロの例 {#file-format-macro-examples}
 
-Examples of how macros are used to create outbound, [!DNL FTP] file templates.
+マクロを使用して送信 [!DNL FTP] ファイルテンプレートを作成する例。
 
 >[!NOTE]
 >
 >表中の&#x200B;**太字**&#x200B;は、各マクロとそれに関連する出力の識別に使用しています。形式の例では、各マクロを明確に区切るために &lt; &gt; 記号を追加しています。
 
-## 一般的なマクロ {#common-macros}
+## 一般的なマクロ{#common-macros}
 
-これらのマクロはどの形式フィールドでも使用できます。See the [File Format Macros](../formats/file-formats.md) for a complete list and definitions.
+これらのマクロはどの形式フィールドでも使用できます。「[ファイル形式マクロ](../formats/file-formats.md)」で完全なリストと定義を参照してください。
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -68,7 +68,7 @@ Examples of how macros are used to create outbound, [!DNL FTP] file templates.
 
 ## ヘッダーフィールドマクロ {#header-field-macros}
 
-ヘッダーフィールドのみで使用されるマクロ。See the [File Format Macros](../formats/file-formats.md) for a complete list and definitions.
+ヘッダーフィールドのみで使用されるマクロ。「[ファイル形式マクロ](../formats/file-formats.md)」で完全なリストと定義を参照してください。
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -80,14 +80,14 @@ Examples of how macros are used to create outbound, [!DNL FTP] file templates.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>形式：<code>&lt;ORDER_ID&gt;&lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>出力：<code>888 full.sync </code> </p> <p>この出力では、各要素は非印刷のタブ文字で区切られています。 </p> </td>
+   <td colname="col2"> <p>形式：<code>&lt;ORDER_ID&gt;&lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>出力：<code>888 full.sync </code> </p> <p>この出力では、各要素は非表示のタブ文字で区切られています。 </p> </td>
   </tr>
  </tbody>
 </table>
 
-## データ行マクロ {#data-row-macros}
+## データ行マクロ{#data-row-macros}
 
-ヘッダーフィールドのみで使用されるマクロ。See the [File Format Macros](../formats/file-formats.md) for a complete list and definitions.
+ヘッダーフィールドのみで使用されるマクロ。「[ファイル形式マクロ](../formats/file-formats.md)」で完全なリストと定義を参照してください。
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -108,12 +108,13 @@ Examples of how macros are used to create outbound, [!DNL FTP] file templates.
   <tr> 
    <td colname="col1"> <p> <code>SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>この例では、サーバー間フィードの削除済みセグメントを返す形式を作成します。 </p> <p> 
-     <code>{"AdvertiserID":"&lt;PIDALエイリアス&gt;"，"dataEnterID":2，"TID":"&lt; DP_ UUID&gt;"，
-"Data":[&lt; SEGMENT_ LIST:{seg|&lt; OPEN_ BOOLEBER_ BACTIBER&gt;"Name":"&lt; seg. alias&gt;"&lt; CLOSE_ BODY_ BACCEE&gt;};
-separator="，"&gt;&lt; if（SEMENT_ LIST&amp;&amp; REMOVE_ SEGMENT_ LIST）&gt;&lt; CSV&gt;&lt; endif&gt;
-&lt; REMOVED_ SEGMENT_ LIST:{seg|&lt; OPEN_ BOOLEBER_ BACTIBER&gt;"Name":"&lt; seg. alias&gt;"，
-"ttlineMinutes":0&lt; CLOSE_ BOOLESE_ BRETER&gt;};separator=»， </code>
-  </p> </td> 
+     <code>
+       {"AdvertiserId":"&lt;PIDALIAS&gt;", "DataCenterId": 2,"TDID":"&lt;DP_UUID&gt;", 
+      "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
+      separator=","&gt;&lt;if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; 
+      &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
+      "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;]} 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SEGMENT_LIST </code> </p> </td> 
