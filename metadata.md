@@ -9,7 +9,7 @@ tutorials-title: チュートリアル
 tutorials-url: https://helpx.adobe.com/jp/audience-manager/kt/index/aam-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.en
 index: false
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 
 ---
