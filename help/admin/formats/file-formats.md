@@ -3,8 +3,8 @@ description: FTP ベースのデータファイルの作成に使用できるマ
 seo-description: FTP ベースのデータファイルの作成に使用できるマクロのリストを表示します。一部のマクロは、データファイルのすべてのフィールドと行に使用できます。その他のマクロは、ヘッダーとデータ行にしか使用できません。
 seo-title: ファイル形式マクロ
 title: ファイル形式マクロ
-uuid: f91c91b6-6581-4ed7-8d7f- f8532bd41df9
-translation-type: tm+mt
+uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
+translation-type: ht
 source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
 
 # ファイル形式マクロ {#file-format-macros}
 
-Lists the macros you can use to create [!DNL FTP]-based data files. 一部のマクロは、データファイルのすべてのフィールドと行に使用できます。その他のマクロは、ヘッダーとデータ行にしか使用できません。
+[!DNL FTP] ベースのデータファイルの作成に使用できるマクロのリストを表示します。一部のマクロは、データファイルのすべてのフィールドと行に使用できます。その他のマクロは、ヘッダーとデータ行にしか使用できません。
 
 ## 一般的なマクロ {#common-macros}
 
@@ -70,7 +70,7 @@ Lists the macros you can use to create [!DNL FTP]-based data files. 一部のマ
  </tbody> 
 </table>
 
-## ヘッダーフィールドマクロ {#header-field-macros}
+## ヘッダーフィールドマクロ{#header-field-macros}
 
 ヘッダーフィールドのみで使用されるマクロ。例については、[ファイル形式マクロの例](../formats/file-format-examples.md)を参照してください。
 
@@ -89,7 +89,7 @@ Lists the macros you can use to create [!DNL FTP]-based data files. 一部のマ
  </tbody> 
 </table>
 
-## データ行マクロ {#data-row-macros}
+## データ行マクロ{#data-row-macros}
 
 データ行でのみ使用するマクロ。例については、[ファイル形式マクロの例](../formats/file-format-examples.md)を参照してください。
 
@@ -111,7 +111,7 @@ Lists the macros you can use to create [!DNL FTP]-based data files. 一部のマ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> データパートナー個別ユーザー識別子 </span>. ユーザー／サイト訪問者に割り当てた ID が <span class="keyword">Audience Manager</span> デバイス ID と既に同期されている場合、その ID を返します。 </p> <p>DPID が 0 の場合、このマクロはユーザーの ID ではなく <span class="keyword">Audience Manager</span> ID を返します。 </p> </td> 
+   <td colname="col2"> <p> <span class="term"> データパートナー個別ユーザー識別子 </span>.ユーザー／サイト訪問者に割り当てた ID が <span class="keyword">Audience Manager</span> デバイス ID と既に同期されている場合、その ID を返します。 </p> <p>DPID が 0 の場合、このマクロはユーザーの ID ではなく <span class="keyword">Audience Manager</span> ID を返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -167,7 +167,7 @@ Lists the macros you can use to create [!DNL FTP]-based data files. 一部のマ
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>：<code>5</code> を静的なハードコーディングされた値として返します。これはデータをセグメントデータとして識別する値です。 </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>：セグメントのマッピング。廃止されました。<code>sid</code>（小文字のみ）を使用します。 </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>：セグメントが最後に認識された時点を示す Unix タイムスタンプ。 </li> 
-    </ul> <p>この変数は、マクロの後で波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
+    </ul> <p>この変数を、マクロの後に波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SET_ATTRIBUTES</code> </p> </td> 
@@ -184,11 +184,11 @@ Lists the macros you can use to create [!DNL FTP]-based data files. 一部のマ
      <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code>：数値 ID で識別される特性タイプ。この変数は次の値を返します。 
       <ul id="ul_C9839266783D42CCADAAC3FEA33BE4D7"> 
        <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code>：DPM 特性（オフライン、インバウンドジョブで転送されたジョブ）を表します。 </li> 
-       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> ルールベースの特性（リアルタイム、;をクリックします <span class="wintitle"></span>）。 </li> 
+       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code>：ルールベースの特性（リアルタイム、<span class="wintitle">DCS</span> から転送）を表します。 </li> 
       </ul> </li> 
      <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>：特性 ID。 </li> 
      <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>：特性が最後に認識された時点。Unix タイムスタンプ。 </li> 
-    </ul> <p>この変数は、マクロの後で波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>TRAIT_LIST{type|traitId};separator="|"</code> </p> </td> 
+    </ul> <p>この変数を、マクロの後に波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>TRAIT_LIST{type|traitId};separator="|"</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
