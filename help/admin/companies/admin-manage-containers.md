@@ -3,8 +3,8 @@ description: コンテナのデータプロバイダーを表示または編集�
 seo-description: コンテナのデータプロバイダーを表示または編集します。
 seo-title: コンテナの管理
 title: コンテナの管理
-uuid: 7dfcac5e-5502-4701-97f4- ae8015c3f0a6
-translation-type: tm+mt
+uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
+translation-type: ht
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 >[!NOTE]
 >
->デフォルトでは、会社は1つのコンテナを使用して作成されます。You can create further containers for a company in the user interface, in **[!UICONTROL Manage Data > Tags]**.
+>デフォルトでは、会社の作成時に 1 つのコンテナが設定されます。ユーザーインターフェイスの **[!UICONTROL Manage Data > Tags]** で会社用のコンテナをさらに作成できます。
 
 1. 「**[!UICONTROL Companies]**」をクリックし、目的の会社を検索してからクリックして、[!UICONTROL Profile] ページを表示します。
 
@@ -32,11 +32,11 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
    ![手順の結果](assets/containers_edit.png)
 
-1. Move data sources from the **[!UICONTROL Available Data Sources]** and **[!UICONTROL Selected Data Sources for This Container]** lists by selecting the desired data sources, then clicking the right or left arrows as necessary.
+1. 目的のデータソースを選択し、必要に応じて左右の矢印をクリックして、**[!UICONTROL Available Data Sources]** および **[!UICONTROL Selected Data Sources for This Container]** リストからデータソースを移動させます。
 
-   このタスクは [、サードパーティのデータプロバイダーのスパムからも実行](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)できます。
+   このタスクは、[サードパーティのデータプロバイダー](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)ページからも実行できます。
 
-1. Click **[!UICONTROL Save]** if you made changes.
+1. 変更した場合は「**[!UICONTROL Save]**」をクリックします。
 
 >[!MORE_LIKE_THIS]
 >
