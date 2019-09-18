@@ -1,10 +1,10 @@
 ---
-description: '顧客の問題をデバッグする際は、まず「監査ログ」を使用します。 '
-seo-description: '顧客の問題をデバッグする際は、まず「監査ログ」を使用します。 '
+description: '顧客の問題をデバッグする際には、監査ログを出発点として使用してください。 '
+seo-description: '顧客の問題をデバッグする際には、監査ログを出発点として使用してください。 '
 seo-title: 監査ログ
 title: 監査ログ
 uuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 ---
@@ -12,15 +12,15 @@ source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 # 監査ログ {#audit-logging}
 
-顧客の問 [!UICONTROL  Audit Logging] 題をデバッグする際は、まず最初にを使用します。
+顧客の問題をデバッグする際には、[!UICONTROL  Audit Logging] を出発点として使用してください。
 
 > [!NOTE]
 >
->[!UICONTROL Audit Logging] は現在開発中で、変更される可能性があります。 （チーム）で発生した問題をログに記 [!DNL JIRA] 録して[!DNL UI] ください
+>[!UICONTROL Audit Logging] は現在開発中で、変更される可能性があります。[!DNL JIRA]（[!DNL UI] チーム）で発生した問題があれば、記録してください。
 
 ![監査ログビュー](assets/audit-logging-img.png)
 
-「監査タイ **プ** 」ドロップダウンセレクタで、次のいずれかを選択します。
+**Audit Type** ドロップダウンセレクターで、次のいずれかを選択します。
 
 * [!UICONTROL Partner]
 * [!UICONTROL User]
@@ -39,20 +39,20 @@ source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 * [!UICONTROL Model]
 * [!UICONTROL Segment Test Group]
 
-オブ **ジェクト** IDは、調査する品目のIDです。 次の表で、各ケースのIDがオブジェクトIDに対応するIDを確認します。
+「**Object ID**」は、調査しているアイテムの ID です。次の表に、各ケースの「Object ID」に対応する ID を示します。
 
-| 監査タイプ | オブジェクトID |
+| Audit Type | Object ID |
 ---------|----------|
-| [!UICONTROL Partner] | パートナーID - PID |
-| [!UICONTROL User] | ユーザー ID |
+| [!UICONTROL Partner] | Partner ID - PID |
+| [!UICONTROL User] | User ID |
 | [!UICONTROL Group] | B3 |
-| [!UICONTROL Datasource Summary] | データソース ID |
-| [!UICONTROL General Datasource] | データソース ID |
-| [!UICONTROL Merge Rule Datasource] | データソース ID |
+| [!UICONTROL Datasource Summary] | Data Source ID |
+| [!UICONTROL General Datasource] | Data Source ID |
+| [!UICONTROL Merge Rule Datasource] | Data Source ID |
 | [!UICONTROL Data Feed] | Data Feed ID |
 | [!UICONTROL Data Feed Subscription] | Data Feed ID |
-| [!UICONTROL Trait Summary] | SID（特性） |
-| [!UICONTROL Trait Rule] | SID（特性） |
+| [!UICONTROL Trait Summary] | SID (trait) |
+| [!UICONTROL Trait Rule] | SID (trait) |
 | [!UICONTROL Segment Summary] |  |
 | [!UICONTROL Destination Summary] |  |
 | [!UICONTROL Server-to-Server Destination] | なし |
@@ -60,4 +60,4 @@ source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 | [!UICONTROL Model] | なし |
 | [!UICONTROL Segment Test Group] | なし |
 
-( [!UICONTROL Start Date] )と[!DNL UTC]( [!UICONTROL End Date] )を使[!DNL UTC]用して、ログの時間間隔を短縮します。
+ログの時間間隔を絞り込むには、[!UICONTROL Start Date]（[!DNL UTC]）および[!UICONTROL End Date]（[!DNL UTC]）を使用します。
