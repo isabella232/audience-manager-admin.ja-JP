@@ -4,7 +4,7 @@ seo-description: 次の手順に従って、最近アクティブなユーザー
 seo-title: 発信データをアクティブユーザーのみにフィルタリング
 title: 発信データをアクティブユーザーのみにフィルタリング
 uuid: a2b4a385-eee3-458c-b978-09509cacb397
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 ---
@@ -16,17 +16,17 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 >[!NOTE]
 >
->訪問者が「アクティブ」と見なされるために、選択した顧客サイトや広告トラフィックに訪問者を見る必要はありません。 任意の [!DNL Audience Manager] ユーザーまたはパートナーに認識されれば、「アクティブ」と認定されます。
+>訪問者が「アクティブ」と認定されるには、訪問者が選択した顧客サイトや広告トラフィックで認識される必要はありません。任意の [!DNL Audience Manager] ユーザーまたはパートナーに認識されれば、「アクティブ」と認定されます。
 
 アクティブなユーザーのみをフィルタリングするには、次の手順に従います。
 
 1. 「**[!UICONTROL Companies]**」をクリックします。
-1. Select the company you want to work with and click **[!UICONTROL Destinations]**.
-1. In the [!UICONTROL Batch Data] section, set the following options:
+1. 目的の会社を選択して、「**[!UICONTROL Destinations]**」をクリックします。
+1. 「[!UICONTROL Batch Data]」セクションで、次の各オプションを設定します。
 
-   * **[!UICONTROL Sync Type]**:またはを **[!UICONTROL Customer]** 選択しま **[!UICONTROL Platform]**&#x200B;す。
-   * **[!UICONTROL Sync Type Lookback Period]**: This time interval defines the range of your data file. 、、などを選 **[!UICONTROL 24 hours]**&#x200B;択でき **[!UICONTROL 7 days]**&#x200B;ます **[!UICONTROL 30 days]**。
-   * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. このフィルターは完全同期ファイルに対してのみ適用されます。
-   * **[!UICONTROL Full Sync Scheduled Run]**: This determines how often you want to receive this file. 、、、ま **[!UICONTROL 24 hours]**&#x200B;たは(無 **[!UICONTROL 7 days]**&#x200B;効にす **[!UICONTROL 30 days]**&#x200B;る場合 **[!UICONTROL Never]** )を選択できます。
+   * **[!UICONTROL Sync Type]**：**[!UICONTROL Customer]** または **[!UICONTROL Platform]** を選択します。
+   * **[!UICONTROL Sync Type Lookback Period]**：この期間により、データファイルの範囲が設定されます。選択肢には、**[!UICONTROL 24 hours]**、**[!UICONTROL 7 days]**、**[!UICONTROL 30 days]** などがあります。
+   * **[!UICONTROL Incremental Sync Scheduled Run]**：「**[!UICONTROL Never]**」を選択します。このフィルターは完全同期ファイルに対してのみ適用されます。
+   * **[!UICONTROL Full Sync Scheduled Run]**：このファイルを受け取る頻度を決定します。選択肢には、**[!UICONTROL 24 hours]**、**[!UICONTROL 7 days]**、**[!UICONTROL 30 days]**、または **[!UICONTROL Never]**（無効化する）が含まれます。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
