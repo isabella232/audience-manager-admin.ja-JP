@@ -1,6 +1,6 @@
 ---
 source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 説明
@@ -10,13 +10,13 @@ translation-type: tm+mt
 ## 目次
 
 + `TOC.md` はユーザーガイドのルートにあり、このソリューションのガイドに含まれるトピックの構成を示します。
-+ Each user guide will have it's own unique `TOC.md`, in which you can order all the pages/topics as necessary.
++ 各ユーザーガイドには固有の `TOC.md` があり、このファイルで必要に応じてすべてのページおよびトピックの順序を変えることができます。
 + ユーザーガイドの最初のページはすべて、`overview.md` です。
 
 ## ユーザーガイド
 
 + ユーザーガイドの導入部分は、`overview.md` という名前です。
-+ Each topic in the user guide has it's own distinct directory.
++ ユーザーガイドの各トピックには、固有のディレクトリがあります。
    + 例えば、ガイドの&#x200B;*導入*&#x200B;というトピックの場合、対応するディレクトリとして `/implementation` があります。
 + 画像アセットはすべて、ユーザーガイドのルートの `/assets` に格納されます。
    + `/assets` ディレクトリ内の画像はすべて、ローカライズされます。
