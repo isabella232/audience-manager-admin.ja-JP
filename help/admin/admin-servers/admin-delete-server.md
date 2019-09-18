@@ -4,7 +4,7 @@ seo-description: Audience Manager の Admin ツールの Servers ページを使
 seo-title: サーバーの削除
 title: サーバーの削除
 uuid: 21d8feeb-a205-43bb-9bc1-9048c918a80a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
 
 ---
@@ -18,11 +18,11 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
 
 >[!NOTE]
 >
->You must have the [!UICONTROL DEXADMIN] role in order to delete existing servers.
+>既存のサーバーを削除するには、[!UICONTROL DEXADMIN] の役割が必要です。
 
-1. To delete an existing server, click **[!UICONTROL Servers]**.
+1. 既存のサーバーを削除するには、「**[!UICONTROL Servers]**」をクリックします。
 
    ![手順の結果](assets/servers.png)
 
-1. Click  ![](assets/icon_delete.png) in the **[!UICONTROL Actions]** column of the desired server.
-1. 「**[!UICONTROL OK]」をクリックして削除を確定します。**
+1. 「**[!UICONTROL Actions]**」列で ![](assets/icon_delete.png) をクリックします。
+1. 「**[!UICONTROL OK]**」をクリックして削除を確定します。
