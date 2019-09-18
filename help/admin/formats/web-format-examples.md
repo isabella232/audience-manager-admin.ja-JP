@@ -4,7 +4,7 @@ seo-description: 一般的に使用される HTTP マクロの組み合わせの
 seo-title: HTTP 形式マクロの例
 title: HTTP 形式マクロの例
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
 
 # HTTP 形式マクロの例 {#http-format-macro-examples}
 
-一般的に使用される [!DNL HTTP] マクロの組み合わせの例。
+Examples of some commonly used [!DNL HTTP] macro combinations.
 
-マクロとその定義のリストについては、[HTTP 形式マクロ](../formats/web-formats.md)を参照してください。
+See the [HTTP Format Macros](../formats/web-formats.md) for a list of macros and their definitions.
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -63,71 +63,18 @@ source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
   <tr> 
    <td colname="col1"> <p> 
      <code>
-       {"Users": [&lt;USER_LIST:{user|&lt;OPEN_BRACKET&gt; 
-         "AAM_UUID": "&lt;user.aamUuid&gt;", 
-         "DataPartner_UUID": "&lt;user.dpUuid&gt;", 
-         "Segments": [&lt;user.segments:{seg|&lt;OPEN_BRACKET&gt;"Segment": "&lt;seg.traitAlias&gt;"&lt;CLOSE_BRACKET&gt;}; separator=","&gt;] 
-         "Removed_Segments": [&lt;user.removedSegments:{rseg|&lt;OPEN_BRACKET&gt;"Segment": "&lt;rseg.traitAlias&gt;"&lt;CLOSE_BRACKET&gt;}; separator=","&gt;] 
-         &lt;CLOSE_BRACKET&gt;}; separator=","&gt;]} 
-     </code> </p> </td> 
+       {"Users": [&lt;USER_LIST:{user|&lt;OPEN_BRACKET&gt; "AAM_UUID": "&lt;user.aamUuid&gt;", "DataPartner_UUID": "&lt;user.dpUuid&gt;", "Segments": [&lt;user.segments:{seg|&lt;OPEN_BROPEN_BRACKET&gt;"&gt;"セグメント": "&lt;seg.traitAlias&gt;"&lt;CLOSE_BRACKET&gt;}; separator=","&gt;] "削除されたセグメント": [&lt;user.removedSegments:{rseg|&lt;OPEN_BRACKET&gt;"Segment": "&lt;rseg.traitAlias&gt;"&lt;CLOSE_BRACKET&gt;}};&lt;separator=","&gt;]close_BRACKET&gt;}; separator=","&gt;]} </code> </p> </td> 
    <td colname="col2"> <p> 
      <code>
-       {   
-         "Users":[   
-            {   
-               "AAM_UUID":"uuid1", 
-               "DataPartner_UUID":"dpuuid1", 
-               "Segments":[   
-                  {   
-                     "Segment":"alias1" 
-                  }, 
-                  {   
-                     "Segment":"alias2" 
-                  } 
-               ], 
-               "Removed_Segments":[   
-                  {   
-                     "Segment":"alias3" 
-                  }, 
-                  {   
-                     "Segment":"alias4" 
-                  } 
-               ] 
-            } 
-         ] 
-      } 
-     </code> </p> </td> 
+       { "Users":[ { "AAM_UUID":"uuid1", "DataPartner_UUID":"Segments":[ { "Segment":"alias1" }, { "Segment":"alias2" } ], "Removed_Segments":[ { "Segment":"alias3" }, { Segment":"alias4" } ] } </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
      <code>
-       {"Users": [&lt;USER_LIST:{user|&lt;OPEN_BRACKET&gt; 
-         "AAM_UUID": "&lt;user.aamUuid&gt;", 
-         "DataPartner_UUID": "&lt;user.dpUuid&gt;", 
-         "Segments": [&lt;user.segments:{seg|&lt;OPEN_BRACKET&gt;"Segment": "&lt;seg.traitAlias&gt;","Status": "&lt;seg.status&gt;"&lt;CLOSE_BRACKET&gt;}; separator=","&gt;] 
-           &lt;CLOSE_BRACKET&gt;}; separator=","&gt;]} 
-     </code> </p> </td> 
+       {"Users": [&lt;USER_LIST:{user|&lt;OPEN_BRACKET&gt; "AAM_UUID": "&lt;user.aamUuid&gt;", "DataPartner_UUID": "&lt;user.dpUuid&gt;", "Segments": [&lt;user.segments:{seg|&lt;OPEN_BROPEN_BRACKET&gt;"&gt;"セグメント": "&lt;seg.traitAlias&gt;","ステータス": "&lt;seg.status&gt;"&lt;CLOSE_BRACKET&gt;}; separator=","&gt;] &lt;CLOSE_BRACKET&gt;}; separator=","&gt;} </code> </p> </td> 
    <td colname="col2"> <p> 
      <code>
-       {   
-         "Users":[   
-            {   
-               "AAM_UUID":"uuid1", 
-               "DataPartner_UUID":"dpuuid1", 
-               "Segments":[   
-                  {   
-                     "Segment":"alias1" 
-            "Status":"1" 
-                  }, 
-                  {   
-                     "Segment":"alias2" 
-                     "Status":"0" 
-                  } 
-               ] 
-            } 
-         ] 
-      } 
-     </code> </p> </td> 
+       { "Users":[ { "AAM_UUID":"uuid1", "DataPartner_UUID":"dpuuid1", "Segments":[ { "Segment":"alias1" "Status":"1" }, { "Segment":"alias2" "Status":"0" } ] } ] } ] } </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;PID_ALIAS&gt;|&lt;DP_UUID&gt;|&lt;SEGMENTS:{seg|&lt;seg.traitAlias&gt;}; separator=\",\"&gt;|&lt;REMOVED_SEGMENTS:{seg|&lt;seg.traitAlias&gt;}; separator=\",\"&gt;</code> </p> </td> 
