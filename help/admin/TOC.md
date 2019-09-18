@@ -1,14 +1,14 @@
 ---
 product: audience-manager
 audience: admin
-user-guide-title: Audience Manager管理ガイド
-translation-type: tm+mt
+user-guide-title: Audience Manager Admin ガイド
+translation-type: ht
 source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 
 ---
 
 
-# Audience Manager Admin Guide {#admin-guide}
+# Audience Manager Admin ガイド {#admin-guide}
 
 + [Audience Manager Admin ホーム](admin-home.md)
 + [Audience Manager Admin へのログイン](admin-login.md)
@@ -30,14 +30,14 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
    + [FTP サーバーの作成または編集](admin-servers/create-ftp-server.md)
    + [HTTP サーバーの作成または編集](admin-servers/create-http-server.md)
    + [S3 サーバーの作成または編集](admin-servers/create-s3-server.md)
-   + [アカウント間のAmazon S3バケットアクセスの承認](admin-servers/admin-authorize-s3-cross-bucket.md)
+   + [クロスアカウント Amazon S3 バケットアクセスを承認する](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [サーバーの削除](admin-servers/admin-delete-server.md)
 + レポート{#reporting}
    + [レポート](admin-reporting/admin-reporting-overview.md)
    + [ポータルユーザーを Tableau ユーザーに割り当てる](admin-reporting/admin-assign-tableau-user.md)
 + 形式{#formats}
    + [形式の概要](formats/formats.md)
-   + [送信用の Hadoop シーケンスファイル転送](formats/enable-outbound-seq.md)
+   + [送信用の Hadoop シーケンスファイル転送の有効化](formats/enable-outbound-seq.md)
    + [ファイル形式マクロ](formats/file-formats.md)
    + [ファイル形式マクロの例](formats/file-format-examples.md)
    + [HTTP 形式マクロ](formats/web-formats.md)
@@ -51,4 +51,4 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 + [マイプロファイル](admin-my-profile.md)
 + [宛先の設定に関するトラブルシューティング](admin-destination-troubleshooting.md)
 + [ベータ環境](admin-beta-environment.md)
-+ [ドキュメントの更新（ 年）](admin-doc-updates.md)
++ [ドキュメントのアップデート](admin-doc-updates.md)
