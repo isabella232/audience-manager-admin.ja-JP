@@ -4,7 +4,7 @@ seo-description: Audience Manager API を使用しているクライアントへ
 seo-title: API の要件と推奨事項
 title: API の要件と推奨事項
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 # API の要件と推奨事項 {#api-requirements-and-recommendations}
 
-Audience Manager [!DNL API] を使用しているクライアントへの注意事項。
+Things you should encourage your clients to be aware of when they're working with the Audience Manager [!DNL API]s.
 
 ## 要件 {#requirements}
 
-[!DNL Audience Manager] [!DNL API] コードを操作する場合は、以下の点に注意してください。
+Note the following when working with [!DNL Audience Manager] [!DNL API] code:
 
 * **リクエストパラメーター：**&#x200B;特に指定のない限り、すべてのリクエストパラメーターが必要となります。
 * **[!DNL JSON]コンテンツタイプ：**&#x200B;コード内で、`content-type: application/json` *および* `accept: application/json` を指定してください。
@@ -29,9 +29,9 @@ Audience Manager [!DNL API] を使用しているクライアントへの注意�
 
 ## 推奨事項：汎用の API ユーザーを作成する {#recommendations}
 
-Audience Manager [!DNL API] を使用するための個別の技術的なユーザーアカウントを作成することをお勧めします。これは、組織の特定ユーザーに関連していない、または関連付けられていない一般的なアカウントです。このような [!DNL API] ユーザーアカウントにより、以下の 2 つのことができます。
+We recommend creating a separate, technical user account for working with the Audience Manager [!DNL API]s. This is a generic account that is not tied to or associated with a specific user in your client's organization. This type of [!DNL API] user account helps accomplish 2 things:
 
-* [!DNL API] を呼び出しているサービスを特定する（[!DNL API] を使用しているクライアントアプリケーションからの呼び出しや、一括変更からの呼び出しなど）。
-* [!DNL API] へのアクセスを途切れることなく提供する。特定ユーザーが退社すると、そのユーザーに関連するアカウントが無効になることがあります。その場合、使用可能な [!DNL API] コードの操作ができなくなります。特定の従業員に結び付けられていない汎用アカウントを使用すると、この問題を回避できます。
+* Identify what service is calling the [!DNL API] (e.g., calls from a client app that use our [!DNL API]s or from making bulk changes).
+* Provide uninterrupted access to the [!DNL API]s. An account tied to a specific employee may be deleted when they leave company. This will prevent your customers from working with the available [!DNL API] code. 特定の従業員に結び付けられていない汎用アカウントを使用すると、この問題を回避できます。
 
-このタイプのアカウントの使用例として、[一括管理ツール](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html)を使用して多数のセグメントを一度に変更したい場合があるとします。この処理をおこなうには、[!DNL API] アクセスが必要です。特定のユーザーに対して権限を追加するのではなく、適切な資格情報、キー、および [!DNL API] 呼び出し用の暗号鍵を持つ汎用の [!DNL API] ユーザーアカウントを作成します。また、クライアントが [!DNL Audience Manager] [!DNL API] を使用するアプリケーションを開発する場合にも便利です。
+このようなアカウントのユースケースとして、顧客が多数のセグメントを[一括管理ツール](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html)により一度に変更しようとしている場合を見てみましょう。To do this, they need [!DNL API] access. 特定のユーザーに対して権限を追加するのではなく、適切な資格情報、キー、および [!DNL API] 呼び出し用の暗号鍵を持つ汎用の [!DNL API] ユーザーアカウントを作成します。This is also useful if client's develop their own applications that use the [!DNL Audience Manager] [!DNL API]s.
