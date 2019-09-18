@@ -4,7 +4,7 @@ seo-description: マクロを使用して送信 FTP ファイルテンプレー�
 seo-title: ファイル形式マクロの例
 title: ファイル形式マクロの例
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
 
 # ファイル形式マクロの例 {#file-format-macro-examples}
 
-Examples of how macros are used to create outbound, [!DNL FTP] file templates.
+マクロを使用して送信 [!DNL FTP] ファイルテンプレートを作成する例。
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ Examples of how macros are used to create outbound, [!DNL FTP] file templates.
 
 ## 一般的なマクロ {#common-macros}
 
-これらのマクロはどの形式フィールドでも使用できます。See the [File Format Macros](../formats/file-formats.md) for a complete list and definitions.
+これらのマクロはどの形式フィールドでも使用できます。「[ファイル形式マクロ](../formats/file-formats.md)」で完全なリストと定義を参照してください。
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -68,7 +68,7 @@ Examples of how macros are used to create outbound, [!DNL FTP] file templates.
 
 ## ヘッダーフィールドマクロ {#header-field-macros}
 
-ヘッダーフィールドのみで使用されるマクロ。See the [File Format Macros](../formats/file-formats.md) for a complete list and definitions.
+ヘッダーフィールドのみで使用されるマクロ。「[ファイル形式マクロ](../formats/file-formats.md)」で完全なリストと定義を参照してください。
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -87,7 +87,7 @@ Examples of how macros are used to create outbound, [!DNL FTP] file templates.
 
 ## データ行マクロ {#data-row-macros}
 
-ヘッダーフィールドのみで使用されるマクロ。See the [File Format Macros](../formats/file-formats.md) for a complete list and definitions.
+ヘッダーフィールドのみで使用されるマクロ。「[ファイル形式マクロ](../formats/file-formats.md)」で完全なリストと定義を参照してください。
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -109,8 +109,12 @@ Examples of how macros are used to create outbound, [!DNL FTP] file templates.
    <td colname="col1"> <p> <code>SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>この例では、サーバー間フィードの削除済みセグメントを返す形式を作成します。 </p> <p> 
      <code>
-       {"広告主ID":"&lt;PIDALIAS&gt;", "DataCenterId": 2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"_CURLY_BRACKET&gt;};
-      separator=","&gt;&lt;if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)&gt;&lt;コンマ&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE"_CURLY_BRACKET&gt;}; separator=","&gt;]} </code> </p> </td> 
+       {"AdvertiserId":"&lt;PIDALIAS&gt;", "DataCenterId": 2,"TDID":"&lt;DP_UUID&gt;", 
+      "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
+      separator=","&gt;&lt;if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; 
+      &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
+      "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;]} 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SEGMENT_LIST </code> </p> </td> 
