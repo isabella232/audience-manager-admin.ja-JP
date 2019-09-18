@@ -4,7 +4,7 @@ seo-description: ファーストパーティデータプロバイダーのコン
 seo-title: ファーストパーティデータプロバイダーの管理
 title: ファーストパーティデータプロバイダーの管理
 uuid: 222890cb-2ebd-4e16-a516-51000891ed34
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
 
 ---
@@ -26,5 +26,5 @@ source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
 
    ![手順の結果](assets/first_party_providers_edit.png)
 
-1. 目的のコンテナを選択し、必要に応じて左右の矢印をクリックして、「**[!UICONTROL Available Containers]**」および「**[!UICONTROL Selected Containers for This Data Provider]**」リストからコンテナを移動します。
-1. 変更した場合は「**[!UICONTROL Save]**」をクリックします。
+1. Move containers from the **[!UICONTROL Available Containers]** and **[!UICONTROL Selected Containers for This Data Provider]** lists by selecting the desired containers, then clicking the right or left arrows as necessary.
+1. Click **[!UICONTROL Save]** if you made changes.
