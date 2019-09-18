@@ -1,31 +1,31 @@
 ---
 description: Audience Manager Admin Guide のすべての更新（追加、削除、修正）を日付別に紹介。
 seo-description: Audience Manager Admin Guide のすべての更新（追加、削除、修正）を日付別に紹介。
-seo-title: ドキュメントのアップデート
-title: ドキュメントのアップデート
+seo-title: ドキュメントの更新（ 年）
+title: ドキュメントの更新（ 年）
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e60aa0ac341d74454bfe00a4f56add3a9f9e281b
 
 ---
 
 
-# ドキュメントのアップデート {#documentation-updates}
+# ドキュメントの更新 {#documentation-updates}
 
 Audience Manager Admin Guide のすべての更新（追加、削除、修正）を日付別に紹介。
 
-機能リリース、機能強化およびバグ修正について詳しくは、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/) を参照してください。過去の Experience Cloud の発表内容については、[過去のリリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/c_legacy_releases.html)を参照してください。[!DNL Audience Manager documentation changes, see] については、「[ドキュメントの更新](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/documentation-updates/docs-2019.html)」を参照してください。
+機能リリース、改良点、バグの修正の詳細については、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)を参照してください。過去の Experience Cloud の発表内容については、[以前のリリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html)を参照してください。ドキュメ [!DNL Audience Manager documentation changes, see] ントの [更新](https://docs.adobe.com/content/help/en/audience-manager/user-guide/documentation-updates/docs-2019.html)。
 
-## AAM 2019 ドキュメントのアップデート {#aam-2019-docs-updates}
+## AAM 2019ドキュメントの更新 {#aam-2019-docs-updates}
 
 
 | トピック | 説明 |
 ---------|----------|
-| HTTP 形式マクロ | 新しいマクロ、`REGION_ID_LIST`、および 3 つの新しいフィールド（`sda`、`sda`、および `sda`）を `USER_LIST` マクロに追加しました。 |
-| HTTP 形式マクロ | `ECID` と `MCID` の 2 つの新しいマクロを追加しました。 |
+| HTTP 形式マクロ | 新しいマクロと、3つの新 `REGION_ID_LIST`しいフィールド、`sda`、`sda`、、、をマ `sda` クロに追加し `USER_LIST` ました。 |
+| HTTP 形式マクロ | 新しいマクロを2つ追加しました。 `ECID` と `MCID`。 |
 
 
-## AAM 2018 ドキュメントのアップデート {#aam-2018-docs-updates}
+## AAM 2018ドキュメントの更新 {#aam-2018-docs-updates}
 
 <!-- c_doc_updates.xml -->
 
@@ -42,7 +42,7 @@ Audience Manager Admin Guide のすべての更新（追加、削除、修正）
    <td colname="col2"> <p>SFTP サーバーの SSH キー認証（ステップ 5）に関する情報を追加しました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> Experience Cloud を書き出す宛先の設定方法</a> </p> </td> 
+   <td colname="col1"> <p><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> Experience cloudを書き出す宛先の設定方法…</a> </p> </td> 
    <td colname="col2"> <p>このページでは、送信データファイルで必要な ID タイプをキーとするデータを書き出すための宛先を設定する方法を説明します。 </p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +52,7 @@ Audience Manager Admin Guide のすべての更新（追加、削除、修正）
  </tbody> 
 </table>
 
-## AAM 2017 ドキュメントのアップデート {#aam-2017-docs-updates}
+## AAM 2017ドキュメントの更新 {#aam-2017-docs-updates}
 
 <table id="table_81D2DA9293A9417085C630D00A7C96E1"> 
  <thead> 
@@ -71,7 +71,7 @@ Audience Manager Admin Guide のすべての更新（追加、削除、修正）
    <td colname="col2"> 特性フォルダーの最大数と、特性構造の深度を、制限のドキュメントに追加しました。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> 送信用の Hadoop シーケンスファイル転送の有効化</a> </td> 
+   <td colname="col1"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> 送信用の Hadoop シーケンスファイル転送</a> </td> 
    <td colname="col2"> 顧客が送信 SEQ ファイルを自分の Hadoop インスタンスに送信できるようにする方法を説明します。 </td> 
   </tr> 
   <tr> 
@@ -100,12 +100,12 @@ Audience Manager Admin Guide のすべての更新（追加、削除、修正）
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API の要件と推奨事項</a> </p> </td> 
-   <td colname="col2"> <p>注意が必要であり、顧客に伝える必要がある要件と推奨事項について説明する新しいドキュメント。公開ドキュメントに同じタイトルのドキュメントがありますが、異なる読者層向けに変更されている箇所があります。公開ドキュメントの <a href="https://marketing.adobe.com/resources/help/ja_JP/aam/aam-api-requirements.html" format="https" scope="external">API の要件と推奨事項</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>注意が必要であり、顧客に伝える必要がある要件と推奨事項について説明する新しいドキュメント。公開ドキュメントに同じタイトルのドキュメントがありますが、異なる読者層向けに変更されている箇所があります。公開ドキュメントの <a href="https://marketing.adobe.com/resources/help/en_US/aam/aam-api-requirements.html" format="https" scope="external">API の要件と推奨事項</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## AAM 2016 ドキュメントのアップデート {#aam-2016-docs-updates}
+## AAM 2016ドキュメントの更新 {#aam-2016-docs-updates}
 
 <table id="table_E9D9810EA8244B58A4F27D56CFE521FD"> 
  <thead> 
@@ -145,7 +145,7 @@ Audience Manager Admin Guide のすべての更新（追加、削除、修正）
  </tbody> 
 </table>
 
-## AAM 2015 ドキュメントのアップデート {#aam-2015-docs-updates}
+## AAM 2015ドキュメントの更新 {#aam-2015-docs-updates}
 
 <table id="table_90F524BAAED44A45A1F6BF8BBA9F26F9"> 
  <thead> 
@@ -162,7 +162,7 @@ Audience Manager Admin Guide のすべての更新（追加、削除、修正）
  </tbody> 
 </table>
 
-## AAM 2014 ドキュメントのアップデート {#aam-2014-docs-updates}
+## AAM 2014ドキュメントの更新 {#aam-2014-docs-updates}
 
 <table id="table_FA9962E19248418BA73D5A794A378C9D"> 
  <thead> 
