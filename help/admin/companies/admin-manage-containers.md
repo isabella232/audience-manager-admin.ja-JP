@@ -4,8 +4,8 @@ seo-description: コンテナのデータプロバイダーを表示または編
 seo-title: コンテナの管理
 title: コンテナの管理
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
-translation-type: ht
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+translation-type: tm+mt
+source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 >[!NOTE]
 >
->デフォルトでは、会社の作成時に 1 つのコンテナが設定されます。ユーザーインターフェイスの **[!UICONTROL Manage Data > Tags]** で会社用のコンテナをさらに作成できます。
+>デフォルトでは、会社の作成時に 1 つのコンテナが設定されます。ユーザーインターフェイスの **[!UICONTROL Tools > Tags]** で会社用のコンテナをさらに作成できます。
 
 1. 「**[!UICONTROL Companies]**」をクリックし、目的の会社を検索してからクリックして、[!UICONTROL Profile] ページを表示します。
 
