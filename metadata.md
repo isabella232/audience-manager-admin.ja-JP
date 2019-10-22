@@ -9,7 +9,7 @@ tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.en
 index: false
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b9d0dc2a2daf067435b62e4d2e2bc0784fbe3baf
 
 ---
