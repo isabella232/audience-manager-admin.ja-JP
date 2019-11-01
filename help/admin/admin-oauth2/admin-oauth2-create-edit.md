@@ -4,8 +4,8 @@ seo-description: OAuth2 Clients ページを使用して、Audience Manager 構�
 seo-title: OAuth2 クライアント
 title: OAuth2 クライアント
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
-translation-type: ht
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+translation-type: tm+mt
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 >[!NOTE]
 >
->顧客が [!DNL Audience Manager] ユーザーガイドの [OAuth2](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) ドキュメントを読んでいることを確認してください。★
+>Ensure that your customer reads the [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) documentation in the [!DNL Audience Manager User Guide.
 
 [!DNL OAuth2] は、リソース所有者に代わって [!DNL Audience Manager] リソースへの安全な委任アクセスに使用する認証のオープン規格です。
 
@@ -60,7 +60,7 @@ Audience Manager の [!UICONTROL Admin]ツールの [!UICONTROL OAuth2 Clients] 
 
 [!UICONTROL OAuth2] クライアントを削除するには、「**[!UICONTROL OAuth2 Clients]**」をクリックしてから、目的のクライアントの「**[!UICONTROL Actions]**」列で ![](assets/icon_delete.png) をクリックします。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [API の要件と推奨事項](../admin-oauth2/aam-admin-api-requirements.md)
 
