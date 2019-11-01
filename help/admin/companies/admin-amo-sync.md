@@ -4,8 +4,8 @@ seo-description: デフォルトでは、すべての会社がデータを Adobe
 seo-title: Media Manager との ID 同期
 title: Media Manager との ID 同期
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
-translation-type: ht
-source-git-commit: 40a6ca5d34ec72d8b88bc18f2e2b5390c2ea6f5e
+translation-type: tm+mt
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 40a6ca5d34ec72d8b88bc18f2e2b5390c2ea6f5e
 | オン（ID サービスバージョンと関係なく） | 以下に該当する場合、ID サービスバージョンと関係なく、データソースは [!DNL AMO] と同期します。 <ul><li>データソースが「[!UICONTROL Selected Data Sources]」リストに表示されている。</li><li>「[!DNL AMO]」チェックボックスがオンに&#x200B;*なっていない*。</li></ul> |
 | オン（ID サービスバージョンと関係なく） | 以下に該当する場合、データソースは ID サービスのバージョンが 2.0 以降の [!DNL AMO] と同期します。 <ul><li>データソースが「[!UICONTROL Selected Data Sources]」リストに表示されている。</li><li>「[!DNL AMO]」チェックボックスがオンに&#x200B;*なっている*。</li></ul> |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [コンテナの管理](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967)
 
