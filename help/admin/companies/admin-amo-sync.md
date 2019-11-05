@@ -4,7 +4,7 @@ seo-description: デフォルトでは、すべての会社がデータを Adobe
 seo-title: Media Manager との ID 同期
 title: Media Manager との ID 同期
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
