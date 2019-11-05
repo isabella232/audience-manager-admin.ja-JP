@@ -4,7 +4,7 @@ seo-description: コンテナのデータプロバイダーを表示または編
 seo-title: コンテナの管理
 title: コンテナの管理
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
@@ -20,11 +20,11 @@ source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 >
 >デフォルトでは、会社の作成時に 1 つのコンテナが設定されます。ユーザーインターフェイスの **[!UICONTROL Tools > Tags]** で会社用のコンテナをさらに作成できます。
 
-1. 「**[!UICONTROL Companies]**」をクリックし、目的の会社を検索してからクリックして、[!UICONTROL Profile] ページを表示します。
+1. **[!UICONTROL Companies]**&#x200B;をクリックし、目的の会社を検索してからクリックして、[!UICONTROL Profile] ページを表示します。
 
    「[!UICONTROL Search]」ボックス、またはリストの最下部にあるページネーションコントロールを使用して、目的の会社を検索します。目的の列のヘッダーをクリックすると、その列を昇順または降順に並べ替えることができます。
 
-1. 「**[!UICONTROL Containers]**」タブをクリックします。
+1. **[!UICONTROL Containers]**&#x200B;タブをクリックします。
 
    ![](assets/containers.png)
 
@@ -36,7 +36,7 @@ source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
    このタスクは、[サードパーティのデータプロバイダー](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)ページからも実行できます。
 
-1. 変更した場合は「**[!UICONTROL Save]**」をクリックします。
+1. 変更した場合は&#x200B;**[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORELIKETHIS]
 >
