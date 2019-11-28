@@ -4,7 +4,7 @@ seo-description: '顧客の問題をデバッグする際には、監査ログ�
 seo-title: 監査ログ
 title: 監査ログ
 uuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 > [!NOTE]
 >
-> この機 [!UICONTROL Audit Logging] 能とドキュメントは現在開発中で、変更される可能性があります。 Please log any issues you encounter in [!DNL JIRA] ([!DNL UI] team).
+> この [!UICONTROL Audit Logging] 機能とドキュメントは現在開発中で、変更される可能性があります。[!DNL JIRA]（[!DNL UI] チーム）で発生した問題があれば、記録してください。
 
 ![監査ログビュー](assets/audit-logging-img.png)
 
