@@ -4,7 +4,7 @@ seo-description: '顧客の問題をデバッグする際には、監査ログ�
 seo-title: 監査ログ
 title: 監査ログ
 uuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
 
 ---
