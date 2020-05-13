@@ -2,8 +2,11 @@
 product: audience-manager
 audience: admin
 user-guide-title: Audience Manager Admin ガイド
-translation-type: ht
-source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
+translation-type: tm+mt
+source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +49,6 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 + OAuth2 クライアント{#oath2-clients}
    + [OAuth2 クライアント](admin-oauth2/admin-oauth2-create-edit.md)
    + [API の要件と推奨事項](admin-oauth2/aam-admin-api-requirements.md)
-+ [統合ユーザー](admin-manage-integration-users.md)
 + [監査ログ](admin-audit-logging.md)
 + [マイプロファイル](admin-my-profile.md)
 + [宛先の設定に関するトラブルシューティング](admin-destination-troubleshooting.md)
