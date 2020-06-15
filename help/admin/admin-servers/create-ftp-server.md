@@ -5,10 +5,10 @@ seo-title: FTP サーバーの作成または編集
 title: FTP サーバーの作成または編集
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 72%
+source-wordcount: '423'
+ht-degree: 69%
 
 ---
 
@@ -44,6 +44,9 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
    >許可されているIPのリスト [!DNL FTP][!DNL IP] にOmnitureの出口を追加してください。 **52.44.29.204**.
 
 1. **[!UICONTROL SSH Key]** 認証の場合：
+   >[!NOTE]
+   >
+   >SSHキー認証を設定する場合は、常にOpenSSH形式でのみ公開鍵と秘密鍵を生成するようにしてください。
    1. 任意の [!DNL Linux]または [!DNL Mac] マシンから、公開鍵／秘密鍵のペアを生成します。
    1. **公開鍵**&#x200B;をクライアントに渡して、[!DNL SFTP] サーバーで更新します。これには、サーバー上にある公開鍵 （`-----BEGIN RSA PRIVATE KEY-----` や `-----END RSA PRIVATE KEY-----` を含む）のすべてのテキストを含める必要があります。一方、クライアントは鍵のインストールに使用するユーザー名を指定する必要があります。
    1. ユーザー名フィールドにクライアントが指定したユーザー名を入力し、鍵フィールドには&#x200B;**秘密鍵**&#x200B;を入力します。
