@@ -39,6 +39,7 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
    * **[!UICONTROL Filename Suffix]:**ファイルの転送に追加するテキストを指定します。
    * **[!UICONTROL Moved to When Finished]:**転送ファイルを完了時に移動する場所のパスを指定します。
    * **[!UICONTROL Authentication]:**目的のサーバー認証方法を指定します。**[!UICONTROL Username/Password]**または&#x200B;**[!UICONTROL SSH Key]**。
+
    >[!NOTE]
    >
    >許可されているIPのリスト [!DNL FTP][!DNL IP] にOmnitureの出口を追加してください。 **52.44.29.204**.
