@@ -4,8 +4,11 @@ seo-description: Audience Manager の新規宛先を作成するか、既存の�
 seo-title: 会社ユーザーの管理
 title: 会社ユーザーの管理
 uuid: 32c8a4e1-c29c-44d2-8cd4-f4f1be707492
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ Audience Manager の新規宛先を作成するか、既存の宛先を編集ま
 
 <!-- t_manage_company_users.xml -->
 
-1. 「**[!UICONTROL Companies]**」をクリックし、目的の会社を検索してからクリックして、[!UICONTROL Profile] ページを表示します。
+1. **[!UICONTROL Companies]**&#x200B;をクリックし、目的の会社を検索してからクリックして、[!UICONTROL Profile] ページを表示します。
 
    「[!UICONTROL Search]」ボックス、またはリストの最下部にあるページネーションコントロールを使用して、目的の会社を検索します。目的の列のヘッダーをクリックすると、その列を昇順または降順に並べ替えることができます。
 1. 「**[!UICONTROL Users]**」タブをクリックします。
