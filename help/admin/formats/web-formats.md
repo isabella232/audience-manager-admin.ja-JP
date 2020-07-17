@@ -4,8 +4,11 @@ seo-description: HTTP データファイルの作成に使用できるマクロ�
 seo-title: HTTP 形式マクロ
 title: HTTP 形式マクロ
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +50,7 @@ source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
-   <td colname="col2"> <p> <code>GET、POST</code> </p> </td> 
+   <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
    <td colname="col3"> <p>Unix UTC タイムスタンプ。<span class="wintitle">S2S </span>宛先をパートナーに公開するよう AAM が通知を受けた時間を表す内部タイムスタンプ。 </p> </td> 
   </tr> 
   <tr> 
@@ -72,12 +75,12 @@ source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>ORDER_ID</code> </p> </td> 
-   <td colname="col2"> <p> <code>GET、POST</code> </p> </td> 
+   <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
    <td colname="col3"> <p>オーダー／宛先 ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PID_ALIAS</code> </p> </td> 
-   <td colname="col2"> <p> <code>GET、POST</code> </p> </td> 
+   <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
    <td colname="col3"> <p>パートナー ID のエイリアス。外部アカウント ID とも呼ばれます。 </p> </td> 
   </tr> 
   <tr> 
@@ -101,11 +104,11 @@ source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
    <td colname="col3"> <p>ユーザーが認定されないセグメントのリスト。以下のような特定のセグメントフィールドを返すこともできます。 </p> <p> 
      <ul id="ul_29B83093A7624A908F0C06F2A248981A"> 
       <li id="li_57A60A54F5D44E38ACB4E2648095F246"> <code>traitAlias</code> </li> 
-      <li id="li_4079F646493F40DBA0CE75D662A69454"> <code>legacySegmentId（以前の segmentId）</code> </li> 
+      <li id="li_4079F646493F40DBA0CE75D662A69454"> <code>legacySegmentId (formerly segmentId)</code> </li> 
       <li id="li_D3509A2D379E4C1FB3BC1B5E7D45A916"> <code>newSegmentId</code> </li> 
       <li id="li_EA901C20EEEB4CFAA39A5E0E822D2394"> <code>status</code> </li> 
       <li id="li_6310E21F88CC4691980DD3C9D551409F"> <code>dateTime</code> </li> 
-     </ul> </p> <p>以下の例のように、これらのフィールドを配列で指定します。 </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>詳細については、<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31">HTTP 形式マクロの例</a>も参照してください。 </p> </td> 
+     </ul> </p> <p>以下の例のように、これらのフィールドを配列で指定します。 </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>「 <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTPフォーマットマクロの例」も参照してくだ </a>さい。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TIME_LIST</code> </p> </td> 
@@ -128,11 +131,11 @@ source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
    <td colname="col3"> <p>ユーザーが認定されているセグメントのリスト。以下のような特定のセグメントフィールドを返すこともできます。 </p> <p> 
      <ul id="ul_9209683A8E0A4B8081E5EFA4602F743F"> 
       <li id="li_D796526C1C9E45BEA891D619539888C4"> <code>traitAlias</code> </li> 
-      <li id="li_BF12E010E1AD432C84605B9817F209DD"> <code>legacySegmentId（以前の segmentId）</code> </li> 
+      <li id="li_BF12E010E1AD432C84605B9817F209DD"> <code>legacySegmentId (formerly segmentId)</code> </li> 
       <li id="li_4A81E3B715254549B9EADB983A2FC32B"> <code>newSegmentId</code> </li> 
       <li id="li_1F01A60829DF4C87879D94299E1D589C"> <code>status</code> </li> 
       <li id="li_E52F10CD5A04487D81A4B1750B0DC4E3"> <code>dateTime</code> </li> 
-     </ul> </p> <p>以下の例のように、これらのフィールドを配列で指定します。 </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>詳細については、<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31">HTTP 形式マクロの例</a>も参照してください。 </p> </td> 
+     </ul> </p> <p>以下の例のように、これらのフィールドを配列で指定します。 </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>「 <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTPフォーマットマクロの例」も参照してくだ </a>さい。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIME_LIST</code> </p> </td> 
