@@ -4,8 +4,11 @@ seo-description: Web ブラウザーを使用して Adobe Audience Manager の A
 seo-title: Audience Manager Admin へのログイン
 title: Audience Manager Admin へのログイン
 uuid: 9ba84a90-e596-4aca-9bf7-f7dcf5c1cca5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 100%
 
 ---
 
@@ -16,5 +19,5 @@ Web ブラウザーを使用して Adobe Audience Manager の Admin ツールに
 
 <!-- t_login.xml -->
 
-1. [!DNL URL]（[https://admin.demdex.com/](https://admin.demdex.com/)）をブラウズして Audience Manager [!DNL Admin] ツールにアクセスします。
+1. [!DNL Admin]（[!DNL URL]/[https://admin.demdex.com/）をブラウズして Audience Manager ](https://admin.demdex.com/) ツールにアクセスします。
 1. ドロップダウンボックスで目的の検証方法を選択し、「**[!UICONTROL Verify]**」を選択します。
