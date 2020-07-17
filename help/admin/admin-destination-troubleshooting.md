@@ -4,8 +4,11 @@ seo-description: Audience Manager での宛先の設定と一般的な問題の�
 seo-title: 宛先の設定に関するトラブルシューティング
 title: 宛先の設定に関するトラブルシューティング
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
 
 Audience Manager での宛先の設定と一般的な問題の解決に関する情報。
 
-## 宛先を設定しましたが、ファイルが表示されません。どこにありますか？   {#destination-no-files}
+## 宛先を設定しましたが、ファイルが表示されません。どこにありますか？ {#destination-no-files}
 
 <!-- c_dest_tshooting.xml -->
 
@@ -72,7 +75,7 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
 
 ### ファイルの分割サイズが大きすぎます
 
-ファイルを宛先に出力する場合、大きい送信ファイルをファイルチャンクに分割できます。個々のファイルチャンクが 10GB を超えないようにしてください。「[送信データファイル名：構文と例](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html)」も参照してください。
+ファイルを宛先に出力する場合、大きい送信ファイルをファイルチャンクに分割できます。個々のファイルチャンクが 10GB を超えないようにしてください。See also, [Outbound Data File Name: Syntax and Examples](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
 
 
 ## Experience Cloud ID、顧客 ID、Audience Manager ID を送信データファイルにエクスポートするための宛先を設定する方法 {#set-up-destinations-export}
@@ -81,13 +84,13 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
 
 <!-- set-up-destinations-mcid-aamid.xml -->
 
-ユーザーは宛先の設定により、自分のデータを任意の数のデジタルチャネルにわたって有効にすることができます。例えば、オーディエンスデータを別の ソリューション（[!DNL Adobe Experience Cloud]、[!DNL Target]、[!DNL Campaign] など）にエクスポートできます。または、[!UICONTROL DSP]、[!UICONTROL SSP]、および Audience Manager と統合されている任意のプラットフォームにデータを送信できます。提携パートナーのリストは [統合 Wiki ページ](https://wiki.corp.adobe.com/display/MCPI)にあります。
+ユーザーは宛先の設定により、自分のデータを任意の数のデジタルチャネルにわたって有効にすることができます。例えば、オーディエンスデータを別の ソリューション（[!DNL Adobe Experience Cloud]、[!DNL Target]、[!DNL Campaign] など）にエクスポートできます。または、[!UICONTROL DSP]、[!UICONTROL SSP]、および Audience Manager と統合されている任意のプラットフォームにデータを送信できます。提携パートナーのリストは [Integrations Wiki ページ](https://wiki.corp.adobe.com/display/MCPI)にあります。
 
 >[!NOTE]
 >
 >Admin UI での宛先の作成に関する詳細なチュートリアルについては、「[会社の宛先を作成または編集](companies/admin-manage-company-destinations.md#create-edit-company-destinations)」の記事を参照してください。
 
-ユーザーは宛先ごとに別の ID タイプをエクスポートします。以下の図は、各 ID タイプに関連するプロファイル情報をエクスポートするために選択するオプションを示しています。また、「[Audience Manager の ID のインデックス](https://marketing.adobe.com/resources/help/ja_JP/aam/ids-in-aam.html)」も参照することをお勧めします。ここで重要な設定として「[!UICONTROL User ID Key]」、「[!UICONTROL Data Source Type]」、「[!UICONTROL Format]」の 3 つがあります。以下に詳細を示します。
+ユーザーは宛先ごとに別の ID タイプをエクスポートします。以下の図は、各 ID タイプに関連するプロファイル情報をエクスポートするために選択するオプションを示しています。さらに、[Audience Manager の ID のインデックス](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html)も参照することをお勧めします。ここで重要な設定として「[!UICONTROL User ID Key]」、「[!UICONTROL Data Source Type]」、「[!UICONTROL Format]」の 3 つがあります。以下に詳細を示します。
 
 * [!UICONTROL User ID Key]をインストールします。[!UICONTROL Admin UI] で、**[!UICONTROL Companies]** に進みます。顧客の会社を検索し、クリックします。「**[!UICONTROL Destinations]**」タブを探して「**[!UICONTROL Add Destination]**」を押します。**[!UICONTROL Add Destination]** ワークフローで、[!UICONTROL User ID Key] を選択します。この [!UICONTROL User ID Key] キーにより、ターゲットデータソースからの受信 ID がフィルタリングされ、渡す ID のみが許可されます。
 
@@ -99,7 +102,7 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
 
 * [!UICONTROL Format]をインストールします。このオプションでは、エクスポートする形式を決定します。「**[!UICONTROL Add Destination]**」ワークフローの「**[!UICONTROL Batch Data]**」で、形式を選択します。
 
-形式を調べるには、**[!UICONTROL Admin UI > Formats]** に移動して、[!UICONTROL Data Row] 要素を探します。この要素には、ファイル形式（以下の例では &lt;MCID&gt;）のマクロがあります。
+形式を調べるには、**[!UICONTROL Admin UI > Formats]** に移動して、[!UICONTROL Data Row] 要素を探します。この要素には、ファイル形式（以下の例では &lt;MCID>）のマクロがあります。
 
 ![](assets/data_row.PNG)
 
@@ -108,7 +111,7 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
   <tr> 
    <th colname="col01" class="entry"> 設定番号 </th> 
    <th colname="col1" class="entry"> <p>ユーザーキー </p> </th> 
-   <th colname="col2" class="entry"> <p>データソースタイプ </p> </th> 
+   <th colname="col2" class="entry"> <p>Data Source Type </p> </th> 
    <th colname="col3" class="entry"> <p>形式 </p> </th> 
    <th colname="col4" class="entry"> <p>エクスポートする ID のタイプ </p> </th> 
   </tr>
