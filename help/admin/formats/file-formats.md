@@ -4,8 +4,11 @@ seo-description: FTP ベースのデータファイルの作成に使用でき�
 seo-title: ファイル形式マクロ
 title: ファイル形式マクロ
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 95%
 
 ---
 
@@ -91,7 +94,7 @@ source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
 
 ## データ行マクロ {#data-row-macros}
 
-データ行でのみ使用するマクロ。例については、[ファイル形式マクロの例](../formats/file-format-examples.md)を参照してください。
+データ行でのみ使用するマクロ。例については、 [File Format Macro Examplesを参照してください](../formats/file-format-examples.md)。
 
 <table id="table_E378F94A3907407AA8110C8EE6C10909"> 
  <thead> 
@@ -119,11 +122,11 @@ source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPUUIDS</code> </p> </td> 
-   <td colname="col2"> <p>このマクロの出力では、データプロバイダー ID（DPID）が関連する一意のユーザー ID（DPUUID）にマッピングされます。このマクロには、出力を制御するための書式設定文字列が必要です。出力例として次のようなものが挙げられます。 </p> <p> <code>"dpids=dpid1,dpid2,...dpidn|maxMappings=n|format=json"</code> </p> <p><code>maxMappings</code> 設定により、マクロが返すマッピングの数が決定されます。<code>maxMappings=0</code> の場合、このマクロは指定された各 DPID のすべてのマッピングを返します。データはタイムスタンプを基準に並べ替えられ（最新のものが最初となります）、最も値が大きいタイムスタンプの結果が最初に返されます。 </p> </td> 
+   <td colname="col2"> <p>このマクロの出力では、データプロバイダー ID（DPID）が関連する一意のユーザー ID（DPUUID）にマッピングされます。このマクロには、出力を制御するための書式設定文字列が必要です。出力例として次のようなものが挙げられます。 </p> <p> <code>"dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json"</code> </p> <p><code>maxMappings</code> 設定により、マクロが返すマッピングの数が決定されます。<code>maxMappings=0</code> の場合、このマクロは指定された各 DPID のすべてのマッピングを返します。データはタイムスタンプを基準に並べ替えられ（最新のものが最初となります）、最も値が大きいタイムスタンプの結果が最初に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>endif</code> </p> </td> 
-   <td colname="col2"> <p>条件付き <code>if</code> と <code>SEGMENT_LIST</code> および <code>REMOVED_SEGMENT_LIST</code> マクロを使用する場合に必要です。 </p> </td> 
+   <td colname="col2"> <p>Required when using the conditional <code>if</code> and the <code>SEGMENT_LIST</code> and <code>REMOVED_SEGMENT_LIST</code> macros. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif</code> </p> </td> 
@@ -161,13 +164,13 @@ source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
    <td colname="col2"> <p>セグメントのリストを返します。次のオプションの変数を使用できます。 </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>：レガシー ID。廃止されました。<code>sid</code>（小文字のみ）を使用します。 </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>：レガシー ID。廃止されました。<code>sid</code>（小文字のみ）を使用します。 </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>: レガシーID。 非推奨（廃止予定）となりました。Use <code>sid</code> (lower case only). </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>: レガシーID。 非推奨（廃止予定）となりました。Use <code>sid</code> (lower case only). </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>：セグメント ID。 </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>：<code>5</code> を静的なハードコーディングされた値として返します。これはデータをセグメントデータとして識別する値です。 </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>：セグメントのマッピング。廃止されました。<code>sid</code>（小文字のみ）を使用します。 </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>: セグメントのマッピング。 非推奨（廃止予定）となりました。Use <code>sid</code> (lower case only). </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>：セグメントが最後に認識された時点を示す Unix タイムスタンプ。 </li> 
-    </ul> <p>この変数を、マクロの後に波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
+    </ul> <p>この変数は、マクロの後に波括弧で囲みます。例えば、<code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> のように、このコードは結果をパイプ（ | ）で区切ります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SET_ATTRIBUTES</code> </p> </td> 
@@ -186,9 +189,9 @@ source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
        <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code>：DPM 特性（オフライン、インバウンドジョブで転送されたジョブ）を表します。 </li> 
        <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code>：ルールベースの特性（リアルタイム、<span class="wintitle">DCS</span> から転送）を表します。 </li> 
       </ul> </li> 
-     <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>：特性 ID。 </li> 
+     <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>: Trait ID. </li> 
      <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>：特性が最後に認識された時点。Unix タイムスタンプ。 </li> 
-    </ul> <p>この変数を、マクロの後に波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>TRAIT_LIST{type|traitId};separator="|"</code> </p> </td> 
+    </ul> <p>この変数を、マクロの後に波括弧で囲みます。例えば、<code>TRAIT_LIST{type|traitId};separator="|"</code> のように、このコードは結果をパイプ（ | ）で区切ります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
