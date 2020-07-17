@@ -4,8 +4,11 @@ seo-description: コンテナのデータプロバイダーを表示または編
 seo-title: コンテナの管理
 title: コンテナの管理
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
    「[!UICONTROL Search]」ボックス、またはリストの最下部にあるページネーションコントロールを使用して、目的の会社を検索します。目的の列のヘッダーをクリックすると、その列を昇順または降順に並べ替えることができます。
 
-1. **[!UICONTROL Containers]**&#x200B;タブをクリックします。
+1. 「**[!UICONTROL Containers]**」タブをクリックします。
 
    ![](assets/containers.png)
 
