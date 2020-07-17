@@ -4,8 +4,11 @@ seo-description: Audience Manager の Admin ツールの Companies ページを�
 seo-title: 会社プロファイルの作成
 title: 会社プロファイルの作成
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 95%
 
 ---
 
@@ -40,12 +43,12 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
       * **[!UICONTROL Full AAM]**：会社が完全な Adobe Audience Manager アカウントを保有し、ユーザーにログインアクセス権が付与されることを表します。
       * **[!UICONTROL MMP]**：[!UICONTROL Master Marketing Profile]（[!UICONTROL MMP]機能を会社が使用できる状態であることを表します。[!UICONTROL MMP] を使用すると、すべての訪問者に割り当てられ、Audience Manager で使用される一意の [!UICONTROL Experience Cloud ID]（[!DNL MCID]）を使用して Experience Cloud 全体でオーディエンスを共有できます。このアカウントタイプを選択すると、[!UICONTROL Experience Cloud ID Service] も自動的に選択されます。
 
-         詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/ja_JP/mcloud/audience_library.html)を参照してください。
+         詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。
    * **[!UICONTROL Data Source]**：会社が Audience Manager 内のサードパーティのデータプロバイダーであることを表します。
    * **[!UICONTROL Targeting Partner]**：会社が Audience Manager ユーザーのターゲティングプラットフォームとして機能することを表します。
    * **[!UICONTROL Visitor ID Service]**：会社が [!UICONTROL Experience Cloud Visitor ID Service] の使用を有効にしていることを表します。
 
-      [!UICONTROL Experience Cloud Visitor ID Service] は、Experience Cloud ソリューションをまたいだユニバーサル訪問者 ID を提供します。詳しくは、[Experience Cloud 訪問者 ID サービスのユーザーガイド](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-overview.html)を参照してください。
+      [!UICONTROL Experience Cloud Visitor ID Service] は、Experience Cloud ソリューションをまたいだユニバーサル訪問者 ID を提供します。詳細については、『[Experience Cloud 訪問者 ID サービスユーザーガイド](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html)』を参照してください。
 
    * **[!UICONTROL Agency]**：会社が [!UICONTROL Agency] アカウントを保有することを表します。
 
@@ -61,7 +64,7 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
 
 <!-- t_edit_company_profile.xml -->
 
-1. 「**[!UICONTROL Companies]**」をクリックし、目的の会社を検索してからクリックして、[!UICONTROL Profile] ページを表示します。
+1. **[!UICONTROL Companies]**&#x200B;をクリックし、目的の会社を検索してからクリックして、[!UICONTROL Profile] ページを表示します。
 
    「[!UICONTROL Search]」ボックス、またはリストの最下部にあるページネーションコントロールを使用して、目的の会社を検索します。目的の列のヘッダーをクリックすると、その列を昇順または降順に並べ替えることができます。
 
@@ -77,7 +80,7 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
 
       Audience Manager では、[!UICONTROL Data Collection Server]（[!UICONTROL DCS]）のサブドメインを使用します。前述の例では、[!UICONTROL DCS] での会社の完全な [!DNL URL] は [!DNL acmecorp.demdex.net] となります。
 
-   * **[!UICONTROL imsOrgld]**:（[!UICONTROL Identity Management System Organization ID]）この ID を使用すると、会社を Adobe Experience Cloud と接続できます。
+   * **[!UICONTROL imsOrgld]**: ([!UICONTROL Identity Management System Organization ID])このIDを使用して、会社をAdobe Experience Cloudと接続できます。
    * **[!UICONTROL Lifecyle]**：会社の目的のステージを表します。
       * **[!UICONTROL Active]**：会社がアクティブな Audience Manager クライアントであることを表します。アクティブなアカウントとは、コンサルティングだけでなく、Audience Manager SKU についても取引がある顧客を指します。
       * **[!UICONTROL Demo]**：会社がデモ目的のみであることを表します。架空のレポートデータが自動的に作成されます。
@@ -87,12 +90,12 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
       * **[!UICONTROL Full AAM]**：会社が完全な Adobe Audience Manager アカウントを保有し、ユーザーにログインアクセス権が付与されることを表します。
       * **[!UICONTROL MMP]**：マスターマーケティングプロファイル（[!UICONTROL MMP]）機能を会社が使用できる状態であることを表します。
 
-         このアカウントタイプを選択すると、**[!UICONTROL Visitor ID Service]** も自動的に選択されます。詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/ja_JP/mcloud/audience_library.html)を参照してください。
+         このアカウントタイプを選択すると、**[!UICONTROL Visitor ID Service]** も自動的に選択されます。詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。
    * **[!UICONTROL Data Source]**：会社が Audience Manager 内のサードパーティのデータプロバイダーであることを表します。
    * **[!UICONTROL Targeting Partner]**：会社が Audience Manager ユーザーのターゲティングプラットフォームとして機能することを表します。
    * **[!UICONTROL Visitor ID Service]**：会社が Experience Cloud 訪問者 ID サービスを使用できる状態であることを表します。
 
-      Experience Cloud 訪問者 ID サービスは、Experience Cloud ソリューション全体に汎用の訪問者 ID を提供します。詳しくは、[Experience Cloud 訪問者 ID サービスのユーザーガイド](https://microsite.omniture.com/t2/help/ja_JP/mcvid/mcvid_service.html)を参照してください。
+      Experience Cloud 訪問者 ID サービスは、Experience Cloud ソリューション全体に汎用の訪問者 ID を提供します。詳細については、『[Experience Cloud 訪問者 ID サービスユーザーガイド](https://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_service.html)』を参照してください。
 
    * **[!UICONTROL Agency]**：会社がエージェンシーアカウントを保有することを表します。
    * **[!UICONTROL Features]**：目的のオプションを選択します。
@@ -117,5 +120,5 @@ Audience Manager の [!UICONTROL Admin] ツールの [!UICONTROL Companies] ペ�
 
    ![手順の結果](assets/companies.png)
 
-1. 目的の会社の「**[!UICONTROL Actions]**」列で ![](assets/icon_delete.png) をクリックします。
+1. 目的の会社の「![](assets/icon_delete.png)」列で **[!UICONTROL Actions]** をクリックします。
 1. 「**[!UICONTROL OK]**」をクリックして削除を確定します。
