@@ -5,8 +5,11 @@ seo-title: ベータ環境
 solution: Audience Manager
 title: ベータ環境
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 89%
 
 ---
 
@@ -34,21 +37,21 @@ source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
 
 受信データ用 [!DNL S3] のバケットをプロビジョニングするには：
 
-1. [**SKMS リクエスト TechOps ヘルプ**](https://skms.adobe.com/)機能を使用します。
+1. Use the [**SKMS Request TechOps Help **](https://skms.adobe.com/)feature.
 1. 左ナビゲーションレールの **[!UICONTROL Request TechOps Help]** に移動します。
 1. **[!UICONTROL Request Search]**&#x200B;で、検索フィールドに「Audience Manager」と入力します。
 1. 検索結果を下にスクロールして **Audience Manager - S3 受信 / 送信アカウントのプロビジョニング**&#x200B;をクリックします。
-1. プロビジョニングウィンドウのフィールドに入力し、「**[!UICONTROL Environment]**」フィールドの **サンドボックス環境** を指定します。
+1. プロビジョニングウィンドウのフィールドに入力し、「**」フィールドの** サンドボックス環境&#x200B;**[!UICONTROL Environment]** を指定します。
 
 >[!NOTE]
 >
->[!DNL FTP/SFTP] の使用は推奨しませんが、[!UICONTROL Amazon S3] の使用をお勧めします。[!UICONTROL Amazon S3] の使用を推奨する理由は、[Amazon S3：概要](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/amazon-s3.html)に記載されています。
+>[!DNL FTP/SFTP] の使用は推奨しませんが、[!UICONTROL Amazon S3] の使用をお勧めします。の使用を推奨する理由は、 [!UICONTROL Amazon S3] Amazon S3:Aboutに記載されています [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)。
 
 ## ベータ環境で DCS にアクセスする {#access-dcs-beta-environment}
 
 ベータ環境で [!UICONTROL DCS] にアクセスする方法
 
-1. [!DNL curl] [コマンド](https://curl.haxx.se/docs/manpage.html)を使用して [!UICONTROL DCS] 呼び出しをおこないます。[!DNL Curl] は、サポートされている様々なプロトコルの中から 1 つを使用して、サーバー間データ転送をおこなうためのツールです。
+1. Make a [!UICONTROL DCS] call, using the [!DNL curl] [command](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] は、サポートされている様々なプロトコルの中から 1 つを使用して、サーバー間データ転送をおこなうためのツールです。
 
    例：`curl -v https://dcs-beta.demdex.net/event`
 
