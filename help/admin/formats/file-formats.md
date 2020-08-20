@@ -5,10 +5,10 @@ seo-title: ファイル形式マクロ
 title: ファイル形式マクロ
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
-source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>閉じ中括弧（ } ）を挿入します。 </p> </td> 
+   <td colname="col2"> <p>Inserts a closed curly bracket <code>}</code> character. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -138,7 +138,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>開き波括弧 { を挿入します。 </p> </td> 
+   <td colname="col2"> <p>Inserts an open curly bracket <code>{</code> character. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -164,11 +164,11 @@ ht-degree: 95%
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
    <td colname="col2"> <p>セグメントのリストを返します。次のオプションの変数を使用できます。 </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>: レガシーID。 非推奨（廃止予定）となりました。Use <code>sid</code> (lower case only). </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>: レガシーID。 非推奨（廃止予定）となりました。Use <code>sid</code> (lower case only). </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>:レガシーID。 非推奨（廃止予定）となりました。Use <code>sid</code> (lower case only). </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>:レガシーID。 非推奨（廃止予定）となりました。Use <code>sid</code> (lower case only). </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>：セグメント ID。 </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>：<code>5</code> を静的なハードコーディングされた値として返します。これはデータをセグメントデータとして識別する値です。 </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>: セグメントのマッピング。 非推奨（廃止予定）となりました。Use <code>sid</code> (lower case only). </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>:セグメントのマッピング。 非推奨（廃止予定）となりました。Use <code>sid</code> (lower case only). </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>：セグメントが最後に認識された時点を示す Unix タイムスタンプ。 </li> 
     </ul> <p>この変数は、マクロの後に波括弧で囲みます。例えば、<code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> のように、このコードは結果をパイプ（ | ）で区切ります。 </p> </td> 
   </tr> 
