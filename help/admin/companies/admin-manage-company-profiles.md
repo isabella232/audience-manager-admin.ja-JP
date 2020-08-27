@@ -5,10 +5,10 @@ seo-title: 会社プロファイルの作成
 title: 会社プロファイルの作成
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
 translation-type: tm+mt
-source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 95%
+source-wordcount: '955'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
 
       例えば、会社の名前が [!DNL AcmeCorp] の場合、サブドメインは [!DNL acmecorp] となります。
 
-      Audience Manager では、[!UICONTROL Data Collection Server]（[!UICONTROL DCS]）のサブドメインを使用します。前述の例では、[!UICONTROL DCS] での会社の完全な [!DNL URL] は [!DNL acmecorp.demdex.net] となります。
+      Audience Manager uses the subdomain for the [!UICONTROL Data Collection Server] (DCS). 前述の例では、[!UICONTROL DCS] での会社の完全な [!DNL URL] は [!DNL acmecorp.demdex.net] となります。
 
    * **[!UICONTROL Lifecyle]**：会社の目的のステージを表します。
       * **[!UICONTROL Active]**：会社がアクティブな Audience Manager クライアントであることを表します。[!UICONTROL Active] アカウントとは、コンサルティングだけでなく、Audience Manager SKU についても取引がある顧客を表します。
@@ -78,9 +78,9 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
 
       例えば、会社の名前が [!DNL AcmeCorp] の場合、サブドメインは [!DNL acmecorp] となります。
 
-      Audience Manager では、[!UICONTROL Data Collection Server]（[!UICONTROL DCS]）のサブドメインを使用します。前述の例では、[!UICONTROL DCS] での会社の完全な [!DNL URL] は [!DNL acmecorp.demdex.net] となります。
+      Audience Manager uses the subdomain for the [!UICONTROL Data Collection Server] (DCS). 前述の例では、[!UICONTROL DCS] での会社の完全な [!DNL URL] は [!DNL acmecorp.demdex.net] となります。
 
-   * **[!UICONTROL imsOrgld]**: ([!UICONTROL Identity Management System Organization ID])このIDを使用して、会社をAdobe Experience Cloudと接続できます。
+   * **[!UICONTROL imsOrgld]**:([!UICONTROL Identity Management System Organization ID])このIDを使用して、会社をAdobe Experience Cloudに接続できます。
    * **[!UICONTROL Lifecyle]**：会社の目的のステージを表します。
       * **[!UICONTROL Active]**：会社がアクティブな Audience Manager クライアントであることを表します。アクティブなアカウントとは、コンサルティングだけでなく、Audience Manager SKU についても取引がある顧客を指します。
       * **[!UICONTROL Demo]**：会社がデモ目的のみであることを表します。架空のレポートデータが自動的に作成されます。
