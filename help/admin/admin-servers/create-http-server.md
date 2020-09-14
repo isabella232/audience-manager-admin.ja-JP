@@ -5,7 +5,7 @@ seo-title: HTTP サーバーの作成または編集
 title: HTTP サーバーの作成または編集
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: d518ba4011f203a7d450ce76d8c1924f7d73a815
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 60%
@@ -26,13 +26,13 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
 1. **[!UICONTROL Protocol]**&#x200B;ドロップダウンリストで、目的のプロトコル（[!DNL HTTP]）を選択します。
 1. 以下のフィールドを設定します。
 
-   * **[!UICONTROL Domain]:**このサーバーに必要なドメイン（ホスト）を指定します。
-   * **[!UICONTROL Port]:**このサーバーに必要なポートを指定します。 デフォルトのポートは、暗号化タイプごとに表示されます。必要があればデフォルトのポートを変更できます。
-   * **[!UICONTROL Maximum Users Per Request]:**このサーバーに対して許可される、1回の要求あたりの最大ユーザー数を指定します。
-   * **[!UICONTROL URL Prefix]:**このサーバーで使用する[!DNL URL]プレフィックスを指定します。
-   * **[!UICONTROL Authentication URL]:**このサー[!UICONTROL Authentication URL]`HTTP`バーのを指定します。
-   * **[!UICONTROL Authentication]:**必要な認証方法を指定します。**[!UICONTROL None]**、**[!UICONTROL Username/Password]**または&#x200B;**[!UICONTROL SSH Key]**。
-   * **[!UICONTROL HTTP Signature Header]:**顧客が提供する、[!DNL HTTP]署名キーを含むヘッダーの名前[!DNL HTTP]。 デフォルト値は、次の例のように[!UICONTROL X-Signature]です。
+   * **[!UICONTROL Domain]:** このサーバーに必要なドメイン（ホスト）を指定します。
+   * **[!UICONTROL Port]:** このサーバーに必要なポートを指定します。 デフォルトのポートは、暗号化タイプごとに表示されます。必要があればデフォルトのポートを変更できます。
+   * **[!UICONTROL Maximum Users Per Request]:** このサーバーに対して許可される、1回の要求あたりの最大ユーザー数を指定します。
+   * **[!UICONTROL URL Prefix]:** このサーバーで使用する [!DNL URL] プレフィックスを指定します。
+   * **[!UICONTROL Authentication URL]:** このサー [!UICONTROL Authentication URL]`HTTP` バーのを指定します。
+   * **[!UICONTROL Authentication]:** 必要な認証方法を指定します。 **[!UICONTROL None]**、 **[!UICONTROL Username/Password]**&#x200B;または **[!UICONTROL SSH Key]**。
+   * **[!UICONTROL HTTP Signature Header]:** 顧客が提供する、 [!DNL HTTP] 署名キーを含むヘッダーの名前 [!DNL HTTP] 。 デフォルト値は、次の例のように [!UICONTROL X-Signature] です。
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -45,9 +45,9 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]:**顧客が提供する、[!DNL HTTP]リクエストへの署名に使用するキー。
-   * **[!UICONTROL Show Signature Key]:**署名をブラウザーに表示するかどうかを切り替えます。
-   * **[!UICONTROL HTTP Signature Encryption Method]:**署名の暗号化に使用する方法を指定します。 顧客が別途指定しない限り、「[!UICONTROL SHA1]」を使用します。
+   * **[!UICONTROL HTTP Signature Key]:** 顧客が提供する、 [!DNL HTTP] リクエストへの署名に使用するキー。
+   * **[!UICONTROL Show Signature Key]:** 署名をブラウザーに表示するかどうかを切り替えます。
+   * **[!UICONTROL HTTP Signature Encryption Method]:** 署名の暗号化に使用する方法を指定します。 顧客が別途指定しない限り、「[!UICONTROL SHA1]」を使用します。
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
    | [!UICONTROL URL Prefix] | [!UICONTROL /segments/aam] |
    | [!UICONTROL Authentication URL] | [!UICONTROL api.partner.com/oauth2/token] |
    | [!UICONTROL Authentication] | [!UICONTROL Username/Password] |
-   | [!UICONTROL Username] | [!UICONTROL *認証&#x200B;*] |
+   | [!UICONTROL Username] | [!UICONTROL *認証*] |
    | [!UICONTROL Password] | （パスワードをここに入力） |
    | [!UICONTROL HTTP Signature Header] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
