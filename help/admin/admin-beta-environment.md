@@ -37,7 +37,7 @@ ht-degree: 89%
 
 受信データ用 [!DNL S3] のバケットをプロビジョニングするには：
 
-1. Use the [**SKMS Request TechOps Help **](https://skms.adobe.com/)feature.
+1. Use the [**SKMS Request TechOps Help**](https://skms.adobe.com/) feature.
 1. 左ナビゲーションレールの **[!UICONTROL Request TechOps Help]** に移動します。
 1. **[!UICONTROL Request Search]**&#x200B;で、検索フィールドに「Audience Manager」と入力します。
 1. 検索結果を下にスクロールして **Audience Manager - S3 受信 / 送信アカウントのプロビジョニング**&#x200B;をクリックします。
@@ -45,7 +45,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->[!DNL FTP/SFTP] の使用は推奨しませんが、[!UICONTROL Amazon S3] の使用をお勧めします。の使用を推奨する理由は、 [!UICONTROL Amazon S3] Amazon S3:Aboutに記載されています [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)。
+>[!DNL FTP/SFTP] の使用は推奨しませんが、[!UICONTROL Amazon S3] の使用をお勧めします。使用を奨励する理由は、 [!UICONTROL Amazon S3] AmazonS3:Aboutに記載されてい [ます](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)。
 
 ## ベータ環境で DCS にアクセスする {#access-dcs-beta-environment}
 
