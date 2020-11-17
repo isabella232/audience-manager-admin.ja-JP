@@ -41,17 +41,17 @@ Visit the [Experience Cloud partner integration page](https://wiki.corp.adobe.co
 
 **[!UICONTROL Basic Settings]** ウィンドウの各フィールドに入力します。
 
-* **[!UICONTROL Name]:**（必須）この宛先の名前を指定します。
-* **[!UICONTROL Description]:**この宛先に関する詳細情報を指定します。
-* **[!UICONTROL Type]:**（必須）目的の宛先のタイプを選択します。
+* **[!UICONTROL Name]:** （必須）この宛先の名前を指定します。
+* **[!UICONTROL Description]:** この宛先に関する詳細情報を指定します。
+* **[!UICONTROL Type]:** （必須）目的の宛先のタイプを選択します。
    * **[!UICONTROL Bulk ID]**：プラットフォーム間での同期 ID。
    * **[!UICONTROL Bulk Trait]**：特性情報を一括で複数のプラットフォームに送信します。
    * **[!UICONTROL Bulk Segment]**：セグメント情報を一括で複数のプラットフォームに送信します。
    * **[!UICONTROL S2S]**：サーバー間宛先を使用して、リアルタイムデータとバッチデータを複数のプラットフォームに送信します。
-* **[!UICONTROL Auto-Fill Destination Mapping]:**([!UICONTROL S2S]のみ)次のオプションを選択します。
-   * **[!UICONTROL Segment ID]:**この設定を選択すると、宛先の値のマッピングに[!DNL Audience Manager]セグメントIDが入力されます。
-   * **[!UICONTROL Integration Code Value]:**この設定を選択すると、宛先の値のマッピングに[!DNL Audience Manager]セグメント統合コードが入力されます。
-* **[!UICONTROL User ID Key]:**（必須）ドロップダウンリストから、この宛先に使用する目的のユーザーIDキーを選択します。
+* **[!UICONTROL Auto-Fill Destination Mapping]:** ( [!UICONTROL S2S] のみ)次のオプションを選択します。
+   * **[!UICONTROL Segment ID]:** この設定を選択すると、宛先の値のマッピングに [!DNL Audience Manager] セグメントIDが入力されます。
+   * **[!UICONTROL Integration Code Value]:** この設定を選択すると、宛先の値のマッピングに [!DNL Audience Manager] セグメント統合コードが入力されます。
+* **[!UICONTROL User ID Key]:** （必須）ドロップダウンリストから、この宛先に使用する目的のユーザーIDキーを選択します。
 
 この ID はマスターデータソース ID として使用します。これにより、ファイルに送信されるユーザー ID が決定されます。
 
@@ -61,9 +61,9 @@ Visit the [Experience Cloud partner integration page](https://wiki.corp.adobe.co
 
 If your data source ID ( [!UICONTROL DPID]) does not display in the drop-down list, you must select the **[!UICONTROL Outbound]** checkbox at the data-source level on the [Data Source Settings page](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-sources/manage-datasources.html).
 
-* **[!UICONTROL Target Data Source]:**（必須）ドロップダウンリストから、この宛先に使用するデータソースを選択します。 この設定により、送信データのラベル付けができるようになり、クライアント側で別々のシステムに取り込めるようになります。
-* **[!UICONTROL Foreign Account ID]:**この宛先の外部アカウントIDを指定します。 これは、受信者側のシステムでこの送信データの識別値となります。
-* **[!UICONTROL Outbound Sample Rate Denominator]:**返されるデータの合計量が不明な場合は、この設定を使用して、全量ではなくサンプルのデータのみを返します。 この数値を調整して、データの比率を指定します（例えば、100 と指定すると標準のデータ量の 100 分の 1 が返され、10 と指定すると標準のデータ量の 10 分の 1 が返されます）。デフォルト値は 1 です。この場合、すべてのデータが返されます。
+* **[!UICONTROL Target Data Source]:** （必須）ドロップダウンリストから、この宛先に使用するデータソースを選択します。 この設定により、送信データのラベル付けができるようになり、クライアント側で別々のシステムに取り込めるようになります。
+* **[!UICONTROL Foreign Account ID]:** この宛先の外部アカウントIDを指定します。 これは、受信者側のシステムでこの送信データの識別値となります。
+* **[!UICONTROL Outbound Sample Rate Denominator]:** 返されるデータの合計量が不明な場合は、この設定を使用して、全量ではなくサンプルのデータのみを返します。 この数値を調整して、データの比率を指定します（例えば、100 と指定すると標準のデータ量の 100 分の 1 が返され、10 と指定すると標準のデータ量の 10 分の 1 が返されます）。デフォルト値は 1 です。この場合、すべてのデータが返されます。
 
 ## リアルタイムデータ（S2S の宛先の場合） {#realtime-s2s}
 
