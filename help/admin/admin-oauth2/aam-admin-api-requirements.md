@@ -22,7 +22,7 @@ Audience Manager [!DNL API] を使用しているクライアントへの注意�
 [!DNL Audience Manager] [!DNL API] コードを操作する場合は、以下の点に注意してください。
 
 * **リクエストパラメーター：**&#x200B;特に指定のない限り、すべてのリクエストパラメーターが必要となります。
-* **[!DNL JSON]コンテンツタイプ：** コード内で、`content-type: application/json`*および*`accept: application/json`を指定してください。
+* **[!DNL JSON]コンテンツタイプ：** コード内で、`content-type: application/json` *および* `accept: application/json` を指定してください。
 
 * **要求と応答：**&#x200B;適切な形式の [!DNL JSON] オブジェクトとして要求を送信してください。[!DNL Audience Manager] は [!DNL JSON] 形式のデータで応答します。サーバーの応答には要求されたデータもしくはステータスコード、またはその両方を含めることができます。
 
