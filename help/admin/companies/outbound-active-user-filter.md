@@ -27,7 +27,7 @@ ht-degree: 96%
 1. 目的の会社を選択して、「**[!UICONTROL Destinations]**」をクリックします。
 1. 「[!UICONTROL Batch Data]」セクションで、次の各オプションを設定します。
 
-   * **[!UICONTROL Sync Type]**: または **[!UICONTROL Customer]** を選択し **[!UICONTROL Platform]**&#x200B;ます。
+   * **[!UICONTROL Sync Type]**:または **[!UICONTROL Customer]** を選択し **[!UICONTROL Platform]**&#x200B;ます。
    * **[!UICONTROL Sync Type Lookback Period]**：この期間により、データファイルの範囲が設定されます。Choices include **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
    * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. このフィルターは完全同期ファイルに対してのみ適用されます。
    * **[!UICONTROL Full Sync Scheduled Run]**：このファイルを受け取る頻度を決定します。Choices include **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**, or **[!UICONTROL Never]** (to disable).
