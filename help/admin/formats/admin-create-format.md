@@ -39,19 +39,19 @@ Audience Manager の Admin ツールの [!UICONTROL Formats] ページを使用�
    >
    >使用可能なマクロのリストについては [ファイル形式マクロ](../formats/file-formats.md#concept_A867101505074418A58DE325949E5089)および [HTTP 形式マクロ](../formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE)を参照してください。
 
-   * **[!UICONTROL File Name]:**データ転送ファイルのファイル名を指定します。
+   * **[!UICONTROL File Name]:** データ転送ファイルのファイル名を指定します。
    * **Header：**&#x200B;データ転送ファイルの 1 行目に表示されるテキストを指定します。
-   * **[!UICONTROL Data Row]:**ファイルの各境界線の行に表示するテキストを指定します。
-   * **[!UICONTROL Maximum File Size (In MB)]:**データ転送ファイルの最大ファイルサイズを指定します。 圧縮ファイルは 100 MB 未満でなければなりません。未圧縮ファイルのサイズ制限はありません。
-   * **[!UICONTROL Compression]:**目的の圧縮タイプを選択します。 データファイルのgzまたはzip。[!UICONTROL AWS S3]への配信には、.gz または未圧縮ファイルを使用する必要があります。
-   * **[!UICONTROL .info Receipt]:**転送制御([!DNL .info])ファイルを生成することを指定します。[!DNL .info]ファイルには、ファイル転送についてのメタデータが格納されます。これにより、パートナーは Audience Manager がファイル転送を正しく処理したことを確認できます。詳しくは、[ログファイル転送の転送制御ファイル](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html)を参照してください。
-   * **[!UICONTROL MD5 Checksum Receipt]:**チェック[!DNL MD5]サム受信を生成することを指定します。[!DNL MD5]チェックサムレシートにより、パートナーは Audience Manager が完全転送を正しく処理したことを確認できます。
+   * **[!UICONTROL Data Row]:** ファイルの各境界線の行に表示するテキストを指定します。
+   * **[!UICONTROL Maximum File Size (In MB)]:** データ転送ファイルの最大ファイルサイズを指定します。 圧縮ファイルは 100 MB 未満でなければなりません。未圧縮ファイルのサイズ制限はありません。
+   * **[!UICONTROL Compression]:** 目的の圧縮タイプを選択します。データファイルのgzまたはzip。 [!UICONTROL AWS S3] への配信には、.gz または未圧縮ファイルを使用する必要があります。
+   * **[!UICONTROL .info Receipt]:** 転送制御([!DNL .info])ファイルを生成することを指定します。 [!DNL .info] ファイルには、ファイル転送についてのメタデータが格納されます。これにより、パートナーは Audience Manager がファイル転送を正しく処理したことを確認できます。詳しくは、[ログファイル転送の転送制御ファイル](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html)を参照してください。
+   * **[!UICONTROL MD5 Checksum Receipt]:** チェック [!DNL MD5] サム受信を生成することを指定します。 [!DNL MD5] チェックサムレシートにより、パートナーは Audience Manager が完全転送を正しく処理したことを確認できます。
 
 1. （オプション）「**[!UICONTROL HTTP]**」を選択した場合は、次の各フィールドに入力します。
 
-   * **[!UICONTROL Method]:**転送プロセスに使用する[!DNL API]方法を選択します。
-      * **[!UICONTROL POST]:**選択した場合[!DNL POST]は、コンテンツタイプ([!DNL XML]または[!DNL JSON])を選択し、リクエスト本文を指定します。
-      * **[!UICONTROL GET]:**選択した場合[!DNL GET]は、クエリパラメーターを指定します。
+   * **[!UICONTROL Method]:** 転送プロセスに使用する [!DNL API] 方法を選択します。
+      * **[!UICONTROL POST]:** 選択した場合 [!DNL POST]は、コンテンツタイプ([!DNL XML] または [!DNL JSON])を選択し、リクエスト本文を指定します。
+      * **[!UICONTROL GET]:** 選択した場合 [!DNL GET]は、クエリパラメーターを指定します。
 
 1. 新しい形式を作成する場合は「**[!UICONTROL Create]**」をクリックし、既存の形式を編集する場合は「**[!UICONTROL Save Updates]**」をクリックします。
 
