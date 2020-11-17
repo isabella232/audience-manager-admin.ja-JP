@@ -31,10 +31,10 @@ Audience Manager の Admin ツールの [!UICONTROL Servers][!DNL S3] ページ�
 
 1. 以下のフィールドを設定します。
 
-   * **[!UICONTROL Account]:**目的の[!DNL S3]アカウントを指定します。
-   * **[!UICONTROL Bucket]:**目的の[!DNL S3]グループを指定します。
-   * **[!UICONTROL Directory]:**目的の[!DNL S3]ディレクトリを指定します。
-   * **[!UICONTROL Access Key]:**目的の[!DNL S3]アクセスキーを指定します。
-   * **[!UICONTROL Secret Key]:**目的の[!DNL S3]秘密キーを指定します。
+   * **[!UICONTROL Account]:** 目的の [!DNL S3] アカウントを指定します。
+   * **[!UICONTROL Bucket]:** 目的の [!DNL S3] グループを指定します。
+   * **[!UICONTROL Directory]:** 目的の [!DNL S3] ディレクトリを指定します。
+   * **[!UICONTROL Access Key]:** 目的の [!DNL S3] アクセスキーを指定します。
+   * **[!UICONTROL Secret Key]:** 目的の [!DNL S3] 秘密キーを指定します。
 
 1. 新しいサーバーを作成する場合は「**[!UICONTROL Create]**」をクリックし、既存のサーバーを編集する場合は「**[!UICONTROL Update]**」をクリックします。
