@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: f247457004a624297ddc8847dd256dbb7d8da418
 workflow-type: tm+mt
 source-wordcount: '1082'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Audience Manager の宛先を作成、編集および削除します。
 
 <!-- t_company_destinations.xml -->
 
-For detailed information, see [Destinations](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html) in the *Audience Manager User Guide*.
+詳しくは、*Audience Manager ユーザーガイド*&#x200B;の「[宛先](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/destinations.html)」を参照してください。
 
 ## 会社宛先の作成または編集 {#create-edit-company-destinations}
 
@@ -27,11 +27,11 @@ For detailed information, see [Destinations](https://docs.adobe.com/content/help
 
 <!-- create-edit-company-destinations.xml -->
 
-Visit the [Experience Cloud partner integration page](https://wiki.corp.adobe.com/x/mPIMPw) before setting up destinations. このページには、[!DNL Audience Manager] パートナー統合のそれぞれについて入力する必要がある個別の情報について記載されています。
+宛先を設定する前に、[Experience Cloud のパートナー統合のページ](https://wiki.corp.adobe.com/x/mPIMPw)を参照してください。このページには、[!DNL Audience Manager] パートナー統合のそれぞれについて入力する必要がある個別の情報について記載されています。
 
 クライアントが [!DNL Audience Manager] で [!DNL Adobe Media Optimizer] を宛先として使用したい場合は、[!DNL Adobe Media Optimizer] で設定する必要があります。
 
-## 「宛先」タブに移動{#navigate-destinations}
+## 「宛先」タブに移動 {#navigate-destinations}
 
 1. **[!UICONTROL Companies]**&#x200B;をクリックし、目的の会社を検索してからクリックして、[!UICONTROL Profile] ページを表示します。「[!UICONTROL Search]」ボックス、またはリストの最下部にあるページネーションコントロールを使用すると、目的の会社を検索できます。目的の列のヘッダーをクリックすると、その列を昇順または降順に並べ替えることができます。
 1. 「**[!UICONTROL Destinations]**」タブをクリックします。
@@ -41,17 +41,17 @@ Visit the [Experience Cloud partner integration page](https://wiki.corp.adobe.co
 
 **[!UICONTROL Basic Settings]** ウィンドウの各フィールドに入力します。
 
-* **[!UICONTROL Name]:** （必須）この宛先の名前を指定します。
-* **[!UICONTROL Description]:** この宛先に関する詳細情報を指定します。
-* **[!UICONTROL Type]:** （必須）目的の宛先のタイプを選択します。
+* **[!UICONTROL Name]：**（必須）この宛先の名前を指定します。
+* **[!UICONTROL Description]：**&#x200B;この宛先に関する説明を指定します。
+* **[!UICONTROL Type]：**（必須）目的の宛先タイプを選択します。
    * **[!UICONTROL Bulk ID]**：プラットフォーム間での同期 ID。
    * **[!UICONTROL Bulk Trait]**：特性情報を一括で複数のプラットフォームに送信します。
    * **[!UICONTROL Bulk Segment]**：セグメント情報を一括で複数のプラットフォームに送信します。
    * **[!UICONTROL S2S]**：サーバー間宛先を使用して、リアルタイムデータとバッチデータを複数のプラットフォームに送信します。
-* **[!UICONTROL Auto-Fill Destination Mapping]:** ( [!UICONTROL S2S] のみ)次のオプションを選択します。
-   * **[!UICONTROL Segment ID]:** この設定を選択すると、宛先の値のマッピングに [!DNL Audience Manager] セグメントIDが入力されます。
-   * **[!UICONTROL Integration Code Value]:** この設定を選択すると、宛先の値のマッピングに [!DNL Audience Manager] セグメント統合コードが入力されます。
-* **[!UICONTROL User ID Key]:** （必須）ドロップダウンリストから、この宛先に使用する目的のユーザーIDキーを選択します。
+* **[!UICONTROL Auto-Fill Destination Mapping]：**（[!UICONTROL S2S] のみ）オプションを選択します。
+   * **[!UICONTROL Segment ID]：**&#x200B;この設定を選択した場合、宛先の値のマッピングとして [!DNL Audience Manager] のセグメント ID が入力されます。
+   * **[!UICONTROL Integration Code Value]：**&#x200B;この設定を選択した場合、宛先の値のマッピングとして [!DNL Audience Manager] の統合コードが入力されます。
+* **[!UICONTROL User ID Key]：**（必須）この宛先で使用するユーザー ID キーをドロップダウンリストから選択します。
 
 この ID はマスターデータソース ID として使用します。これにより、ファイルに送信されるユーザー ID が決定されます。
 
@@ -59,13 +59,13 @@ Visit the [Experience Cloud partner integration page](https://wiki.corp.adobe.co
 >
 >[!UICONTROL Bulk ID] 宛先タイプの場合、[!DNL Audience Manager]、[!UICONTROL User ID]、または [!DNL Adobe Experience Cloud] ID を使用することはできません。
 
-If your data source ID ( [!UICONTROL DPID]) does not display in the drop-down list, you must select the **[!UICONTROL Outbound]** checkbox at the data-source level on the [Data Source Settings page](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-sources/manage-datasources.html).
+データソース ID（[!UICONTROL DPID]）がドロップダウンリストに表示されない場合、[データソースの設定](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-sources/manage-datasources.html)ページで、データソースレベルの「**[!UICONTROL Outbound]**」チェックボックスをオンにする必要があります。
 
-* **[!UICONTROL Target Data Source]:** （必須）ドロップダウンリストから、この宛先に使用するデータソースを選択します。 この設定により、送信データのラベル付けができるようになり、クライアント側で別々のシステムに取り込めるようになります。
-* **[!UICONTROL Foreign Account ID]:** この宛先の外部アカウントIDを指定します。 これは、受信者側のシステムでこの送信データの識別値となります。
-* **[!UICONTROL Outbound Sample Rate Denominator]:** 返されるデータの合計量が不明な場合は、この設定を使用して、全量ではなくサンプルのデータのみを返します。 この数値を調整して、データの比率を指定します（例えば、100 と指定すると標準のデータ量の 100 分の 1 が返され、10 と指定すると標準のデータ量の 10 分の 1 が返されます）。デフォルト値は 1 です。この場合、すべてのデータが返されます。
+* **[!UICONTROL Target Data Source]：**（必須）この宛先で使用するデータソースをドロップダウンリストから選択します。この設定により、送信データのラベル付けができるようになり、クライアント側で別々のシステムに取り込めるようになります。
+* **[!UICONTROL Foreign Account ID]：**&#x200B;この宛先で使用する外部アカウント ID を指定します。これは、受信者側のシステムでこの送信データの識別値となります。
+* **[!UICONTROL Outbound Sample Rate Denominator]：**&#x200B;返されるデータの総量が不明な場合、この設定を使用して、全量ではなく、サンプル量のデータのみを返すようにします。この数値を調整して、データの比率を指定します（例えば、100 と指定すると標準のデータ量の 100 分の 1 が返され、10 と指定すると標準のデータ量の 10 分の 1 が返されます）。デフォルト値は 1 です。この場合、すべてのデータが返されます。
 
-## リアルタイムデータ（S2S の宛先の場合） {#realtime-s2s}
+## リアルタイムデータ（S2S の宛先の場合）  {#realtime-s2s}
 
 [!UICONTROL S2S] の宛先を作成する場合、以下の各フィールドに入力します。
 
@@ -75,7 +75,7 @@ If your data source ID ( [!UICONTROL DPID]) does not display in the drop-down li
 >
 >[!DNL S2S] の場合に限り、画面上の「Off」／「On」スライダーを使用して、「[!UICONTROL Realtime]」と「[!UICONTROL Batch]」のいずれかの宛先を有効にできます。両方のオプションを無効にすることはできません。
 
-## バッチデータ {#batch-data}
+## バッチデータ  {#batch-data}
 
 [!UICONTROL Bulk ID]、[!UICONTROL Bulk Trait]、または [!UICONTROL Bulk Segment] の宛先の場合は、以下のフィールドを入力します。
 
