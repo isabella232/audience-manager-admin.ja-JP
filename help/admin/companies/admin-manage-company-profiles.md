@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
 workflow-type: tm+mt
 source-wordcount: '955'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
 
       例えば、会社の名前が [!DNL AcmeCorp] の場合、サブドメインは [!DNL acmecorp] となります。
 
-      Audience Manager uses the subdomain for the [!UICONTROL Data Collection Server] (DCS). 前述の例では、[!UICONTROL DCS] での会社の完全な [!DNL URL] は [!DNL acmecorp.demdex.net] となります。
+      Audience Manager では、[!UICONTROL Data Collection Server]（DCS）のサブドメインを使用します。前述の例では、[!UICONTROL DCS] での会社の完全な [!DNL URL] は [!DNL acmecorp.demdex.net] となります。
 
    * **[!UICONTROL Lifecyle]**：会社の目的のステージを表します。
       * **[!UICONTROL Active]**：会社がアクティブな Audience Manager クライアントであることを表します。[!UICONTROL Active] アカウントとは、コンサルティングだけでなく、Audience Manager SKU についても取引がある顧客を表します。
@@ -43,12 +43,12 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
       * **[!UICONTROL Full AAM]**：会社が完全な Adobe Audience Manager アカウントを保有し、ユーザーにログインアクセス権が付与されることを表します。
       * **[!UICONTROL MMP]**：[!UICONTROL Master Marketing Profile]（[!UICONTROL MMP]機能を会社が使用できる状態であることを表します。[!UICONTROL MMP] を使用すると、すべての訪問者に割り当てられ、Audience Manager で使用される一意の [!UICONTROL Experience Cloud ID]（[!DNL MCID]）を使用して Experience Cloud 全体でオーディエンスを共有できます。このアカウントタイプを選択すると、[!UICONTROL Experience Cloud ID Service] も自動的に選択されます。
 
-         詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。
+         詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/ja_JP/mcloud/audience_library.html)を参照してください。
    * **[!UICONTROL Data Source]**：会社が Audience Manager 内のサードパーティのデータプロバイダーであることを表します。
    * **[!UICONTROL Targeting Partner]**：会社が Audience Manager ユーザーのターゲティングプラットフォームとして機能することを表します。
    * **[!UICONTROL Visitor ID Service]**：会社が [!UICONTROL Experience Cloud Visitor ID Service] の使用を有効にしていることを表します。
 
-      [!UICONTROL Experience Cloud Visitor ID Service] は、Experience Cloud ソリューションをまたいだユニバーサル訪問者 ID を提供します。詳細については、『[Experience Cloud 訪問者 ID サービスユーザーガイド](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html)』を参照してください。
+      [!UICONTROL Experience Cloud Visitor ID Service] は、Experience Cloud ソリューションをまたいだユニバーサル訪問者 ID を提供します。詳細については、『[Experience Cloud 訪問者 ID サービスユーザーガイド](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-overview.html)』を参照してください。
 
    * **[!UICONTROL Agency]**：会社が [!UICONTROL Agency] アカウントを保有することを表します。
 
@@ -78,9 +78,9 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
 
       例えば、会社の名前が [!DNL AcmeCorp] の場合、サブドメインは [!DNL acmecorp] となります。
 
-      Audience Manager uses the subdomain for the [!UICONTROL Data Collection Server] (DCS). 前述の例では、[!UICONTROL DCS] での会社の完全な [!DNL URL] は [!DNL acmecorp.demdex.net] となります。
+      Audience Manager では、[!UICONTROL Data Collection Server]（DCS）のサブドメインを使用します。前述の例では、[!UICONTROL DCS] での会社の完全な [!DNL URL] は [!DNL acmecorp.demdex.net] となります。
 
-   * **[!UICONTROL imsOrgld]**:([!UICONTROL Identity Management System Organization ID])このIDを使用して、会社をAdobe Experience Cloudに接続できます。
+   * **[!UICONTROL imsOrgld]**：（[!UICONTROL Identity Management System Organization ID]）この ID を使用すると、会社を Adobe Experience Cloud と接続できます。
    * **[!UICONTROL Lifecyle]**：会社の目的のステージを表します。
       * **[!UICONTROL Active]**：会社がアクティブな Audience Manager クライアントであることを表します。アクティブなアカウントとは、コンサルティングだけでなく、Audience Manager SKU についても取引がある顧客を指します。
       * **[!UICONTROL Demo]**：会社がデモ目的のみであることを表します。架空のレポートデータが自動的に作成されます。
@@ -95,7 +95,7 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
    * **[!UICONTROL Targeting Partner]**：会社が Audience Manager ユーザーのターゲティングプラットフォームとして機能することを表します。
    * **[!UICONTROL Visitor ID Service]**：会社が Experience Cloud 訪問者 ID サービスを使用できる状態であることを表します。
 
-      Experience Cloud 訪問者 ID サービスは、Experience Cloud ソリューション全体に汎用の訪問者 ID を提供します。詳細については、『[Experience Cloud 訪問者 ID サービスユーザーガイド](https://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_service.html)』を参照してください。
+      Experience Cloud 訪問者 ID サービスは、Experience Cloud ソリューション全体に汎用の訪問者 ID を提供します。詳細については、『[Experience Cloud 訪問者 ID サービスユーザーガイド](https://microsite.omniture.com/t2/help/ja_JP/mcvid/mcvid_service.html)』を参照してください。
 
    * **[!UICONTROL Agency]**：会社がエージェンシーアカウントを保有することを表します。
    * **[!UICONTROL Features]**：目的のオプションを選択します。
