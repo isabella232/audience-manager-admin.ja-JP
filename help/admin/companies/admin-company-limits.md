@@ -29,7 +29,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Trait Folder Limits]**：この会社の[!UICONTROL Trait Folder]の制限を指定します。
       * **[!UICONTROL Max number of Trait Folders]**：この会社が保有できる[!UICONTROL Trait Folders]の最大数を指定します。
-      * **[!UICONTROL Max depth of Trait Folders]**:会社 [!UICONTROL Trait Folder] の構造で使用できる最大の深さを指定します。
+      * **[!UICONTROL Max depth of Trait Folders]**：会社 [!UICONTROL Trait Folder] の構造で使用できる最大の深さを指定します。
    * **[!UICONTROL AlgoModel Limits]**：この会社のアルゴリズムの制限を指定します。
       * **[!UICONTROL Total Number]**：この会社が保有できるアルゴリズム特性の合計数を指定します。
    * **[!UICONTROL Segment Limits]**：この会社のセグメントの制限を指定します。
