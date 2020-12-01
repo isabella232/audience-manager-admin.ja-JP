@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# 手順：バッチ保存先へのクロスアカウント Amazon S3 バケットアクセスを承認{#authorize-cross-account-bucket-batch}
+# 手順：バッチ保存先へのクロスアカウント Amazon S3 バケットアクセスを承認 {#authorize-cross-account-bucket-batch}
 
 顧客によっては、バケットにアップロードされた保存先データを認証するための、[!DNL Amazon S3] へのアクセスや秘密鍵をアドビに提供したくないという場合があります。
 
