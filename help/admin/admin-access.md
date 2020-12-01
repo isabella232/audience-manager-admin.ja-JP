@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 1f51d5c83b1cc3cd98a3f3246c13613bd5317091
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 <!-- request-functional-admin-access.xml -->
 
-1. [IDとアクセスの管理](https://iam.corp.adobe.com) ポータルにログインします。
+1. [ID とアクセスの管理](https://iam.corp.adobe.com)ポータルにログインします。
 2. **[!UICONTROL Accounts]**／**[!UICONTROL Access Requests]** に移動します。
 3. 「[!UICONTROL Request Access]」セクションで、「**[!UICONTROL Select an Access Request Type]**」をクリックします。
 4. 自分自身または他のユーザーのどちらに対するアクセスをリクエストするかを選択します。他のユーザーのアクセスを要求する場合は、専用フィールドに Adobe ID を入力して、「**[!UICONTROL Find User]**」をクリックします。
