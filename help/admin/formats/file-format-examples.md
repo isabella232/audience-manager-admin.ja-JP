@@ -49,8 +49,8 @@ ht-degree: 100%
    <td colname="col1"> <p> <code>SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>形式：<code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>出力： 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">フル: <code>ftp_215_888_ full_1449756724.sync </code> </li> 
-      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">インクリメンタル: <code>ftp_215_888_ iter_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">フル：<code>ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">インクリメンタル：<code>ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ ht-degree: 100%
  </tbody>
 </table>
 
-## データ行マクロ {#data-row-macros}
+## データ行マクロ  {#data-row-macros}
 
 ヘッダーフィールドのみで使用されるマクロ。「[ファイル形式マクロ](../formats/file-formats.md)」で完全なリストと定義を参照してください。
 
