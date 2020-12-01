@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -30,27 +30,27 @@ Audience Manager の Admin ツールプロファイル（氏名、ユーザー�
    ![手順の結果](assets/profile.png)
 
 2. 以下のフィールドを設定します。
-   * **[!UICONTROL First Name]:** （必須）名を指定します。
-   * **[!UICONTROL Last Name]:** （必須）姓を指定します。
-   * **[!UICONTROL Username]:** （必須）最初のユーザー名を指定します。
-   * **[!UICONTROL Email Address]:** （必須）電子メールアドレスを指定します。
-   * **[!UICONTROL Phone Number]:** 電話番号を指定します。
-   * **[!UICONTROL IMS ID]:** インターネットメッセージサービスIDを指定します。
-   * **[!UICONTROL User Roles]:** 目的のユーザーの役割を選択します。
-      * **[!UICONTROL DEXADMIN]:** Audience Manager管理ツールでタスクを実行するための管理者アクセス権を提供します。 このオプションを選択しない場合、個別の役割を選択できます。これらの役割を使用すると、ユーザーは [!DNL API] 呼び出しを使用してタスクをおこなえますが、Admin ツールではおこなえません。
-      * **[!UICONTROL CREATE_USERS]:** ユーザーは、呼び出しを使用して新しいユーザーを作成でき [!DNL API] ます。
-      * **[!UICONTROL DELETE_USERS]:** ユーザーは、 [!DNL API] 呼び出しを使用して既存のユーザーを削除できます。
-      * **[!UICONTROL EDIT_USERS]:** ユーザーは、 [!DNL API] 呼び出しを使用して既存のユーザーを編集できます。
-      * **[!UICONTROL VIEW_USERS]:** ユーザーは、Audience Manager設定で呼び出しを使用して他のユーザーを表示でき [!DNL API] ます。
-      * **[!UICONTROL CREATE_PARTNERS]:** 呼び出しを使用してAudience Managerパートナーを作成でき [!DNL API] ます。
-      * **[!UICONTROL DELETE_PARTNERS]:** 呼び出しを使用してAudience Managerパートナーを削除でき [!DNL API] ます。
-      * **[!UICONTROL EDIT_PARTNERS]:** Audience Managerは、 [!DNL API] 呼び出しを使用してパートナーを編集できます。
-      * **[!UICONTROL VIEW_PARNTERS]:** 呼び出しを使用して表示Audience Managerパートナーを [!DNL API] 指定できます。
-   * **[!UICONTROL Status]:** 目的のステータスを選択します。
-      * **[!UICONTROL Active]:** アクティブなAudience Managerユーザーにこのユーザーを指定します。
-      * **[!UICONTROL Deactivated]:** オーディエンス管理で、このユーザーを非アクティブ化したユーザーにすることを指定します。
-      * **[!UICONTROL Expired]:** Audience Manager内のこのユーザーのアカウントの有効期限が切れたことを指定します。
-      * **[!UICONTROL Locked Out]:** Audience Manager内のこのユーザーのアカウントがロックされていることを指定します。
+   * **[!UICONTROL First Name]：**（必須）名を指定します。
+   * **[!UICONTROL Last Name]：**（必須）姓を指定します。
+   * **[!UICONTROL Username]：**（必須）ユーザー名を指定します。
+   * **[!UICONTROL Email Address]：**（必須）電子メールアドレスを指定します。
+   * **[!UICONTROL Phone Number]：**&#x200B;電話番号を指定します。
+   * **[!UICONTROL IMS ID]：**&#x200B;インターネットメッセージサービス ID を指定します。
+   * **[!UICONTROL User Roles]：**&#x200B;目的のユーザーの役割を選択します。
+      * **[!UICONTROL DEXADMIN]：** Audience Manager の Admin ツールでタスクを実行するための管理者アクセス権を付与します。このオプションを選択しない場合、個別の役割を選択できます。これらの役割を使用すると、ユーザーは [!DNL API] 呼び出しを使用してタスクをおこなえますが、Admin ツールではおこなえません。
+      * **[!UICONTROL CREATE_USERS]：**&#x200B;ユーザーは [!DNL API] 呼び出しを使用して新しいユーザーを作成できます。
+      * **[!UICONTROL DELETE_USERS]：**&#x200B;ユーザーは [!DNL API] 呼び出しを使用して既存のユーザーを削除できます。
+      * **[!UICONTROL EDIT_USERS]：**&#x200B;ユーザーは [!DNL API] 呼び出しを使用して既存のユーザーを削除できます。
+      * **[!UICONTROL VIEW_USERS]：**&#x200B;ユーザーは [!DNL API] 呼び出しを使用して、Audience Manager 構成内の他のユーザーを表示できます。
+      * **[!UICONTROL CREATE_PARTNERS]：**&#x200B;ユーザーは [!DNL API] 呼び出しを使用して Audience Manager パートナーを作成できます。
+      * **[!UICONTROL DELETE_PARTNERS]：**&#x200B;ユーザーは [!DNL API] 呼び出しを使用して Audience Manager パートナーを削除できます。
+      * **[!UICONTROL EDIT_PARTNERS]：**&#x200B;ユーザーは [!DNL API] 呼び出しを使用して Audience Manager パートナーを編集できます。
+      * **[!UICONTROL VIEW_PARNTERS]：**&#x200B;ユーザーは [!DNL API] 呼び出しを使用して Audience Manager パートナーを表示できます。
+   * **[!UICONTROL Status]：**&#x200B;目的のステータスを選択します。
+      * **[!UICONTROL Active]：**&#x200B;このユーザーがアクティブな Audience Manager ユーザーであることを表します。
+      * **[!UICONTROL Deactivated]：**&#x200B;このユーザーが非アクティブな Audience Management ユーザーであることを表します。
+      * **[!UICONTROL Expired]：**&#x200B;このユーザーの Audience Manager アカウントが期限切れになっていることを表します。
+      * **[!UICONTROL Locked Out]：**&#x200B;このユーザーの Audience Manager アカウントがロックされていることを表します。
 3. 「**[!UICONTROL Submit]**」をクリックします。
 
 ## パスワードの変更 {#change-password}
