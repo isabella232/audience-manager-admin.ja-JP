@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Media Manager との ID 同期 {#id-syncing-with-media-optimizer}
 
-デフォルトでは、すべての会社が[!DNL Adobe Media Optimizer]（[!DNL AMO]）とデータを同期します。[!UICONTROL Admin UI] では、各会社コンテナにこの処理を管理するデータソースがあります。このデータソースは [!UICONTROL ID]（[!UICONTROL Adobe AMO]）です。選択した会社のコンテナ行（「[!UICONTROL Containers]」タブ内）をクリックすると、このデフォルトの同期の無効化や、[!DNL AMO] 同期処理のデータソースの追加や削除ができます。
+デフォルトでは、すべての会社が[!DNL Adobe Media Optimizer]（[!DNL AMO]）とデータを同期します。[!UICONTROL Admin UI] では、各会社コンテナにこの処理を管理するデータソースがあります。このデータソースは [!UICONTROL Adobe AMO]（ [!UICONTROL ID] 411）です。選択した会社のコンテナ行（「[!UICONTROL Containers]」タブ内）をクリックすると、このデフォルトの同期の無効化や、[!DNL AMO] 同期処理のデータソースの追加や削除ができます。
 
 ![](assets/id-sync.png)
 
