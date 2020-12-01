@@ -19,5 +19,5 @@ Web ブラウザーを使用して Adobe Audience Manager の Admin ツールに
 
 <!-- t_login.xml -->
 
-1. [!DNL Admin]（[!DNL URL]/[https://admin.demdex.com/）をブラウズして Audience Manager ](https://admin.demdex.com/) ツールにアクセスします。
+1. 次の [!DNL URL] をブラウズして Audience Manager [!DNL Admin] ツールにアクセスします：[https://admin.demdex.com/](https://admin.demdex.com/)
 1. ドロップダウンボックスで目的の検証方法を選択し、「**[!UICONTROL Verify]**」を選択します。
