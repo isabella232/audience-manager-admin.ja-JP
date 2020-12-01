@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 89%
 | サービス | URL／ホスト名 | プロビジョニングの手順 |
 |--- |--- |--- |
 | S3 |  | [Amazon S3 バケットのプロビジョニング](admin-beta-environment.md#provision-s3-buckets)を参照してください。 |
-| DCS | https&amp;colon;//dcs-beta.demdex.net/... | 追加の手順は必要ありません。[ベータ環境で DCS にアクセスする](admin-beta-environment.md#access-dcs-beta-environment)を参照してください。 |
-| UI | https&amp;colon;//bank-beta.demdex.com | データは、実稼動環境からベータ環境に、毎月コピーされます。実稼動用の資格情報はベータ版で有効です。 |
-| API | https&amp;colon;//api-beta.demdex.com/... | データは、実稼動環境からベータ環境に、毎月コピーされます。実稼動用の資格情報はベータ版で有効です。 |
+| DCS | https://dcs-beta.demdex.net/... | 追加の手順は必要ありません。[ベータ環境で DCS にアクセスする](admin-beta-environment.md#access-dcs-beta-environment)を参照してください。 |
+| UI | https://bank-beta.demdex.com | データは、実稼動環境からベータ環境に、毎月コピーされます。実稼動用の資格情報はベータ版で有効です。 |
+| API | https://api-beta.demdex.com/... | データは、実稼動環境からベータ環境に、毎月コピーされます。実稼動用の資格情報はベータ版で有効です。 |
 
 ## Amazon S3 バケットのプロビジョニング {#provision-s3-buckets}
 
@@ -37,21 +37,21 @@ ht-degree: 89%
 
 受信データ用 [!DNL S3] のバケットをプロビジョニングするには：
 
-1. Use the [**SKMS Request TechOps Help**](https://skms.adobe.com/) feature.
+1. [**SKMS リクエスト TechOps ヘルプ**](https://skms.adobe.com/)機能を使用します。
 1. 左ナビゲーションレールの **[!UICONTROL Request TechOps Help]** に移動します。
 1. **[!UICONTROL Request Search]**&#x200B;で、検索フィールドに「Audience Manager」と入力します。
 1. 検索結果を下にスクロールして **Audience Manager - S3 受信 / 送信アカウントのプロビジョニング**&#x200B;をクリックします。
-1. プロビジョニングウィンドウのフィールドに入力し、「**」フィールドの** サンドボックス環境&#x200B;**[!UICONTROL Environment]** を指定します。
+1. プロビジョニングウィンドウのフィールドに入力し、「**[!UICONTROL Environment]**」フィールドの **サンドボックス環境** を指定します。
 
 >[!NOTE]
 >
->[!DNL FTP/SFTP] の使用は推奨しませんが、[!UICONTROL Amazon S3] の使用をお勧めします。使用を奨励する理由は、 [!UICONTROL Amazon S3] AmazonS3:Aboutに記載されてい [ます](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)。
+>[!DNL FTP/SFTP] の使用は推奨しませんが、[!UICONTROL Amazon S3] の使用をお勧めします。[!UICONTROL Amazon S3] の使用を奨励する理由は、[AmazonS3：概要](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/amazon-s3.html)に記載されてい ます。
 
 ## ベータ環境で DCS にアクセスする {#access-dcs-beta-environment}
 
 ベータ環境で [!UICONTROL DCS] にアクセスする方法
 
-1. Make a [!UICONTROL DCS] call, using the [!DNL curl] [command](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] は、サポートされている様々なプロトコルの中から 1 つを使用して、サーバー間データ転送をおこなうためのツールです。
+1. [!UICONTROL DCS] [!DNL curl]コマンド[を使用して ](https://curl.haxx.se/docs/manpage.html) 呼び出しをおこないます。[!DNL Curl] は、サポートされている様々なプロトコルの中から 1 つを使用して、サーバー間データ転送をおこなうためのツールです。
 
    例：`curl -v https://dcs-beta.demdex.net/event`
 
