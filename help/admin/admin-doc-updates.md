@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e60aa0ac341d74454bfe00a4f56add3a9f9e281b
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 Audience Manager Admin Guide のすべての更新（追加、削除、修正）を日付別に紹介。
 
-機能リリース、改良点、バグの修正の詳細については、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)を参照してください。過去の Experience Cloud の発表内容については、[以前のリリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/c_legacy_releases.html)を参照してください。ドキュメ [!DNL Audience Manager documentation changes, see] ン [トの更新](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/documentation-updates/docs-2019.html)。
+機能リリース、改良点、バグの修正の詳細については、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)を参照してください。過去の Experience Cloud の発表内容については、[以前のリリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/c_legacy_releases.html)を参照してください。[!DNL Audience Manager documentation changes, see] [ドキュメントのアップデート](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/documentation-updates/docs-2019.html)の場合。
 
 ## AAM 2019 ドキュメントのアップデート {#aam-2019-docs-updates}
 
@@ -67,7 +67,7 @@ Audience Manager Admin Guide のすべての更新（追加、削除、修正）
  <tbody> 
   <tr> 
    <td colname="col1"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> HTTP 形式マクロ</a> </td> 
-   <td colname="col2">Replaced the <code>segmentId</code> macro with <code>legacySegmentId</code> and added the <code>newSegmentId</code> macro. </td> 
+   <td colname="col2"><code>segmentId</code> マクロを <code>legacySegmentId</code> に置き換え、<code>newSegmentId</code> マクロを追加しました。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="companies/admin-company-limits.md#task_3004C10CB9A9430A8D25E25BB830B5D6"> 会社制限の管理</a> </td> 
