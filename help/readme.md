@@ -3,7 +3,7 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 workflow-type: tm+mt
 translation-type: tm+mt
 source-wordcount: '329'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # 説明
