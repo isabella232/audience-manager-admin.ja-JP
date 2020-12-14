@@ -4,11 +4,11 @@ seo-description: Audience Manager Admin Guide のすべての更新（追加、�
 seo-title: ドキュメントのアップデート
 title: ドキュメントのアップデート
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 Audience Manager Admin Guide のすべての更新（追加、削除、修正）を日付別に紹介。
 
-機能リリース、改良点、バグの修正の詳細については、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)を参照してください。過去の Experience Cloud の発表内容については、[以前のリリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/c_legacy_releases.html)を参照してください。[!DNL Audience Manager]ドキュメントの変更については、[ドキュメントの更新](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/documentation-updates/docs-2019.html)を参照してください。
+機能リリース、改良点、バグの修正の詳細については、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)を参照してください。過去の Experience Cloud の発表内容については、[以前のリリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/c_legacy_releases.html)を参照してください。[!DNL Audience Manager] ドキュメントの変更点については、[ドキュメントの更新](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/documentation-updates/docs-2019.html)を参照してください。
 
 ## AAM 2019 ドキュメントのアップデート {#aam-2019-docs-updates}
 
