@@ -4,9 +4,9 @@ seo-description: コンテナのデータプロバイダーを表示または編
 seo-title: コンテナの管理
 title: コンテナの管理
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
