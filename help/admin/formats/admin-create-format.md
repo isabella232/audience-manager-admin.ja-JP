@@ -4,9 +4,9 @@ seo-description: Audience Manager の Admin ツールの Formats ページを使
 seo-title: 形式の作成または編集
 title: 形式の作成または編集
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
 ht-degree: 100%
 
