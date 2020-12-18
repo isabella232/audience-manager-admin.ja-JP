@@ -4,9 +4,9 @@ seo-description: Companies ページを使用して、Audience Manager 設定の
 seo-title: 会社
 title: 会社
 uuid: 64b467f4-5e2f-4637-a62d-9c70c8a1a5be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
 ht-degree: 100%
 
