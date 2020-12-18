@@ -4,9 +4,9 @@ seo-description: Audience Manager の Admin ツールの Companies ページを�
 seo-title: 会社プロファイルの作成
 title: 会社プロファイルの作成
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -90,12 +90,12 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
       * **[!UICONTROL Full AAM]**：会社が完全な Adobe Audience Manager アカウントを保有し、ユーザーにログインアクセス権が付与されることを表します。
       * **[!UICONTROL MMP]**：マスターマーケティングプロファイル（[!UICONTROL MMP]）機能を会社が使用できる状態であることを表します。
 
-         このアカウントタイプを選択すると、**[!UICONTROL Visitor ID Service]** も自動的に選択されます。詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。
+         このアカウントタイプを選択すると、**[!UICONTROL Visitor ID Service]** も自動的に選択されます。詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/ja_JP/mcloud/audience_library.html)を参照してください。
    * **[!UICONTROL Data Source]**：会社が Audience Manager 内のサードパーティのデータプロバイダーであることを表します。
    * **[!UICONTROL Targeting Partner]**：会社が Audience Manager ユーザーのターゲティングプラットフォームとして機能することを表します。
    * **[!UICONTROL Visitor ID Service]**：会社が Experience Cloud 訪問者 ID サービスを使用できる状態であることを表します。
 
-      Experience Cloud 訪問者 ID サービスは、Experience Cloud ソリューション全体に汎用の訪問者 ID を提供します。詳細については、『[Experience Cloud 訪問者 ID サービスユーザーガイド](https://microsite.omniture.com/t2/help/ja_JP/mcvid/mcvid_service.html)』を参照してください。
+      Experience Cloud 訪問者 ID サービスは、Experience Cloud ソリューション全体に汎用の訪問者 ID を提供します。詳しくは、[Experience Cloud 訪問者 ID サービスユーザーガイド](https://microsite.omniture.com/t2/help/ja_JP/mcvid/mcvid_service.html)を参照してください。
 
    * **[!UICONTROL Agency]**：会社がエージェンシーアカウントを保有することを表します。
    * **[!UICONTROL Features]**：目的のオプションを選択します。
