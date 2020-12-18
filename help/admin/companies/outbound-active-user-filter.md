@@ -4,9 +4,9 @@ seo-description: 次の手順に従って、最近アクティブなユーザー
 seo-title: 発信データをアクティブユーザーのみにフィルタリング
 title: 発信データをアクティブユーザーのみにフィルタリング
 uuid: a2b4a385-eee3-458c-b978-09509cacb397
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
 ht-degree: 100%
 
