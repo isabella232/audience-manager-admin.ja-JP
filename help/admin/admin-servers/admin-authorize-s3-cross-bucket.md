@@ -4,9 +4,9 @@ seo-description: 顧客によっては、バケットにアップロードされ
 seo-title: 手順：バッチ保存先へのクロスアカウント Amazon S3 バケットアクセスを承認
 title: 手順：バッチ保存先へのクロスアカウント Amazon S3 バケットアクセスを承認
 uuid: da2bcbda-a765-437a-bfe9-4355383a4730
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 
