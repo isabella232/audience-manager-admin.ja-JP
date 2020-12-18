@@ -4,9 +4,9 @@ seo-description: サーバーページを使用して、Audience Manager 構成�
 seo-title: サーバーの概要
 title: サーバーの概要
 uuid: 49488bd7-1bea-4863-ba98-73087a2bb6b2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
 ht-degree: 100%
 
