@@ -4,9 +4,9 @@ seo-description: FTP ベースのデータファイルの作成に使用でき�
 seo-title: ファイル形式マクロ
 title: ファイル形式マクロ
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## データ行マクロ  {#data-row-macros}
+## データ行マクロ {#data-row-macros}
 
 データ行でのみ使用するマクロ。例については、 [File Format Macro Examplesを参照してください](../formats/file-format-examples.md)。
 
@@ -114,7 +114,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> データパートナー個別ユーザー識別子 </span>.ユーザー／サイト訪問者に割り当てた ID が <span class="keyword">Audience Manager</span> デバイス ID と既に同期されている場合、その ID を返します。 </p> <p>DPID が 0 の場合、このマクロはユーザーの ID ではなく <span class="keyword">Audience Manager</span> ID を返します。 </p> </td> 
+   <td colname="col2"> <p> <span class="term"> データパートナー一意のユーザー ID</span>。ユーザー／サイト訪問者に割り当てた ID が <span class="keyword">Audience Manager</span> デバイス ID と既に同期されている場合、その ID を返します。 </p> <p>DPID が 0 の場合、このマクロはユーザーの ID ではなく <span class="keyword">Audience Manager</span> ID を返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
