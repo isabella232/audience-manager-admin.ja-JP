@@ -4,9 +4,9 @@ seo-description: Audience Manager の Admin ツールでは、会社、サーバ
 seo-title: Audience Manager Admin ホーム
 title: Audience Manager Admin ホーム
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 04497025c7712f486737034550f64939541d3218
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
