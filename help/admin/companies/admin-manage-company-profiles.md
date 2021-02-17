@@ -4,9 +4,9 @@ seo-description: Audience Manager の Admin ツールの Companies ページを�
 seo-title: 会社プロファイルの作成
 title: 会社プロファイルの作成
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Audience Manager の Admin ツールの [!UICONTROL Companies] ページを使�
       * **[!UICONTROL Full AAM]**：会社が完全な Adobe Audience Manager アカウントを保有し、ユーザーにログインアクセス権が付与されることを表します。
       * **[!UICONTROL MMP]**：マスターマーケティングプロファイル（[!UICONTROL MMP]）機能を会社が使用できる状態であることを表します。
 
-         このアカウントタイプを選択すると、**[!UICONTROL Visitor ID Service]** も自動的に選択されます。詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/ja_JP/mcloud/audience_library.html)を参照してください。
+         このアカウントタイプを選択すると、**[!UICONTROL Visitor ID Service]** も自動的に選択されます。詳しくは、[オーディエンスサービス - マスターマーケティングプロファイル](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)を参照してください。
    * **[!UICONTROL Data Source]**：会社が Audience Manager 内のサードパーティのデータプロバイダーであることを表します。
    * **[!UICONTROL Targeting Partner]**：会社が Audience Manager ユーザーのターゲティングプラットフォームとして機能することを表します。
    * **[!UICONTROL Visitor ID Service]**：会社が Experience Cloud 訪問者 ID サービスを使用できる状態であることを表します。
