@@ -4,9 +4,9 @@ seo-description: 新しいレポートを作成するか、既存のレポート
 seo-title: レポート
 title: レポート
 uuid: d857044b-926d-4862-b8bc-799cb3ecca56
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%
 
