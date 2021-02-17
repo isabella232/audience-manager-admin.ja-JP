@@ -4,9 +4,9 @@ seo-description: HTTP データファイルの作成に使用できるマクロ�
 seo-title: HTTP 形式マクロ
 title: HTTP 形式マクロ
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
