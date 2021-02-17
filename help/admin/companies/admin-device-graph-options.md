@@ -4,9 +4,9 @@ seo-description: デバイスグラフオプションは、Adobe Experience Clou
 seo-title: 会社のデバイスグラフオプション
 title: 会社のデバイスグラフオプション
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
