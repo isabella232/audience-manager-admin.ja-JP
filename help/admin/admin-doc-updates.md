@@ -4,9 +4,9 @@ seo-description: Audience Manager Admin Guide のすべての更新（追加、�
 seo-title: ドキュメントのアップデート
 title: ドキュメントのアップデート
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
