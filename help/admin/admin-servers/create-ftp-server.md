@@ -4,9 +4,9 @@ seo-description: Audience Manager の Admin ツールの Servers ページを使
 seo-title: FTP サーバーの作成または編集
 title: FTP サーバーの作成または編集
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
