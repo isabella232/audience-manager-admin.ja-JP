@@ -4,9 +4,9 @@ seo-description: Audience Manager の新規宛先を作成するか、既存の�
 seo-title: 会社ユーザーの管理
 title: 会社ユーザーの管理
 uuid: 32c8a4e1-c29c-44d2-8cd4-f4f1be707492
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
