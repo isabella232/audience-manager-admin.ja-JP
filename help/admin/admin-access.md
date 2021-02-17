@@ -4,9 +4,9 @@ seo-description: Inside Adobe でアカウント管理ポータルにログイ�
 seo-title: 機能管理アクセス権の申請方法
 title: 機能管理アクセス権の申請方法
 uuid: 261494ab-74e6-4465-b599-7a3e9c39e1e6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1f51d5c83b1cc3cd98a3f3246c13613bd5317091
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 
