@@ -4,9 +4,9 @@ seo-description: Audience Manager の Admin ツールの Servers ページを使
 seo-title: HTTP サーバーの作成または編集
 title: HTTP サーバーの作成または編集
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d518ba4011f203a7d450ce76d8c1924f7d73a815
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
