@@ -4,9 +4,9 @@ seo-description: Audience Manager の宛先を作成、編集および削除し�
 seo-title: 会社宛先の管理
 title: 会社宛先の管理
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f247457004a624297ddc8847dd256dbb7d8da418
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Audience Manager の宛先を作成、編集および削除します。
 * **[!UICONTROL Foreign Account ID]：**&#x200B;この宛先で使用する外部アカウント ID を指定します。これは、受信者側のシステムでこの送信データの識別値となります。
 * **[!UICONTROL Outbound Sample Rate Denominator]：**&#x200B;返されるデータの総量が不明な場合、この設定を使用して、全量ではなく、サンプル量のデータのみを返すようにします。この数値を調整して、データの比率を指定します（例えば、100 と指定すると標準のデータ量の 100 分の 1 が返され、10 と指定すると標準のデータ量の 10 分の 1 が返されます）。デフォルト値は 1 です。この場合、すべてのデータが返されます。
 
-## リアルタイムデータ（S2S の宛先の場合） {#realtime-s2s}
+## リアルタイムデータ（S2S の宛先の場合）  {#realtime-s2s}
 
 [!UICONTROL S2S] の宛先を作成する場合、以下の各フィールドに入力します。
 
@@ -75,7 +75,7 @@ Audience Manager の宛先を作成、編集および削除します。
 >
 >[!DNL S2S] の場合に限り、画面上の「Off」／「On」スライダーを使用して、「[!UICONTROL Realtime]」と「[!UICONTROL Batch]」のいずれかの宛先を有効にできます。両方のオプションを無効にすることはできません。
 
-## バッチデータ {#batch-data}
+## バッチデータ  {#batch-data}
 
 [!UICONTROL Bulk ID]、[!UICONTROL Bulk Trait]、または [!UICONTROL Bulk Segment] の宛先の場合は、以下のフィールドを入力します。
 
