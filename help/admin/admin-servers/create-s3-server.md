@@ -4,9 +4,9 @@ seo-description: Audience Manager の Admin ツールの Servers ページを使
 seo-title: S3 サーバーの作成または編集
 title: S3 サーバーの作成または編集
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%
 
