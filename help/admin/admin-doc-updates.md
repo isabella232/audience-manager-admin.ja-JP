@@ -4,14 +4,13 @@ seo-description: Audience Manager Admin Guide のすべての更新（追加、�
 seo-title: ドキュメントのアップデート
 title: ドキュメントのアップデート
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: tm+mt
-source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
+exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
+source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
 ---
-
 
 # ドキュメントのアップデート {#documentation-updates}
 
@@ -21,12 +20,10 @@ Audience Manager Admin Guide のすべての更新（追加、削除、修正）
 
 ## AAM 2019 ドキュメントのアップデート {#aam-2019-docs-updates}
 
-
 | トピック | 説明 |
----------|----------|
+|--- |--- |
 | HTTP 形式マクロ | 新しいマクロ、`REGION_ID_LIST`、および 3 つの新しいフィールド（`sda`、`sda`、および `sda`）を `USER_LIST` マクロに追加しました。 |
 | HTTP 形式マクロ | `ECID` と `MCID` の 2 つの新しいマクロを追加しました。 |
-
 
 ## AAM 2018 ドキュメントのアップデート {#aam-2018-docs-updates}
 
