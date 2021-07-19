@@ -4,14 +4,13 @@ seo-description: 会社のアルゴリズムモデル、セグメント、宛先
 seo-title: 会社制限の管理
 title: 会社制限の管理
 uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
-translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+exl-id: dd6d04ef-895a-4bd7-bf9d-851e2fdcb594
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 
 ---
-
 
 # 会社制限の管理 {#manage-company-limits}
 
