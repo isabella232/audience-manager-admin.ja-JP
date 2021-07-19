@@ -4,14 +4,13 @@ seo-description: Web ブラウザーを使用して Adobe Audience Manager の A
 seo-title: Audience Manager Admin へのログイン
 title: Audience Manager Admin へのログイン
 uuid: 9ba84a90-e596-4aca-9bf7-f7dcf5c1cca5
-translation-type: tm+mt
-source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+exl-id: cd70bc34-7bd3-4e7e-a2c0-af29608e2438
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
-
 
 # Audience Manager Admin へのログイン {#log-in-to-audience-manager-admin}
 
