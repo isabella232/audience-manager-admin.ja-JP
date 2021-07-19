@@ -4,14 +4,13 @@ seo-description: Audience Manager の Admin ツールの Companies ページを�
 seo-title: 会社プロファイルの作成
 title: 会社プロファイルの作成
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
-translation-type: tm+mt
-source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
+exl-id: 80bb8a89-0207-4645-ac42-e73cd10561de
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
 
 ---
-
 
 # 会社プロファイルの作成 {#create-a-company-profile}
 
