@@ -4,14 +4,13 @@ seo-description: コンテナのデータプロバイダーを表示または編
 seo-title: コンテナの管理
 title: コンテナの管理
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
-translation-type: tm+mt
-source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+exl-id: 555f0633-633c-42ff-8923-adf626aa46c4
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
-
 
 # コンテナの管理 {#manage-containers}
 
