@@ -4,14 +4,13 @@ seo-description: ファーストパーティデータプロバイダーのコン
 seo-title: ファーストパーティデータプロバイダーの管理
 title: ファーストパーティデータプロバイダーの管理
 uuid: 222890cb-2ebd-4e16-a516-51000891ed34
-translation-type: tm+mt
-source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+exl-id: c1ac1d7c-84d4-44f0-a3b1-105078947dbc
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 
 ---
-
 
 # ファーストパーティデータプロバイダーの管理 {#manage-first-party-data-providers}
 
