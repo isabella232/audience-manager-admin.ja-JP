@@ -4,14 +4,13 @@ seo-description: マクロを使用して送信 FTP ファイルテンプレー�
 seo-title: ファイル形式マクロの例
 title: ファイル形式マクロの例
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 100%
 
 ---
-
 
 # ファイル形式マクロの例 {#file-format-macro-examples}
 
@@ -83,12 +82,12 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>形式：<code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>出力：<code>888 full.sync </code> </p> <p>この出力では、各要素は非印刷のタブ文字で区切られています。 </p> </td>
+   <td colname="col2"> <p>形式：<code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>出力：<code>888 full.sync </code> </p> <p>この出力では、各要素は非表示のタブ文字で区切られています。 </p> </td>
   </tr>
  </tbody>
 </table>
 
-## データ行マクロ  {#data-row-macros}
+## データ行マクロ {#data-row-macros}
 
 ヘッダーフィールドのみで使用されるマクロ。「[ファイル形式マクロ](../formats/file-formats.md)」で完全なリストと定義を参照してください。
 
