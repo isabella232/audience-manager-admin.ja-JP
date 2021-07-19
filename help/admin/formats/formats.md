@@ -4,14 +4,13 @@ seo-description: 形式とは、宛先に送信されるデータの内容を整
 seo-title: 形式の概要
 title: 形式の概要
 uuid: ec80ac49-6ec5-4cd4-a881-a05240675c00
-translation-type: tm+mt
-source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+exl-id: f40a1efb-df27-483f-999a-ef19c8eead87
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
 ---
-
 
 # 形式の概要 {#formats-overview}
 
