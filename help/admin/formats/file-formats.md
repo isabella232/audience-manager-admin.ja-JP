@@ -4,14 +4,13 @@ seo-description: FTP ベースのデータファイルの作成に使用でき�
 seo-title: ファイル形式マクロ
 title: ファイル形式マクロ
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
-translation-type: tm+mt
-source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
+exl-id: e686bc33-da3e-49a9-8c71-2bc6ca399bfb
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 100%
 
 ---
-
 
 # ファイル形式マクロ {#file-format-macros}
 
@@ -92,7 +91,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## データ行マクロ  {#data-row-macros}
+## データ行マクロ {#data-row-macros}
 
 データ行でのみ使用するマクロ。例については、 [File Format Macro Examplesを参照してください](../formats/file-format-examples.md)。
 
