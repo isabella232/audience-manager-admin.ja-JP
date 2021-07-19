@@ -6,7 +6,7 @@ title: ドキュメントのアップデート
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
 source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
