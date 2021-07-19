@@ -4,14 +4,13 @@ seo-description: 一般的に使用される HTTP マクロの組み合わせの
 seo-title: HTTP 形式マクロの例
 title: HTTP 形式マクロの例
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%
 
 ---
-
 
 # HTTP 形式マクロの例 {#http-format-macro-examples}
 
