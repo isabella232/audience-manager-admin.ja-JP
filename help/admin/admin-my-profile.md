@@ -4,14 +4,13 @@ seo-description: Audience Manager の Admin ツールプロファイルの詳細
 seo-title: マイプロファイル
 title: マイプロファイル
 uuid: ccaa611d-c855-484e-9696-081d9b4e0935
-translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+exl-id: d213f734-af52-4f43-8733-af67ce6f4e98
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%
 
 ---
-
 
 # マイプロファイル {#my-profile}
 
