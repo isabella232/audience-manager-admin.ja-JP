@@ -4,20 +4,19 @@ seo-description: Audience Manager での宛先の設定と一般的な問題の�
 seo-title: 宛先の設定に関するトラブルシューティング
 title: 宛先の設定に関するトラブルシューティング
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
-translation-type: tm+mt
-source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
+exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '1331'
 ht-degree: 100%
 
 ---
 
-
 # 宛先の設定に関するトラブルシューティング {#destination-setup-troubleshooting}
 
 Audience Manager での宛先の設定と一般的な問題の解決に関する情報。
 
-## 宛先を設定しましたが、ファイルが表示されません。どこにありますか？ {#destination-no-files}
+## 宛先を設定しましたが、ファイルが表示されません。どこにありますか？   {#destination-no-files}
 
 <!-- c_dest_tshooting.xml -->
 
