@@ -4,14 +4,13 @@ seo-description: OAuth2 Clients ページを使用して、Audience Manager 構�
 seo-title: OAuth2 クライアント
 title: OAuth2 クライアント
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
-translation-type: tm+mt
-source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
+exl-id: 993eae04-02e8-4554-a6fe-cf599053bfc9
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
 ---
-
 
 # OAuth2 クライアント {#oauth-clients}
 
