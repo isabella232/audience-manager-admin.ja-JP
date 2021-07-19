@@ -4,14 +4,13 @@ seo-description: Audience Manager ユーザー用にバイナリ Hadoop シー�
 seo-title: 送信用の Hadoop シーケンスファイル転送の有効化
 title: 送信用の Hadoop シーケンスファイル転送の有効化
 uuid: 301985b1-5ff6-4112-a353-2e5a97e7eec0
-translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+exl-id: 45a72422-9e72-46f9-835e-ed0dd88152d2
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 
 ---
-
 
 # 送信用の Hadoop シーケンスファイル転送の有効化 {#enable-hadoop-sequence-file-transfers-for-outbound}
 
