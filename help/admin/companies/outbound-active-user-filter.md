@@ -4,14 +4,13 @@ seo-description: 次の手順に従って、最近アクティブなユーザー
 seo-title: 発信データをアクティブユーザーのみにフィルタリング
 title: 発信データをアクティブユーザーのみにフィルタリング
 uuid: a2b4a385-eee3-458c-b978-09509cacb397
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: d501cfd1-64dd-448e-92c5-180c0081d3e5
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 
 ---
-
 
 # 発信データをアクティブユーザーのみにフィルタリング {#filter-outbound-data-by-active-users-only}
 
