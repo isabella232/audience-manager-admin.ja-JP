@@ -4,16 +4,15 @@ seo-description: 顧客によっては、バケットにアップロードされ
 seo-title: 手順：バッチ保存先へのクロスアカウント Amazon S3 バケットアクセスを承認
 title: 手順：バッチ保存先へのクロスアカウント Amazon S3 バケットアクセスを承認
 uuid: da2bcbda-a765-437a-bfe9-4355383a4730
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: f3b97c31-714f-4841-884b-bc507267a932
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
 ---
 
-
-# 手順：バッチ保存先へのクロスアカウント Amazon S3 バケットアクセスを承認 {#authorize-cross-account-bucket-batch}
+# 手順：バッチ保存先へのクロスアカウント Amazon S3 バケットアクセスを承認{#authorize-cross-account-bucket-batch}
 
 顧客によっては、バケットにアップロードされた保存先データを認証するための、[!DNL Amazon S3] へのアクセスや秘密鍵をアドビに提供したくないという場合があります。
 
