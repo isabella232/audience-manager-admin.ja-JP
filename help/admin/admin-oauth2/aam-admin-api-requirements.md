@@ -4,14 +4,13 @@ seo-description: Audience Manager API を使用しているクライアントへ
 seo-title: API の要件と推奨事項
 title: API の要件と推奨事項
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
 ---
-
 
 # API の要件と推奨事項 {#api-requirements-and-recommendations}
 
