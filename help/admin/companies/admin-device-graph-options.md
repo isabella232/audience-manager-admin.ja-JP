@@ -4,14 +4,13 @@ seo-description: デバイスグラフオプションは、Adobe Experience Clou
 seo-title: 会社のデバイスグラフオプション
 title: 会社のデバイスグラフオプション
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
-translation-type: tm+mt
-source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+exl-id: 2502f3d2-b43c-410c-acb6-03c2a2ba2c1d
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
 ---
-
 
 # 会社のデバイスグラフオプション {#device-graph-options-for-companies}
 
@@ -43,7 +42,7 @@ ht-degree: 100%
 * [!DNL Audience Manager] は、`*`パートナー名`*-Company Device Graph-Person`と呼ばれる [!UICONTROL Data Source] を自動的に作成します。[!UICONTROL Data Source] ユーザーは、「[!DNL Audience Manager]」詳細ページで、パートナー名や説明を変更したり、[データエクスポートコントロール](https://marketing.adobe.com/resources/help/ja_JP/aam/c_dec.html)をこのデータソースに適用することができます。
 * [!DNL Audience Manager] のお客様の場合、[!UICONTROL Profile Merge Rule] の [!UICONTROL Device Options] セクションには新しい設定が表示&#x200B;*されません*。
 
-### LiveRamp Device Graph（「Person」または「Household」） {#liveramp-device-graph}
+### LiveRamp Device Graph（「Person」または「Household」）  {#liveramp-device-graph}
 
 これらのチェックボックスは、 パートナーが [!DNL Admin UI] を作成し、[!UICONTROL Data Source]および／あるいは&#x200B;**[!UICONTROL Use as an Authenticated Profile]**&#x200B;を選択すると **[!UICONTROL Use as a Device Graph]** で有効になります。これらの設定の名前は、サードパーティのデバイスグラフのプロバイダー（[!DNL LiveRamp] や [!DNL TapAd] など）によって異なります。オンにすると、設定中の会社はこれらのデバイスグラフにより提供されるデータを使用します。
 
