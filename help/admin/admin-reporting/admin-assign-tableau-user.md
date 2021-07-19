@@ -4,14 +4,13 @@ seo-description: Reporting ページを使用して、ポータルユーザー�
 seo-title: ポータルユーザーを Tableau ユーザーに割り当てる
 title: ポータルユーザーを Tableau ユーザーに割り当てる
 uuid: aa2cc6b5-6467-48ba-9367-0be6fde6a883
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: c384dfc7-3441-4e79-8757-4e6c8216d316
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 100%
 
 ---
-
 
 # ポータルユーザーを Tableau ユーザーに割り当てる {#assign-a-portal-user-to-tableau-user}
 
