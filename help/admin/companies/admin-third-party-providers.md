@@ -4,14 +4,13 @@ seo-description: サードパーティデータプロバイダーのコンテナ
 seo-title: サードパーティデータプロバイダーの管理
 title: サードパーティデータプロバイダーの管理
 uuid: e41dc7b2-8b06-4e81-9b3b-0f70e2fd3275
-translation-type: tm+mt
-source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
+exl-id: b4bcf543-3769-4cb5-af96-7d60055376b8
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
 ---
-
 
 # サードパーティデータプロバイダーの管理 {#manage-third-party-data-providers}
 
