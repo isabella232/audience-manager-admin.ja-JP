@@ -1,15 +1,15 @@
 ---
 description: ベータ環境は Audience Manager の実装のテストに使用します。ベータ環境でおこなった変更は実稼動データに影響しません。Audience Manager ベータ環境は、実稼動環境の小規模なスタンドアロンバージョンです。テストするデータはすべてこの環境で入力および収集する必要があります。
-seo-description: ベータ環境は Audience Manager の実装のテストに使用します。ベータ環境でおこなった変更は実稼動データに影響しません。Audience Manager ベータ環境は、実稼動環境の小規模なスタンドアロンバージョンです。テストするデータはすべてこの環境で入力および収集する必要があります。
-seo-title: ベータ環境
+seo-description: The beta environment is for testing Audience Manager implementations. Changes made in beta do not affect production data. The Audience Manager beta environment is a smaller-scale, standalone version of the production environment. All the data that you want to test must be entered and collected in this environment.
+seo-title: Beta Environment
 solution: Audience Manager
 title: ベータ環境
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!DNL FTP/SFTP] の使用は推奨しませんが、[!UICONTROL Amazon S3] の使用をお勧めします。[!UICONTROL Amazon S3] の使用を奨励する理由は、[AmazonS3：概要](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/amazon-s3.html)に記載されてい ます。
+>[!DNL FTP/SFTP] の使用は推奨しませんが、[!UICONTROL Amazon S3] の使用をお勧めします。[!UICONTROL Amazon S3] の使用を奨励する理由は、[AmazonS3：概要](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)に記載されてい ます。
 
 ## ベータ環境で DCS にアクセスする {#access-dcs-beta-environment}
 

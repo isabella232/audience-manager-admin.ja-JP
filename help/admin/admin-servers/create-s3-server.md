@@ -1,14 +1,14 @@
 ---
 description: Audience Manager の Admin ツールの Servers ページを使用して、新しい S3 サーバーを作成するか、既存のサーバーを編集します。
-seo-description: Audience Manager の Admin ツールの Servers ページを使用して、新しい S3 サーバーを作成するか、既存のサーバーを編集します。
-seo-title: S3 サーバーの作成または編集
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new S3 server or to edit an existing server.
+seo-title: Create or Edit an S3 Server
 title: S3 サーバーの作成または編集
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
 exl-id: 89310de0-e24e-4d4b-8171-56faf0b441f6
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
 
    >[!NOTE]
    >
-   >パートナー間でのファイルのやり取りには、[!DNL Amazon S3] を使用する方法を推奨します。[!DNL Amazon S3] が提供するシンプルな Web サービスのインターフェイスを使用することで、あらゆるサイズのデータの保存および取得が Web 上でいつ、どこでも可能になります。詳細については、*Audience Manager 製品ドキュメント*&#x200B;の [Amazon S3 について](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/amazon-s3.html)を参照してください。
+   >パートナー間でのファイルのやり取りには、[!DNL Amazon S3] を使用する方法を推奨します。[!DNL Amazon S3] が提供するシンプルな Web サービスのインターフェイスを使用することで、あらゆるサイズのデータの保存および取得が Web 上でいつ、どこでも可能になります。詳細については、*Audience Manager 製品ドキュメント*&#x200B;の [Amazon S3 について](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)を参照してください。
 
 1. 以下のフィールドを設定します。
 

@@ -1,14 +1,14 @@
 ---
 description: OAuth2 Clients ページを使用して、Audience Manager 構成内の OAuth2 クライアントのリストを表示します。所定のユーザーの役割があれば、既存のクライアントの編集や削除、新しいクライアントの作成ができます。
-seo-description: OAuth2 Clients ページを使用して、Audience Manager 構成内の OAuth2 クライアントのリストを表示します。所定のユーザーの役割があれば、既存のクライアントの編集や削除、新しいクライアントの作成ができます。
-seo-title: OAuth2 クライアント
+seo-description: Use the OAuth2 Clients page to view a list of OAuth2 clients in your Audience Manager configuration. You can edit or delete existing clients or create new clients, providing that you have the appropriate user roles assigned.
+seo-title: OAuth2 Clients
 title: OAuth2 クライアント
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 exl-id: 993eae04-02e8-4554-a6fe-cf599053bfc9
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->顧客に Audience Manager ユーザーガイドの [OAuth2](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) ドキュメントを必ず読むよう指示してください。
+>顧客に Audience Manager ユーザーガイドの [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) ドキュメントを必ず読むよう指示してください。
 
 [!DNL OAuth2] は、リソース所有者に代わって [!DNL Audience Manager] リソースへの安全な委任アクセスに使用する認証のオープン規格です。
 
