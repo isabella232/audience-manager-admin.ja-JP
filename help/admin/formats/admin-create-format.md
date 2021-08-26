@@ -1,14 +1,14 @@
 ---
 description: Audience Manager の Admin ツールの Formats ページを使用して、新しい形式を作成するか、既存の形式を編集します。
-seo-description: Audience Manager の Admin ツールの Formats ページを使用して、新しい形式を作成するか、既存の形式を編集します。
-seo-title: 形式の作成または編集
+seo-description: Use the Formats page in the Audience Manager Admin tool to create a new format or to edit an existing format.
+seo-title: Create or Edit a Format
 title: 形式の作成または編集
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
 exl-id: 3c97d1e9-8093-4181-a1fd-fb1816cdaa3d
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '420'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ Audience Manager の Admin ツールの [!UICONTROL Formats] ページを使用�
    * **[!UICONTROL Data Row]：**&#x200B;ファイルのそれ以降の各行に表示されるテキストを指定します。
    * **[!UICONTROL Maximum File Size (In MB)]：**&#x200B;データ転送ファイルの最大ファイルサイズを指定します。圧縮ファイルは 100 MB 未満でなければなりません。未圧縮ファイルのサイズ制限はありません。
    * **[!UICONTROL Compression]：**&#x200B;データファイルの圧縮タイプ（gz または zip）を選択します。[!UICONTROL AWS S3] への配信には、.gz または未圧縮ファイルを使用する必要があります。
-   * **[!UICONTROL .info Receipt]：**&#x200B;転送制御ファイル（[!DNL .info]）ファイルが生成されます。[!DNL .info] ファイルには、ファイル転送についてのメタデータが格納されます。これにより、パートナーは Audience Manager がファイル転送を正しく処理したことを確認できます。詳しくは、[ログファイル転送の転送制御ファイル](https://marketing.adobe.com/resources/help/ja_JP/aam/c_s2s_add_transfer_control_files.html)を参照してください。
+   * **[!UICONTROL .info Receipt]：**&#x200B;転送制御ファイル（[!DNL .info]）ファイルが生成されます。[!DNL .info] ファイルには、ファイル転送についてのメタデータが格納されます。これにより、パートナーは Audience Manager がファイル転送を正しく処理したことを確認できます。詳しくは、[ログファイル転送の転送制御ファイル](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en)を参照してください。
    * **[!UICONTROL MD5 Checksum Receipt]：**[!DNL MD5] チェックサムレシートが生成されることを指定します。[!DNL MD5] チェックサムレシートにより、パートナーは Audience Manager が完全転送を正しく処理したことを確認できます。
 
 1. （オプション）「**[!UICONTROL HTTP]**」を選択した場合は、次の各フィールドに入力します。

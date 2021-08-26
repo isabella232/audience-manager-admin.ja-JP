@@ -1,13 +1,13 @@
 ---
 description: Audience Manager ユーザー用にバイナリ Hadoop シーケンスファイル（SEQ）送信バッチ転送を有効にすることができます。
-seo-description: Audience Manager ユーザー用にバイナリ Hadoop シーケンスファイル（SEQ）送信バッチ転送を有効にすることができます。
-seo-title: 送信用の Hadoop シーケンスファイル転送の有効化
+seo-description: You can enable binary Hadoop Sequence Files (SEQ) outbound batch transfers for Audience Manager customers.
+seo-title: Enable Hadoop Sequence File Transfers for Outbound
 title: 送信用の Hadoop シーケンスファイル転送の有効化
 uuid: 301985b1-5ff6-4112-a353-2e5a97e7eec0
 exl-id: 45a72422-9e72-46f9-835e-ed0dd88152d2
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '91'
 ht-degree: 100%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 100%
 # 送信用の Hadoop シーケンスファイル転送の有効化 {#enable-hadoop-sequence-file-transfers-for-outbound}
 
 Audience Manager ユーザー用にバイナリ [!DNL Hadoop Sequence Files] シーケンスファイル（[!DNL SEQ]）送信バッチ転送を有効にすることができます。
-
-<!-- REMOVED FROM PUBLIC DOCS: The advantages of using [!DNL Hadoop SEQ] files are listed in the [public documentation](https://marketing.adobe.com/resources/help/en_US/aam/outbound-seq-files.html). -->
 
 [!DNL SEQ] 送信ファイル転送を有効にするには：
 

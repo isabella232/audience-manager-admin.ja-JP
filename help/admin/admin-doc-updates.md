@@ -1,14 +1,14 @@
 ---
 description: Audience Manager Admin Guide のすべての更新（追加、削除、修正）を日付別に紹介。
-seo-description: Audience Manager Admin Guide のすべての更新（追加、削除、修正）を日付別に紹介。
-seo-title: ドキュメントのアップデート
+seo-description: All updates (additions, deletions, and corrections) to the Audience Manager Admin Guide, by date.
+seo-title: Documentation Updates
 title: ドキュメントのアップデート
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
-source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '600'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Audience Manager Admin Guide のすべての更新（追加、削除、修正）を日付別に紹介。
 
-機能リリース、改良点、バグの修正の詳細については、[Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)を参照してください。過去の Experience Cloud の発表内容については、[以前のリリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/c_legacy_releases.html)を参照してください。[!DNL Audience Manager] ドキュメントの変更点については、[ドキュメントの更新](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/documentation-updates/docs-2019.html)を参照してください。
+機能リリース、改良点、バグの修正の詳細については、[Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)を参照してください。[!DNL Audience Manager] ドキュメントの変更点については、[ドキュメントの更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en)を参照してください。
 
 ## AAM 2019 ドキュメントのアップデート {#aam-2019-docs-updates}
 
@@ -100,7 +100,7 @@ Audience Manager Admin Guide のすべての更新（追加、削除、修正）
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API の要件と推奨事項</a> </p> </td> 
-   <td colname="col2"> <p>注意が必要であり、顧客に伝える必要がある要件と推奨事項について説明する新しいドキュメント。公開ドキュメントに同じタイトルのドキュメントがありますが、異なる読者層向けに変更されている箇所があります。公開ドキュメントの <a href="https://marketing.adobe.com/resources/help/ja_JP/aam/aam-api-requirements.html" format="https" scope="external">API の要件と推奨事項</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>注意が必要であり、顧客に伝える必要がある要件と推奨事項について説明する新しいドキュメント。公開ドキュメントに同じタイトルのドキュメントがありますが、異なる読者層向けに変更されている箇所があります。公開ドキュメントの <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external">API の要件と推奨事項</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
