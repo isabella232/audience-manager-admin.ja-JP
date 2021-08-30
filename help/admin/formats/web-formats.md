@@ -1,14 +1,14 @@
 ---
 description: HTTP データファイルの作成に使用できるマクロのリストを表示します。HTTP はデータを JSON 形式で送信します。
-seo-description: HTTP データファイルの作成に使用できるマクロのリストを表示します。HTTP はデータを JSON 形式で送信します。
-seo-title: HTTP 形式マクロ
+seo-description: Lists the macros you can use to create HTTP data files. HTTP sends data in a JSON format.
+seo-title: HTTP Format Macros
 title: HTTP 形式マクロ
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 97%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>アクティビティが開始される <a href="https://docs.adobe.com/help/ja-JP/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html">Audience Manager DCS 領域</a>。</p> </td> 
+   <td colname="col3"> <p>アクティビティが開始される <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en">Audience Manager DCS 領域</a>。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
