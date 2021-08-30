@@ -5,7 +5,7 @@ seo-title: Destination Setup Troubleshooting
 title: 宛先の設定に関するトラブルシューティング
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 98%
@@ -74,7 +74,7 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
 
 ### ファイルの分割サイズが大きすぎます
 
-ファイルを宛先に出力する場合、大きい送信ファイルをファイルチャンクに分割できます。個々のファイルチャンクが 10GB を超えないようにしてください。[送信データファイル名：構文と例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)も参照してください。
+ファイルを宛先に出力する場合、大きい送信ファイルをファイルチャンクに分割できます。個々のファイルチャンクが 10GB を超えないようにしてください。[送信データファイル名：構文と例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)も参照してください。
 
 
 ## Experience Cloud ID、顧客 ID、Audience Manager ID を送信データファイルにエクスポートするための宛先を設定する方法 {#set-up-destinations-export}

@@ -1,14 +1,14 @@
 ---
 description: Audience Manager の Admin ツールの Servers ページを使用して、新しい HTTP サーバーを作成するか、既存のサーバーを編集します。
-seo-description: Audience Manager の Admin ツールの Servers ページを使用して、新しい HTTP サーバーを作成するか、既存のサーバーを編集します。
-seo-title: HTTP サーバーの作成または編集
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new HTTP server or to edit an existing server.
+seo-title: Create or Edit an HTTP Server
 title: HTTP サーバーの作成または編集
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 exl-id: 8b3dfb1e-2dee-4a05-835e-3c32643336bc
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
 
    >[!NOTE]
    >
-   >パートナーの[リアルタイムデータ転送の OAuth 2.0 認証](https://docs.adobe.com/help/ja-JP/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html)を有効にするには、以下のテーブルのように、フィールドに入力します。*斜体*&#x200B;のフィールドは、正確に表のとおりに入力する必要があります。
+   >パートナーの[リアルタイムデータ転送の OAuth 2.0 認証](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en)を有効にするには、以下のテーブルのように、フィールドに入力します。*斜体*&#x200B;のフィールドは、正確に表のとおりに入力する必要があります。
 
    | 名前 | 値 |
    |---|---|
