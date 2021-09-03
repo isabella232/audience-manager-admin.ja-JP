@@ -8,7 +8,7 @@ exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -34,11 +34,11 @@ Audience Manager の Admin ツールでは、会社、サーバー、レポー�
      <li id="li_6AD053625237446FB9B581772896F64F">過去の発表内容については、<a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">以前のリリースノート</a>を参照してください。 </li> 
     </ul> <p class="head"> <b>Experience Cloud リソース</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
-     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
-     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Adobe Social コミュニティ</a> </li> 
+     <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/jp/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
+     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/jp/support/social.html" format="http" scope="external"> Adobe Social コミュニティ</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/jp/learning.html?promoid=KAUDK" format="https" scope="external"> アドビトレーニングおよびチュートリアル</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
-     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/support/experience-cloud.html" format="https" scope="external"> 製品ドキュメントのホーム</a> </li> 
+     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/jp/support/experience-cloud.html" format="https" scope="external"> 製品ドキュメントのホーム</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
