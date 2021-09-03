@@ -6,9 +6,9 @@ title: 会社のデバイスグラフオプション
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 exl-id: 2502f3d2-b43c-410c-acb6-03c2a2ba2c1d
 source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 90%
 
 ### Co-op Device Graph {#co-op-graph}
 
-[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=en) に加入している顧客は、これらのオプションを使用して、[決定的データと確率的データ](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en)による[!UICONTROL Profile Merge Rule]を作成できます。[!DNL Corporate Provisioning Team] は、バックエンドの [!DNL API] 呼び出しを介してこのオプションをアクティブ化および非アクティブ化します。これらのボックスを [!DNL Admin UI] でオンまたはオフにすることはできません。また、**[!UICONTROL Co-op Device Graph]**&#x200B;オプションと&#x200B;**[!UICONTROL Company Device Graph]**&#x200B;オプションは相互に排他的です。顧客はいずれか一方のみをアクティブ化するよう要請することはできますが、両方をアクティブ化することはできません。このオプションを選択すると、**[!UICONTROL Co-op Device Graph]** コントロールが [!UICONTROL Device Options] の [!UICONTROL Profile Merge Rule] 設定に表示されます。
+[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=ja) に加入している顧客は、これらのオプションを使用して、[決定的データと確率的データ](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=ja)による[!UICONTROL Profile Merge Rule]を作成できます。[!DNL Corporate Provisioning Team] は、バックエンドの [!DNL API] 呼び出しを介してこのオプションをアクティブ化および非アクティブ化します。これらのボックスを [!DNL Admin UI] でオンまたはオフにすることはできません。また、**[!UICONTROL Co-op Device Graph]**&#x200B;オプションと&#x200B;**[!UICONTROL Company Device Graph]**&#x200B;オプションは相互に排他的です。顧客はいずれか一方のみをアクティブ化するよう要請することはできますが、両方をアクティブ化することはできません。このオプションを選択すると、**[!UICONTROL Co-op Device Graph]** コントロールが [!UICONTROL Device Options] の [!UICONTROL Profile Merge Rule] 設定に表示されます。
 
 ![](assets/adminUI1.png)
 
@@ -39,10 +39,10 @@ ht-degree: 90%
 このオプションは、[!DNL Analytics] レポートスイートで「[!UICONTROL People]」指標を使用する [!DNL Analytics] ユーザー向けのものです。[!DNL Corporate Provisioning Team] は、バックエンドの [!DNL API] 呼び出しを介してこのオプションをアクティブ化および非アクティブ化します。これらのボックスを [!DNL Admin UI] でオンまたはオフにすることはできません。また、**[!UICONTROL Company Device Graph]**&#x200B;オプションと&#x200B;**[!UICONTROL Co-op Device Graph]**&#x200B;オプションは相互に排他的です。顧客はいずれか一方のみをアクティブ化するよう要請することはできますが、両方をアクティブ化することはできません。オンにすると、次のようになります。
 
 * このデバイスグラフは、設定中の会社に属する決定的データ（確率的データではありません）を使用します。
-* [!DNL Audience Manager] は、`*`パートナー名`*-Company Device Graph-Person`と呼ばれる [!UICONTROL Data Source] を自動的に作成します。[!UICONTROL Data Source] ユーザーは、「[!DNL Audience Manager]」詳細ページで、パートナー名や説明を変更したり、[データエクスポートコントロール](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en)をこのデータソースに適用することができます。
+* [!DNL Audience Manager] は、`*`パートナー名`*-Company Device Graph-Person`と呼ばれる [!UICONTROL Data Source] を自動的に作成します。[!UICONTROL Data Source] ユーザーは、「[!DNL Audience Manager]」詳細ページで、パートナー名や説明を変更したり、[データエクスポートコントロール](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=ja)をこのデータソースに適用することができます。
 * [!DNL Audience Manager] のお客様の場合、[!UICONTROL Profile Merge Rule] の [!UICONTROL Device Options] セクションには新しい設定が表示&#x200B;*されません*。
 
-### LiveRamp Device Graph（「Person」または「Household」）  {#liveramp-device-graph}
+### LiveRamp Device Graph（「Person」または「Household」） {#liveramp-device-graph}
 
 これらのチェックボックスは、 パートナーが [!DNL Admin UI] を作成し、[!UICONTROL Data Source]および／あるいは&#x200B;**[!UICONTROL Use as an Authenticated Profile]**&#x200B;を選択すると **[!UICONTROL Use as a Device Graph]** で有効になります。これらの設定の名前は、サードパーティのデバイスグラフのプロバイダー（[!DNL LiveRamp] や [!DNL TapAd] など）によって異なります。オンにすると、設定中の会社はこれらのデバイスグラフにより提供されるデータを使用します。
 
@@ -50,6 +50,6 @@ ht-degree: 90%
 
 >[!MORELIKETHIS]
 >
->* [定義済みのプロファイルの結合ルールオプション](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rule-definitions.html?lang=en)
->* [データソース設定とメニューオプション](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=en)
+>* [定義済みのプロファイルの結合ルールオプション](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rule-definitions.html?lang=ja)
+>* [データソース設定とメニューオプション](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=ja)
 
