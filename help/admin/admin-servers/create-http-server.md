@@ -6,9 +6,9 @@ title: HTTP サーバーの作成または編集
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 exl-id: 8b3dfb1e-2dee-4a05-835e-3c32643336bc
 source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
 
    >[!NOTE]
    >
-   >パートナーの[リアルタイムデータ転送の OAuth 2.0 認証](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en)を有効にするには、以下のテーブルのように、フィールドに入力します。*斜体*&#x200B;のフィールドは、正確に表のとおりに入力する必要があります。
+   >パートナーの[リアルタイムデータ転送の OAuth 2.0 認証](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=ja)を有効にするには、以下のテーブルのように、フィールドに入力します。*斜体*&#x200B;のフィールドは、正確に表のとおりに入力する必要があります。
 
    | 名前 | 値 |
    |---|---|
