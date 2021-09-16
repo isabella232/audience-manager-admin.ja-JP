@@ -6,9 +6,9 @@ title: 宛先の設定に関するトラブルシューティング
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
 source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1316'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
 
 ### ファイルの分割サイズが大きすぎます
 
-ファイルを宛先に出力する場合、大きい送信ファイルをファイルチャンクに分割できます。個々のファイルチャンクが 10GB を超えないようにしてください。[送信データファイル名：構文と例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)も参照してください。
+ファイルを宛先に出力する場合、大きい送信ファイルをファイルチャンクに分割できます。個々のファイルチャンクが 10GB を超えないようにしてください。[送信データファイル名：構文と例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=ja)も参照してください。
 
 
 ## Experience Cloud ID、顧客 ID、Audience Manager ID を送信データファイルにエクスポートするための宛先を設定する方法 {#set-up-destinations-export}
@@ -121,48 +121,48 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
-   <td colname="col4"> <p>Experience CloudID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 2 </td> 
-   <td colname="col1"> <p>Adobe Audience Manager(0) </p> </td> 
-   <td colname="col2"> <p>Experience CloudID </p> </td> 
+   <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 3 </td> 
-   <td colname="col1"> <p>Adobe Audience Manager(0) </p> </td> 
-   <td colname="col2"> <p>Experience CloudID </p> </td> 
+   <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Experience CloudID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 4 </td> 
-   <td colname="col1"> <p>Adobe Audience Manager(0) </p> </td> 
+   <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
    <td colname="col2"> <p>Audience Manager ID </p> </td> 
-   <td colname="col3"> <p>&lt;dp_uuid&gt; </p> </td> 
-   <td colname="col4"> <p>Audience ManagerUUID </p> </td> 
+   <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
+   <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 5 </td> 
-   <td colname="col1"> <p>Adobe Audience Manager(0) </p> </td> 
-   <td colname="col2"> <p>Audience ManagerID </p> </td> 
+   <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience CloudID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 6 </td> 
-   <td colname="col1"> <p>Adobe Audience Manager(0) </p> </td> 
-   <td colname="col2"> <p>Audience ManagerID </p> </td> 
+   <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Audience ManagerUUID </p> </td> 
+   <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 7 </td> 
    <td colname="col1"> <p>DPID（会社がアクセス可能な任意のデータソース） </p> </td> 
    <td colname="col2"> <p>顧客 ID </p> </td> 
-   <td colname="col3"> <p>&lt;dp_uuid&gt; </p> </td> 
+   <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
    <td colname="col4"> <p>顧客 ID（DPUUID） </p> </td> 
   </tr> 
   <tr> 
@@ -170,35 +170,35 @@ Audience Manager での宛先の設定と一般的な問題の解決に関する
    <td colname="col1"> <p>DPID（会社がアクセス可能な任意のデータソース） </p> </td> 
    <td colname="col2"> <p>顧客 ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience CloudID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 9 </td> 
    <td colname="col1"> <p>DPID（会社がアクセス可能な任意のデータソース） </p> </td> 
    <td colname="col2"> <p>顧客 ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Audience ManagerUUID </p> </td> 
+   <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 10 </td> 
    <td colname="col1"> <p>DPID（会社がアクセス可能な任意のデータソース） </p> </td> 
-   <td colname="col2"> <p>Audience ManagerID </p> </td> 
-   <td colname="col3"> <p>&lt;dp_uuid&gt; </p> </td> 
-   <td colname="col4"> <p>Audience ManagerUUID </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
+   <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
+   <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 11 </td> 
    <td colname="col1"> <p>DPID（会社がアクセス可能な任意のデータソース） </p> </td> 
-   <td colname="col2"> <p>Audience ManagerID </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience CloudID </p> </td> 
+   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 12 </td> 
    <td colname="col1"> <p>DPID（会社がアクセス可能な任意のデータソース） </p> </td> 
-   <td colname="col2"> <p>Audience ManagerID </p> </td> 
+   <td colname="col2"> <p>Audience Manager ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Audience ManagerUUID </p> </td> 
+   <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
  </tbody> 
 </table>
