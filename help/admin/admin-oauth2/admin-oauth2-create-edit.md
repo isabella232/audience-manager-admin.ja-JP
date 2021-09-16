@@ -6,9 +6,9 @@ title: OAuth2 クライアント
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 exl-id: 993eae04-02e8-4554-a6fe-cf599053bfc9
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->顧客に Audience Manager ユーザーガイドの [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) ドキュメントを必ず読むよう指示してください。
+>顧客に Audience Manager ユーザーガイドの [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=ja#oauth) ドキュメントを必ず読むよう指示してください。
 
 [!DNL OAuth2] は、リソース所有者に代わって [!DNL Audience Manager] リソースへの安全な委任アクセスに使用する認証のオープン規格です。
 
