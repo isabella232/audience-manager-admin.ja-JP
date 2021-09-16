@@ -6,9 +6,9 @@ title: FTP サーバーの作成または編集
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Audience Manager の Admin ツールの [!UICONTROL Servers] ページを使用�
 
    >[!NOTE]
    >
-   >ベストプラクティスとして、パートナー間でのファイルのやり取りには、[!DNL Amazon S3] を推奨します。[!DNL Amazon S3] が提供するシンプルな Web サービスのインターフェイスを使用することで、あらゆるサイズのデータの保存および取得が Web 上でいつ、どこでも可能になります。詳細については、*Audience Manager 製品ドキュメント*&#x200B;の [Amazon S3 について](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html)を参照してください。
+   >ベストプラクティスとして、パートナー間でのファイルのやり取りには、[!DNL Amazon S3] を推奨します。[!DNL Amazon S3] が提供するシンプルな Web サービスのインターフェイスを使用することで、あらゆるサイズのデータの保存および取得が Web 上でいつ、どこでも可能になります。詳細については、*Audience Manager 製品ドキュメント*&#x200B;の [Amazon S3 について](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=ja)を参照してください。
 
 1. 以下のフィールドを設定します。
 
