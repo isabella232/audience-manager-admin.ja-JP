@@ -6,9 +6,9 @@ title: 会社宛先の管理
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
 source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Audience Manager の宛先を作成、編集および削除します。
 
 <!-- t_company_destinations.xml -->
 
-詳しくは、*Audience Manager ユーザーガイド*&#x200B;の「[宛先](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html)」を参照してください。
+詳しくは、*Audience Manager ユーザーガイド*&#x200B;の「[宛先](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=ja)」を参照してください。
 
 ## 会社宛先の作成または編集 {#create-edit-company-destinations}
 
@@ -58,7 +58,7 @@ Audience Manager の宛先を作成、編集および削除します。
 >
 >[!UICONTROL Bulk ID] 宛先タイプの場合、[!DNL Audience Manager]、[!UICONTROL User ID]、または [!DNL Adobe Experience Cloud] ID を使用することはできません。
 
-データソース ID（[!UICONTROL DPID]）がドロップダウンリストに表示されない場合、[データソースの設定](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html)ページで、データソースレベルの「**[!UICONTROL Outbound]**」チェックボックスをオンにする必要があります。
+データソース ID（[!UICONTROL DPID]）がドロップダウンリストに表示されない場合、[データソースの設定](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=ja)ページで、データソースレベルの「**[!UICONTROL Outbound]**」チェックボックスをオンにする必要があります。
 
 * **[!UICONTROL Target Data Source]：**（必須）この宛先で使用するデータソースをドロップダウンリストから選択します。この設定により、送信データのラベル付けができるようになり、クライアント側で別々のシステムに取り込めるようになります。
 * **[!UICONTROL Foreign Account ID]：**&#x200B;この宛先で使用する外部アカウント ID を指定します。これは、受信者側のシステムでこの送信データの識別値となります。
