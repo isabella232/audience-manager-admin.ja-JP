@@ -5,7 +5,7 @@ user-guide-title: Audience Manager Admin ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Audience Manager の Admin ツールでは、会社、サーバー、レポート、形式、ユーザーの追加や設定をおこなうことができます。また、個人プロファイルの表示や編集もできます。
 source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
 ht-degree: 100%
 
