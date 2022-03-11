@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Audience Manager Admin ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Audience Manager の Admin ツールでは、会社、サーバー、レポート、形式、ユーザーの追加や設定をおこなうことができます。また、個人プロファイルの表示や編集もできます。
-source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 100%
    + [会社制限の管理](companies/admin-company-limits.md)
    + [会社ユーザーの管理](companies/admin-manage-company-users.md)
    + [発信データをアクティブユーザーのみにフィルタリング](companies/outbound-active-user-filter.md)
+   + [セカンドパーティデータのオンボーディングアクセスの管理](companies/admin-manage-onboarding-access.md)
 + サーバー {#servers}
    + [サーバーの概要](admin-servers/admin-servers.md)
    + [FTP サーバーの作成または編集](admin-servers/create-ftp-server.md)
