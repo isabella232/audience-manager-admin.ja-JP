@@ -6,9 +6,9 @@ title: Audience Manager Admin ホーム
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
 source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ Audience Manager の Admin ツールでは、会社、サーバー、レポー�
 
 >[!IMPORTANT]
 >
-> このドキュメントリポジトリの対象読者は、Adobe内部の従業員です。 ユーザーの場合は、Audience Managerの [Audience Managerガイドの概要](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> このドキュメントリポジトリのオーディエンスは、アドビ社内の従業員です。Audience Manager をご利用のお客様は、[Audience Manager ガイドの概要](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ja)にアクセスしてください。
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
   <tr> 
-   <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>新しいトピックまたは注目すべきトピック</b> </p> <p>タイトルにカーソルを重ねると、簡単な説明が表示されます。 </p> <p> 
+   <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>新規または注目のアイテム</b> </p> <p>タイトルにカーソルを重ねると、簡単な説明が表示されます。 </p> <p> 
      <ul id="ul_A0416FDB65EB4774821C05664E14AB86"> 
       <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> 手順：バッチ保存先へのクロスアカウント Amazon S3 バケットアクセスを承認</a> </li> 
       <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> Experience Cloud を書き出す宛先の設定方法</a> </li> 
@@ -35,7 +35,7 @@ Audience Manager の Admin ツールでは、会社、サーバー、レポー�
    <td colname="col2" valign="top"> <p class="head"><b>リリースノート</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
      <li id="li_1B636241BCC14468980CF415B15A875F">新機能と修正点については、最新の <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。 </li> 
-     <li id="li_6AD053625237446FB9B581772896F64F">過去の発表内容については、<a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">以前のリリースノート</a>を参照してください。 </li> 
+     <li id="li_6AD053625237446FB9B581772896F64F">過去の発表内容については、<a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja" format="https" scope="external">以前のリリースノート</a>を参照してください。 </li> 
     </ul> <p class="head"> <b>Experience Cloud リソース</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
      <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/jp/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
