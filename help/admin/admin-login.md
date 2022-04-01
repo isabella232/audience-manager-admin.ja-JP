@@ -6,9 +6,9 @@ title: Audience Manager Admin へのログイン
 uuid: 9ba84a90-e596-4aca-9bf7-f7dcf5c1cca5
 exl-id: cd70bc34-7bd3-4e7e-a2c0-af29608e2438
 source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Web ブラウザーを使用して Adobe Audience Manager の Admin ツールに
 
 >[!IMPORTANT]
 >
-> このドキュメントリポジトリの対象読者は、Adobe内部の従業員です。 ユーザーの場合は、Audience Managerの [Audience Managerガイドの概要](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)
+> このドキュメントリポジトリのオーディエンスは、アドビ社内の従業員です。Audience Manager をご利用のお客様は、[Audience Manager ガイドの概要](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ja)にアクセスしてください。
 
 <!-- t_login.xml -->
 
